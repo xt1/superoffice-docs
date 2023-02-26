@@ -1,0 +1,22 @@
+﻿# Logs in to SOD using username and password passed in as properties
+
+- Output: media/login.png
+  Url: http://sod.superoffice.com/
+  Element: ".containerInner"
+  Before:
+    - Click: "#Username"
+    - Type: 
+        Element: "#Username"
+        Text: "{{LoginUsername}}"
+    - Click: "#nextButton"
+    - Click: "#Password"
+    - Type: 
+        Element: "#Password"
+        Text: "{{LoginPassword}}"
+  After:
+    - Click: "#loginButton"
+    - WaitForUrl: "**/default.aspx?**"
+    - Click: ".logo"
+
+# Now logged in to https://sod2.superoffice.com/Cust36280/default.aspx?contact.main.personarchive.minimonth?contact_id=202&diaryowner_id=61
+    
