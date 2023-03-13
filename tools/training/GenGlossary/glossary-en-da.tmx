@@ -1,0 +1,437 @@
+<tmx version="1.4" xmlns="http://www.lisa.org/tmx14">
+  <header creationtool="superoffice" creationtoolversion="1.0" datatype="plaintext" segtype="phrase" srclang="en" o-tmf="SuperOfficeResources" />
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Company</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Firma</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Companies</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Firmaer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Our contact</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Vores kontakt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Category</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Kategori</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Categories</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Kategorier</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Business</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Branche</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contact</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Person</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contacts</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Personer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Project</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Projekt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Project Members</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Projektdeltagere</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Project type</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Projekttype</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Project guide</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Projektguide</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Project members</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Projektdeltagere</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Project member</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Projektdeltager</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Projects</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Projekter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sale</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Salg</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sales</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Salg</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sale type</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Salgstype</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>SAINT</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>SAINT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sales Intelligence (SAINT)</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Sales Intelligence (SAINT)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Saint</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Saint</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Status monitor</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Statusovervågning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Status Monitors</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Statusovervågning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Status monitors</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Statusovervågning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Counters</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Tællere</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Counter</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Tæller</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Associate</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Medarbejder</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>User groups</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Brugergrupper</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>User group</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Brugergruppe</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Roles</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Roller</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Role</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Rolle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Associates</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Medarbejdere</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Other associates</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Andre medarbejdere</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Document template</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Dokumentskabelon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Chat</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Lynmeddelelse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Chats</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Chat-samtaler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Chat conversation</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Chatsamtale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Chat conversations</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Chatsamtaler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Reply templates</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Svarskabeloner</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Reply template</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Svarskabelon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Follow-ups</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Opfølgninger</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Phone calls</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Samtaler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Phone call</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Samtale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Call</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Ring</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Tasks</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Opgaver</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Task</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Opgave</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Document template</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Dokumentskabelon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Documents</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Dokumenter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Document type</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Dokumenttype</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Selections</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Udvalg</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Navigator</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Navigator</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Relations</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Relationer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Relation</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Relation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Request</seg>
+      </tuv>
+      <tuv xml:lang="da">
+        <seg>Sag</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

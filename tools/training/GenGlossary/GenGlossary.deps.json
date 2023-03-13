@@ -1,0 +1,400 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GenGlossary/1.0.0": {
+        "dependencies": {
+          "SuperOffice.SM.Resources": "10.2.0.0"
+        },
+        "runtime": {
+          "GenGlossary.dll": {}
+        }
+      },
+      "SuperOffice.SM.Resources/10.2.0.0": {
+        "runtime": {
+          "SuperOffice.SM.Resources.dll": {
+            "assemblyVersion": "10.2.0.0",
+            "fileVersion": "10.2.1.171"
+          }
+        },
+        "resources": {
+          "cs/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "cs"
+          },
+          "da/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "da"
+          },
+          "de/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "de"
+          },
+          "de-ch/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "de-ch"
+          },
+          "en-us/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "en-us"
+          },
+          "es/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "es"
+          },
+          "fi/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "fi"
+          },
+          "fr/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "fr"
+          },
+          "it/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "it"
+          },
+          "ja/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "ko"
+          },
+          "nl/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "nl"
+          },
+          "no/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "no"
+          },
+          "pl/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "pl"
+          },
+          "pt-BR/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "ru"
+          },
+          "sv/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "sv"
+          },
+          "uk/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "uk"
+          },
+          "vi/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "vi"
+          },
+          "zh-CN/SuperOffice.SM.Resources.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "SuperOffice.Plugins/2.0.3.0": {
+        "runtime": {
+          "SuperOffice.Plugins.dll": {
+            "assemblyVersion": "2.0.3.0",
+            "fileVersion": "10.2.1.171"
+          }
+        }
+      },
+      "SoCore/10.2.0.0": {
+        "runtime": {
+          "SoCore.dll": {
+            "assemblyVersion": "10.2.0.0",
+            "fileVersion": "10.2.1.171"
+          }
+        }
+      },
+      "System.ServiceModel.Primitives/4.8.1.0": {
+        "runtime": {
+          "System.ServiceModel.Primitives.dll": {
+            "assemblyVersion": "4.8.1.0",
+            "fileVersion": "4.800.121.7802"
+          }
+        }
+      },
+      "System.Drawing.Common/6.0.0.0": {
+        "runtime": {
+          "System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "SuperOffice.Contracts/1.0.0.0": {
+        "runtime": {
+          "SuperOffice.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.8335.1416"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/6.25.1.0": {
+        "runtime": {
+          "System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "6.25.1.0",
+            "fileVersion": "6.25.1.31130"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/6.25.1.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "6.25.1.0",
+            "fileVersion": "6.25.1.31130"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/6.0.0.0": {
+        "runtime": {
+          "System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "MimeKit/3.5.0.0": {
+        "runtime": {
+          "MimeKit.dll": {
+            "assemblyVersion": "3.5.0.0",
+            "fileVersion": "3.5.0.0"
+          }
+        }
+      },
+      "SuperOffice.FeatureToggles/1.0.0.0": {
+        "runtime": {
+          "SuperOffice.FeatureToggles.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.8453.1036"
+          }
+        }
+      },
+      "System.Diagnostics.EventLog/6.0.0.0": {
+        "runtime": {
+          "System.Diagnostics.EventLog.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Http/6.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Http.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "ICSharpCode.SharpZipLib/1.4.2.13": {
+        "runtime": {
+          "ICSharpCode.SharpZipLib.dll": {
+            "assemblyVersion": "1.4.2.13",
+            "fileVersion": "1.4.2.13"
+          }
+        }
+      },
+      "System.ServiceModel.Http/4.8.1.0": {
+        "runtime": {
+          "System.ServiceModel.Http.dll": {
+            "assemblyVersion": "4.8.1.0",
+            "fileVersion": "4.800.121.7802"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/6.25.1.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "6.25.1.0",
+            "fileVersion": "6.25.1.31130"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/6.25.1.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "6.25.1.0",
+            "fileVersion": "6.25.1.31130"
+          }
+        }
+      },
+      "BouncyCastle.Crypto/1.9.0.0": {
+        "runtime": {
+          "BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.1"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/6.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/6.25.1.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "6.25.1.0",
+            "fileVersion": "6.25.1.31130"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GenGlossary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SuperOffice.SM.Resources/10.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SuperOffice.Plugins/2.0.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SoCore/10.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.ServiceModel.Primitives/4.8.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Drawing.Common/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SuperOffice.Contracts/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IdentityModel.Tokens.Jwt/6.25.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Tokens/6.25.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Configuration.ConfigurationManager/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MimeKit/3.5.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SuperOffice.FeatureToggles/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Diagnostics.EventLog/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Http/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICSharpCode.SharpZipLib/1.4.2.13": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.ServiceModel.Http/4.8.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Logging/6.25.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/6.25.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BouncyCastle.Crypto/1.9.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Options/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Logging/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Abstractions/6.25.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Primitives/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

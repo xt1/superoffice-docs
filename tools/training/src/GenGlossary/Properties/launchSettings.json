@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "GenGlossary": {
+      "commandName": "Project",
+      "commandLineArgs": "gloss-md.tsv allresources.txt",
+      "workingDirectory": "C:\\Temp\\trans"
+    }
+  }
+}

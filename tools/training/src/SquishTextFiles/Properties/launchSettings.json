@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "SquishTextFiles": {
+      "commandName": "Project",
+      "commandLineArgs": "en\\text no\\text en nb",
+      "workingDirectory": "c:\\temp\\trans"
+    }
+  }
+}
