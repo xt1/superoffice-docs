@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+# Used only in local builds of the superoffice-docs repo! NOT to build the live site.
+items:
+- name: [3]
+  items:
+  - name: [5]
+    href: admin/toc.yml
+    topicHref: admin/overview.md
+  - name: [8]
+    href: ai/toc.yml
+  - name: [10]
+    href: apps/toc.yml
+  - name: [12]
+    href: automation/toc.yml
+  - name: [14]
+    href: developer-portal/toc.yml
+  - name: [16]
+    href: email/toc.yml
+  - name: [18]
+    href: document/toc.yml
+  - name: [20]
+    href: online/toc.yml
+  - name: [22]
+    href: onsite/toc.yml
+  - name: [24]
+    href: mobile/toc.yml
+  - name: [26]
+    href: security/toc.yml
+  - name: [28]
+    href: service/toc.yml

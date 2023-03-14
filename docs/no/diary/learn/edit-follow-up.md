@@ -1,0 +1,34 @@
+---
+title: Redigering av oppfølginger
+description: Redigering av oppfølging
+uid: help-no-follow-up-edit
+author: SuperOffice RnD
+so.date: 06.29.2022
+keywords: CRM
+so.topic: help
+language: no
+---
+
+# Rediger oppfølging
+
+1. [Åpne ønsket oppfølging][1]. Dialogboksen Avtale****, **Oppgave** eller **Samtale** vises.
+
+2. [Gjør de nødvendige endringene i dialogboksen.][3]
+
+    [!include [Gjentakelse](includes/note-repetition.md)]
+
+3. Klikk på **Lagre**.
+
+> [!NOTE]
+> Du kan ikke redigere fullført oppfølging før du har angret statusen Fullført **** .
+
+## Beslektede emner
+
+* [Endre statusen Fullført for en aktivitet][2]
+
+<!-- Referenced links -->
+[1]: open-follow-up.md
+[2]: change-completed-status.md
+[3]: screen/dialog-for-followups.md
+
+<!-- Referenced images -->

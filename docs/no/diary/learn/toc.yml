@@ -1,0 +1,79 @@
+items:
+- name: [1]
+  href: index.md
+- name: [3]
+  href: screen/navigate-in-diary.md
+- name: [5]
+  href: screen/dialog-for-followups.md
+- name: [7]
+  items:
+  - name: [9]
+    href: screen/day.md
+  - name: [11]
+    href: screen/month.md
+  - name: [13]
+    href: screen/week.md
+  - name: [15]
+    href: screen/view.md
+  - name: [17]
+    href: screen/view-dialog.md
+  - name: [19]
+    href: open.md
+  - name: [21]
+    href: create-view.md
+- name: [23]
+  items:
+  - name: [25]
+    href: screen/activities-tab.md
+  - name: [27]
+    href: screen/sales-tab.md
+- name: [29]
+  items:
+  - name: [31]
+    href: appointment.md
+    items:
+    - name: [34]
+      href: create-appointment.md
+  - name: [36]
+    href: phone-call/index.md
+    items:
+    - name: [39]
+      href: phone-call/add.md
+    - name: [41]
+      href: phone-call/dial.md
+    - name: [43]
+      href: phone-call/preferences.md
+  - name: [45]
+    href: video-meetings.md
+  - name: [47]
+    href: task.md
+    items:
+    - name: [50]
+      href: create-task.md
+  - name: [52]
+    href: create-follow-up.md
+  - name: [54]
+    href: edit-follow-up.md
+  - name: [56]
+    href: copy-follow-up.md
+  - name: [58]
+    href: change-end-time.md
+  - name: [60]
+    href: move-follow-up.md
+  - name: [62]
+    href: change-completed-status.md
+  - name: [64]
+    href: recurrence/toc.yml
+  - name: [66]
+    href: follow-up-assign.md
+  - name: [68]
+    href: set-alarm.md
+  - name: [70]
+    href: send-as-email.md
+  - name: [72]
+    href: delete-follow-up.md
+  - name: [74]
+    href: print.md
+
+- name: [77]
+  href: invitation/toc.yml

@@ -1,0 +1,113 @@
+items:
+- name: [1]
+  href: index.yml
+  expanded: true
+  items:
+  - name: [5]
+    href: overview.md
+  - name: [7]
+    href: invitations.md
+  - name: [9]
+    href: recurring-appointments.md
+  - name: [11]
+    href: ../video-meeting/toc.yml
+    topicHref: ../video-meeting/index.md
+  - name: [14]
+    href: howto/index.md
+    items:
+    - name: [17]
+      href: howto/crmscript/index.md
+      items:
+        - name: [20]
+          href: howto/crmscript/get-appointment.md
+        - name: [22]
+          href: howto/crmscript/create-appointment.md
+        - name: [24]
+          href: howto/crmscript/update-appointment.md
+        - name: [26]
+          href: howto/crmscript/register-incoming-call.md
+        - name: [28]
+          href: howto/crmscript/plan-outgoing-call.md
+        - name: [30]
+          href: howto/crmscript/task.md
+        - name: [32]
+          href: howto/crmscript/get-recurrence-info.md
+        - name: [34]
+          href: howto/crmscript/get-appointments-in-series.md
+        - name: [36]
+          href: howto/crmscript/create-recurring-appointment.md
+        - name: [38]
+          href: howto/crmscript/update-recurrence.md
+        - name: [40]
+          href: howto/crmscript/stop-recurrence.md
+        - name: [42]
+          href: howto/crmscript/create-invitation.md
+        - name: [44]
+          href: howto/crmscript/book-resource.md
+        - name: [46]
+          href: howto/crmscript/track-responses.md
+        - name: [48]
+          href: howto/crmscript/accept-invitation.md
+    - name: [50]
+      href: howto/services/index.md
+      items:
+      - name: [53]
+        href: howto/services/create-apt-services.md
+      - name: [55]
+        href: howto/services/create-recurring-appointment-services.md
+      - name: [57]
+        href: howto/services/create-invitation-services.md
+      - name: [59]
+        href: howto/services/get-invitations-services.md
+      - name: [61]
+        href: howto/services/accept-invitation-services.md
+    - name: [63]
+      href: howto/archive/index.md
+      items:
+      - name: [66]
+        href: howto/archive/invitation-archive.md
+    - name: [68]
+      href: howto/entity/index.md
+      items:
+      - name: [71]
+        href: howto/entity/create-apt-entity.md
+      - name: [73]
+        href: howto/entity/create-apt-entity-in-entity.md
+      - name: [75]
+        href: howto/entity/create-apt-entity-in-collection.md
+      - name: [77]
+        href: howto/entity/create-recurring-appointment-entity.md
+      - name: [79]
+        href: howto/entity/create-invitation-entity.md
+      - name: [81]
+        href: howto/entity/accept-invitation-entity.md
+    - name: [83]
+      href: howto/row/index.md
+      items:
+      - name: [86]
+        href: howto/row/create-apt-row.md
+      - name: [88]
+        href: howto/row/create-apt-rows.md
+    - name: [90]
+      href: howto/osql/index.md
+      items:
+      - name: [93]
+        href: howto/osql/create-apt-osql.md
+    - name: [95]
+      href: howto/sql/index.md
+      items:
+      - name: [98]
+        href: howto/sql/create-apt-sql.md
+      - name: [100]
+        href: howto/sql/create-invitation-sql.md
+      - name: [102]
+        href: howto/sql/accept-invitation-sql.md
+  - name: [104]
+    href: tutorials/index.md
+    items:
+    - name: [107]
+      href: tutorials/itunes-like-activities/index.yml
+    - name: [109]
+      href: tutorials/so-ical-feed/index.yml
+    - name: [111]
+      href: tutorials/rss-feed-vb/index.yml

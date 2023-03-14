@@ -1,0 +1,27 @@
+items:
+- name: [1]
+  href: index.md
+- name: [3]
+  href: screen/toc.yml
+- name: [5]
+  items:
+  - name: [7]
+    href: create.md
+  - name: [9]
+    href: edit.md
+  - name: [11]
+    href: copy.md
+  - name: [13]
+    href: merge-companies.md
+  - name: [15]
+    href: delete.md
+  - name: [17]
+    href: print.md
+  - name: [19]
+    href: add-relation.md
+  - name: [21]
+    href: delete-relation.md
+- name: [23]
+  href: address-formats.md
+- name: [25]
+  href: ../../admin/erp/learn/toc.yml

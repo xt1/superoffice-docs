@@ -1,0 +1,17 @@
+items:
+  - name: [1]
+    href: index.md
+  - name: [3]
+    href: contacts-tab.md
+  - name: [5]
+    href: relations-tab.md
+  - name: [7]
+    href: activities-tab.md
+  - name: [9]
+    href: projects-tab.md
+  - name: [11]
+    href: sales-tab.md
+  - name: [13]
+    href: requests-tab.md
+  - name: [15]
+    href: ../../../admin/erp/learn/screen/erp-tab.md

@@ -1,0 +1,98 @@
+items:
+- name: [1]
+  href: index.yml
+  expanded: true
+  items:
+  - name: [5]
+    href: overview.md
+  - name: [7]
+    href: interests.md
+  - name: [9]
+    href: category-list.md
+  - name: [11]
+    href: howto/index.md
+    items:
+    - name: [14]
+      href: howto/crmscript/index.md
+      items:
+      - name: [17]
+        href: howto/crmscript/create-company.md
+      - name: [19]
+        href: howto/crmscript/get-company.md
+      - name: [21]
+        href: howto/crmscript/get-activities.md
+    - name: [23]
+      href: howto/services/index.md
+      items:
+      - name: [26]
+        href: howto/services/create-contact-services.md
+      - name: [28]
+        href: howto/services/create-contact-rest.md
+      - name: [30]
+        href: howto/services/create-contact-webapi-agents.md
+      - name: [32]
+        href: howto/services/get-contact-via-services-layer.md
+      - name: [34]
+        href: howto/services/get-all-contacts-rest.md
+      - name: [36]
+        href: howto/services/get-interests-for-contact-services.md
+      - name: [38]
+        href: howto/services/set-interest-on-off-services.md
+      - name: [40]
+        href: howto/services/add-catlist-item-rest.md
+      - name: [42]
+        href: howto/services/add-catlist-item-webapi-agents.md
+      - name: [44]
+        href: howto/services/get-catlist-listagent.md
+      - name: [46]
+        href: howto/services/get-catlist-mdoagent.md
+      - name: [48]
+        href: howto/services/get-set-category-mdoagent.md
+    - name: [50]
+      href: howto/entity/index.md
+      items:
+      - name: [53]
+        href: howto/entity/create-contact-entity.md
+      - name: [55]
+        href: howto/entity/create-contact-entity-in-entity.md
+      - name: [57]
+        href: howto/entity/create-contact-entity-in-collection.md
+      - name: [59]
+        href: howto/entity/get-contact-via-entities-layer.md
+      - name: [61]
+        href: howto/entity/get-interests-for-contact-entity.md
+      - name: [63]
+        href: howto/entity/set-interest-on-off-entity.md
+      - name: [65]
+        href: howto/entity/get-catlist-typed-provider.md
+      - name: [67]
+        href: howto/entity/get-catlist-generic-provider.md
+    - name: [69]
+      href: howto/row/index.md
+      items:
+      - name: [72]
+        href: howto/row/create-contact-row.md
+      - name: [74]
+        href: howto/row/create-contact-rows.md
+      - name: [76]
+        href: howto/row/add-new-contact-interest.md
+      - name: [78]
+        href: howto/row/get-catlist-categoryrows.md
+    - name: [80]
+      href: howto/osql/index.md
+      items:
+      - name: [83]
+        href: howto/osql/create-contact-osql.md
+      - name: [85]
+        href: howto/osql/get-catlist-sodatareader.md
+    - name: [87]
+      href: howto/sql/index.md
+      items:
+      - name: [90]
+        href: howto/sql/create-contact-sql.md
+      - name: [92]
+        href: howto/sql/get-contact-details-sql.md
+      - name: [94]
+        href: howto/sql/get-interests-sql.md
+      - name: [96]
+        href: howto/sql/get-catlist-sql.md
