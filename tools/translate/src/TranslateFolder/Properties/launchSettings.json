@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "TranslateFolder": {
+      "commandName": "Project",
+      "commandLineArgs": "tmp tmp.no nb 9a9d30a9-d171-4b83-bee8-ae8cc6008bb7-TECH",
+      "workingDirectory": "c:\\temp\\trans",
+      "environmentVariables": {
+        "DOCTR": "C:\\Program Files (x86)\\Document Translation\\doctr.exe"
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "profiles": {
     "GenGlossary": {
       "commandName": "Project",
-      "commandLineArgs": "gloss-md.tsv allresources.txt",
+      "commandLineArgs": "glossary.tsv  gloss-md.tsv",
       "workingDirectory": "C:\\Temp\\trans"
     }
   }

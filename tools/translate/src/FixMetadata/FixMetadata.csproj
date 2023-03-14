@@ -7,8 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Exec Command="echo $(ProjectDir)..\..\SquishTextFiles\ &#xD;&#xA;echo $(OutDir)&#xD;&#xA;xcopy $(OutDir)*.* $(ProjectDir)..\..\SquishTextFiles\ /S /y" />
-	</Target>
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	    <Exec Command="echo $(ProjectDir)..\..\FixMetadata\ &#xD;&#xA;echo $(OutDir)&#xD;&#xA;xcopy $(OutDir)*.* $(ProjectDir)..\..\FixMetadata\ /S /y" />
+    </Target>
 
 </Project>

@@ -9,8 +9,12 @@
 
   <ItemGroup>
     <Reference Include="SuperOffice.SM.Resources">
-      <HintPath>..\..\..\Git\FileSet\Clients\SM.web\Webs\CRM.web\bin\SuperOffice.SM.Resources.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Git\FileSet\Clients\SM.web\Webs\CRM.web\bin\SuperOffice.SM.Resources.dll</HintPath>
     </Reference>
   </ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="echo $(ProjectDir)..\..\GenGlossary\ &#xD;&#xA;echo $(OutDir)&#xD;&#xA;xcopy $(OutDir)*.* $(ProjectDir)..\..\GenGlossary\ /S /y" />
+	</Target>
 
 </Project>

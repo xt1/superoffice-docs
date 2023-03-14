@@ -6,20 +6,30 @@ using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.Schema;
 
-Console.WriteLine("Generating glossary!");
+Console.WriteLine("Generating glossary");
 string? basefilename = null;
 string? allResourcesFilename = null;
-if ( args.Length > 0)
+if (args.Length == 0)
 {
-    basefilename = args[0];
+    Console.WriteLine("GenGlossary.exe outputFilename.ext  [basedOn.tsv]  [allresourceFilename.align]");
+    return;
+}
+
+string outputFilename = args[0];
+
+if ( args.Length > 1)
+{
+    basefilename = args[1];
     Console.WriteLine("  using {0} as base.", basefilename);
 }
 
-if (args.Length > 1)
+if (args.Length > 2)
 {
-    allResourcesFilename = args[1];
+    allResourcesFilename = args[2];
     Console.WriteLine("  writing all resources to {0}", allResourcesFilename);
 }
+
+bool isTmx = Path.GetExtension(outputFilename).Equals(".tmx", StringComparison.OrdinalIgnoreCase);
 
 var en = ResourceStrings.ResourceManager.GetResourceSet(CultureInfo.GetCultureInfo("en"), true, true);
 var rs = ResourceStrings.ResourceManager.GetResourceSet(CultureInfo.GetCultureInfo("sv"), true, true);
@@ -42,7 +52,7 @@ foreach (var lang in langs)
         GenerateAllResourceFile(allResourcesFilename, rs, langCode);
     }
 
-    filename = $"glossary-en-{langCode}.tmx";
+    filename = $"{Path.GetFileNameWithoutExtension(outputFilename)}-en-{langCode}{Path.GetExtension(outputFilename)}";
     Console.WriteLine("Creating {0}", filename);
     outf = File.CreateText(filename);
     xmlf = new XmlTextWriter(outf);
@@ -247,48 +257,68 @@ void GenerateAllResourceFile(string allResourcesFilename, ResourceSet rs, string
 
 void WriteHeader(string langCode1, string langCode2)
 {
-    // xmlf.WriteStartDocument();
-    xmlf.Formatting = Formatting.Indented;
-    xmlf.WriteStartElement("tmx", "http://www.lisa.org/tmx14");
-    xmlf.WriteAttributeString("version", "1.4");
-    xmlf.WriteStartElement("header");
-    xmlf.WriteAttributeString("creationtool", "superoffice");
-    xmlf.WriteAttributeString("creationtoolversion", "1.0");
-    xmlf.WriteAttributeString("datatype", "plaintext");
-    xmlf.WriteAttributeString("segtype", "phrase");
-    xmlf.WriteAttributeString("srclang", langCode1);
-    xmlf.WriteAttributeString("o-tmf", "SuperOfficeResources");
-    xmlf.WriteEndElement();
+    if (isTmx)
+    {
+        // xmlf.WriteStartDocument();
+        xmlf.Formatting = Formatting.Indented;
+        xmlf.WriteStartElement("tmx", "http://www.lisa.org/tmx14");
+        xmlf.WriteAttributeString("version", "1.4");
+        xmlf.WriteStartElement("header");
+        xmlf.WriteAttributeString("creationtool", "superoffice");
+        xmlf.WriteAttributeString("creationtoolversion", "1.0");
+        xmlf.WriteAttributeString("datatype", "plaintext");
+        xmlf.WriteAttributeString("segtype", "phrase");
+        xmlf.WriteAttributeString("srclang", langCode1);
+        xmlf.WriteAttributeString("o-tmf", "SuperOfficeResources");
+        xmlf.WriteEndElement();
 
-    xmlf.WriteStartElement("body");
+        xmlf.WriteStartElement("body");
+    }
+    else
+    {
+        outf.WriteLine("{0}\t{1}", langCode1, langCode2);
+    }
 }
 
 void WriteEnder()
 {
-    xmlf.WriteEndElement(); // /body
-    xmlf.WriteEndElement(); // /tmx
+    if (isTmx)
+    {
+        xmlf.WriteEndElement(); // /body
+        xmlf.WriteEndElement(); // /tmx
+    }
+    else
+    {
+        outf.WriteLine();
+    }
 }
 
 void WriteTerms(string a, string b)
 {
-    xmlf.WriteStartElement("tu");
+    if (isTmx)
+    {
+        xmlf.WriteStartElement("tu");
 
-    xmlf.WriteStartElement("tuv");
-    xmlf.WriteAttributeString("xml", "lang", null, "en");
-    xmlf.WriteStartElement("seg");
-    xmlf.WriteString(a);
-    xmlf.WriteEndElement();
-    xmlf.WriteEndElement();
+        xmlf.WriteStartElement("tuv");
+        xmlf.WriteAttributeString("xml", "lang", null, "en");
+        xmlf.WriteStartElement("seg");
+        xmlf.WriteString(a);
+        xmlf.WriteEndElement();
+        xmlf.WriteEndElement();
 
-    xmlf.WriteStartElement("tuv");
-    xmlf.WriteAttributeString("xml", "lang", null, langCode);
-    xmlf.WriteStartElement("seg");
-    xmlf.WriteString(b);
-    xmlf.WriteEndElement();
-    xmlf.WriteEndElement();
+        xmlf.WriteStartElement("tuv");
+        xmlf.WriteAttributeString("xml", "lang", null, langCode);
+        xmlf.WriteStartElement("seg");
+        xmlf.WriteString(b);
+        xmlf.WriteEndElement();
+        xmlf.WriteEndElement();
 
-    xmlf.WriteEndElement(); // /tu
-
+        xmlf.WriteEndElement(); // /tu
+    }
+    else
+    {
+        outf.WriteLine("{0}\t{1}", a, b);
+    }
 
 }
 

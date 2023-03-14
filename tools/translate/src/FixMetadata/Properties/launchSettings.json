@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "FixMetadata": {
+      "commandName": "Project",
+      "commandLineArgs": "load no docs\\no",
+      "workingDirectory": "C:\\Git\\superoffice-docs\\tools\\translate"
+    }
+  }
+}

@@ -11,12 +11,13 @@ set ARTIF=artifacts\%1
 if exist %ARTIF% rmdir %ARTIF% /q /s
 if not exist artifacts mkdir artifacts
 if not exist %ARTIF% mkdir %ARTIF%
-robocopy "\\norfilepub\RnD\Semantix Ink\Help\10.1\Azure-Update-10.1.8-20221114\%1\CRM\UserHelp" %ARTIF%\userhelp *.htm* /s /NP 
-robocopy "\\norfilepub\RnD\Semantix Ink\Help\10.1\Azure-Update-10.1.8-20221114\%1\CRM\WebHelpAdmin" %ARTIF%\webhelpadmin *.htm* /s /NP 
+robocopy "\\norfilepub\RnD\Semantix Ink\Help\10.1\Azure-Update-10.1.8-20221114\%1\CRM\UserHelp" %ARTIF%\userhelp *.htm* /s /NP >NUL:
+robocopy "\\norfilepub\RnD\Semantix Ink\Help\10.1\Azure-Update-10.1.8-20221114\%1\CRM\WebHelpAdmin" %ARTIF%\webhelpadmin *.htm* /s /NP >NUL:
 
 set LANG=%1
 if "%LANG%" =="no" set LANG=nb
 if "%LANG%" =="se" set LANG=sv
+if "%LANG%" =="ge" set LANG=de
 
 cd %ARTIF%
 del /s access_cook*
