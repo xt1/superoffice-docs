@@ -1,0 +1,15 @@
+﻿# Many shots in one file
+
+# Output Path relative to base dir
+- Output: images/bing.png
+  Url: http://www.bing.com/
+  Element: .below_sbox
+  Before:
+    - Click: textarea
+    - Type: 
+        Element: textarea
+        Text: bla bla bla
+
+- Output: images/google.png
+  Url: http://www.google.com/
+

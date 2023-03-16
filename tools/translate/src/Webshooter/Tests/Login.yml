@@ -1,0 +1,74 @@
+﻿# Many shots in one file
+
+# Output Path relative to base dir
+- Output: login.png
+  Url: http://sod.superoffice.com/
+  Element: ".containerInner"
+  Before:
+    - Click: "#Username"
+    - Type: 
+        Element: "#Username"
+        Text: "{{LoginUsername}}"
+    - Click: "#nextButton"
+    - Click: "#Password"
+    - Type: 
+        Element: "#Password"
+        Text: "{{LoginPassword}}"
+  After:
+    - Click: "#loginButton"
+    - WaitForUrl: "**/default.aspx?**"
+    - Click: ".logo"
+
+# Logged in to https://sod2.superoffice.com/Cust36280/default.aspx?contact.main.personarchive.minimonth?contact_id=202&diaryowner_id=61
+    
+- Output: 
+  Url: ?language={{Lang}}
+  Element: 
+  After:
+    - WaitForUrl: "**/default.aspx?**"
+  
+- Output: images/companycard.png
+  Url: ?contact.main?contact_id=206
+  Element: "#leftpanel"
+  Before:
+    - Click: "#editButton"
+  After:
+    - Click: "#cancelButton"
+
+- Output: images/contactcard.png
+  Url: ?person.main
+  Element: "#leftpanel"
+  Before:
+    - Click: "#editButton"
+  After:
+    - Click: "#cancelButton"
+
+- Output: images/projectcard.png
+  Url: ?project.main
+  Element: "#leftpanel"
+  Before:
+    - WaitForVisible: "#noProjectsInDB" # "#editButton"
+    - WaitForVisible: "#noProjectsInDB span.label_command" # "#editButton"
+
+- Output: images/salecard.png
+  Url: ?sale.main
+  Element: "#leftpanel"
+  Before:
+    - WaitForVisible: "#noSalesInDB" # "#editButton"
+    - WaitForVisible: "#noSalesInDB span.label_command" # "#editButton"
+
+- Output: images/diarycard.png
+  Url: ?diary.week
+  Element: "#leftpanel"
+  Before:
+    - WaitForVisible: ".fc-day-header"
+    - WaitForVisible: "input.sobutton"
+
+- Output: images/findcard.png
+  Url: ?selectionfind.main
+  Element: "#OnePanePlaceHolder"
+  Before:
+    - WaitForVisible: "#contact_link"
+    - WaitForVisible: ".selectionFindHeader"
+    - WaitForVisible: "#appointment_button"
+    

@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Screenshooter": {
+      "commandName": "Project",
+      "commandLineArgs1": "-v -s ..\\..\\..\\Tests\\Bing -u http://www.bing.com/",
+      "commandLineArgs": "-vv -s \\git\\xt1-docs\\build\\Webshots\\login.yml \\git\\xt1-docs\\build\\Webshots\\media.yml -u https://sod2.superoffice.com/Cust36280/default.aspx -p LoginUsername=local@socrm.mailinator.com -p \"LoginPassword=Local socrm\" -p Lang=SV",
+      "commandLineArgs3": "-v -s \\git\\xt1-docs\\build\\Webshots\\login.yml \\git\\xt1-docs\\build\\Webshots\\media.yml ",
+      "C": ""
+    }
+  }
+}

@@ -1,0 +1,9 @@
+﻿Url: "?"
+WindowSize: 600x400
+Element: .below_sbox
+Before:
+- Click: textarea
+- Type: 
+    Element: "#sb_form_q"
+    Text: bla bla bla
+    
