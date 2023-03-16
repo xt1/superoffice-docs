@@ -1,0 +1,87 @@
+﻿# Screenshot cards
+# Log in using Login.yml before using this file
+    
+- # no output - just switch language
+  Url: ?language={{Lang}}
+  Element: 
+  After:
+    - WaitForUrl: "**/default.aspx?**"
+  
+- Output: company/media/company-card-edit.png
+  Url: ?contact.main?contact_id=206
+  Element: "#leftpanel"
+  Before:
+    - Click: "#editButton"
+  After:
+    - Click: "#cancelButton"
+
+- Output: company/media/company-panel.png
+
+- Output: company/media/company-card.png
+  Element: "#leftpanel"
+
+- Output: company/media/company-interests.png
+  Url: ?contact.interest
+  Element: "#leftpanel"
+  Before:
+   - Click: "#interest"
+   - WaitForVisible: ".SCILInterests"
+   - Click: "#editButton"
+
+
+- Output: contact/media/edit-person.png
+  Url: ?person.main
+  Element: "#leftpanel"
+  Before:
+    - Click: "#editButton"
+  After:
+    - Click: "#cancelButton"
+
+- Output: contact/media/view-person-panel.png
+
+- Output: contact/media/view-person.png
+  Element: "#leftpanel"
+
+- Output: company/media/contact-interests.png
+  Url: ?person.interest
+  Element: "#leftpanel"
+  Before:
+   - Click: "#interest"
+   - WaitForVisible: ".containerBox#personConsent"
+
+- Output: diary/media/diary-screen.png
+  Url: ?diary.week
+  Element: "" # whole screen
+  Before:
+    - WaitForVisible: ".fc-day-header"
+    - WaitForVisible: "#_ctl0__ctl0__Splitter_weekThisWeekBtn_weekThisWeekBtn"
+
+- Output: diary/media/recurrence-dialog.png
+  Element: "#_ctl0__ctl0_RecurrenceConfig_Card"
+  Before:
+    - Click: "#AddActivityBtn"
+    - Click: "#DetailsView_TabItem_Caption"
+    - Click: "//*[@soid=\"RecurrenceLnk\"]"
+
+- Output: project/media/no-projects-in-db.png
+  Url: ?project.main
+  Element: "#leftpanel"
+  Before:
+    - WaitForVisible: "#noProjectsInDB" # "#editButton"
+    - WaitForVisible: "#noProjectsInDB span.label_command" # "#editButton"
+
+- Output: sale/media/no-sales-in-db.png
+  Url: ?sale.main
+  Element: "#leftpanel"
+  Before:
+    - WaitForVisible: "#noSalesInDB" # "#editButton"
+    - WaitForVisible: "#noSalesInDB span.label_command" # "#editButton"
+
+- Output: search-options/media/find-panel.png
+  Url: ?selectionfind.main
+  Element: "#OnePanePlaceHolder"
+  Before:
+    - WaitForVisible: "#contact_link"
+    - WaitForVisible: ".selectionFindHeader"
+    - WaitForVisible: "#appointment_button"
+  
