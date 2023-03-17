@@ -1,16 +1,29 @@
 ﻿# Screenshot cards
 # Log in using Login.yml before using this file
-    
-- # no output - just switch language
-  Url: ?language={{Lang}}
+# Output paths are relative to baseDir, which is set on command-line
+# Would be docs/en or docs/no
+
+# https://sod2.superoffice.com/Cust36280/ = empty site - no sales or projects
+# https://sod.superoffice.com/Cust40407/ = DX screenshot site - has demo content
+ 
+- # no output - just switch language  
+  Url: https://sod.superoffice.com/Cust36280/default.aspx?language={{Lang}}
   Element: 
   After:
     - WaitForUrl: "**/default.aspx?**"
   
+- # no output - just switch language  
+  Url: https://sod.superoffice.com/Cust40407/default.aspx?language={{Lang}}
+  Element: 
+  After:
+    - WaitForUrl: "**/default.aspx?**"
+  
+
 - Output: company/media/company-card-edit.png
-  Url: ?contact.main?contact_id=206
+  Url: ?contact.main.activityarchive.miniday?contact_id=1
   Element: "#leftpanel"
   Before:
+    - Click: "#main"
     - Click: "#editButton"
   After:
     - Click: "#cancelButton"
@@ -25,14 +38,16 @@
   Element: "#leftpanel"
   Before:
    - Click: "#interest"
-   - WaitForVisible: ".SCILInterests"
+   - WaitForVisible: "#interestBox1 .interestHeading"
    - Click: "#editButton"
+   - WaitForVisible: ".SCILInterests"
 
 
 - Output: contact/media/edit-person.png
-  Url: ?person.main
+  Url: ?person.main?person_id=1560
   Element: "#leftpanel"
   Before:
+    - Click: "#main"
     - Click: "#editButton"
   After:
     - Click: "#cancelButton"
@@ -50,32 +65,26 @@
    - WaitForVisible: ".containerBox#personConsent"
 
 - Output: diary/media/diary-screen.png
-  Url: ?diary.week
+  Url: https://sod.superoffice.com/Cust40407/default.aspx?diary.week.activityarchive.miniday?appointment_id=10266&diaryowner_id=7&tzlocation_id=303
   Element: "" # whole screen
   Before:
     - WaitForVisible: ".fc-day-header"
     - WaitForVisible: "#_ctl0__ctl0__Splitter_weekThisWeekBtn_weekThisWeekBtn"
 
-- Output: diary/media/recurrence-dialog.png
-  Element: "#_ctl0__ctl0_RecurrenceConfig_Card"
+- Output: diary/media/appointment-dialog.png
+  Element: "#inlinedialogContainer"
   Before:
     - Click: "#AddActivityBtn"
-    - Click: "#DetailsView_TabItem_Caption"
-    - Click: "//*[@soid=\"RecurrenceLnk\"]"
+    - Click: "#inlinedialogfrmappointment,#DescriptionView_TabItem_Caption"
+    - Type:
+        Element: "#_ctl0__ctl0_AppointmentDescription_textfield_AppointmentDescription_textfield"
+        Text: "bla bla bla..."
 
-- Output: project/media/no-projects-in-db.png
-  Url: ?project.main
-  Element: "#leftpanel"
+- Output: diary/media/recurrence-dialog.png
+  Element: "#inlinedialogContainer"
   Before:
-    - WaitForVisible: "#noProjectsInDB" # "#editButton"
-    - WaitForVisible: "#noProjectsInDB span.label_command" # "#editButton"
-
-- Output: sale/media/no-sales-in-db.png
-  Url: ?sale.main
-  Element: "#leftpanel"
-  Before:
-    - WaitForVisible: "#noSalesInDB" # "#editButton"
-    - WaitForVisible: "#noSalesInDB span.label_command" # "#editButton"
+    - Click: "#inlinedialogfrmappointment,#DetailsView_TabItem_Caption"
+    - Click: "#inlinedialogfrmappointment,#_ctl0__ctl0_DetailsCtrl_RecurrenceLnk_RecurrenceLnk_RecurrenceLnk_Link"
 
 - Output: search-options/media/find-panel.png
   Url: ?selectionfind.main
@@ -84,4 +93,20 @@
     - WaitForVisible: "#contact_link"
     - WaitForVisible: ".selectionFindHeader"
     - WaitForVisible: "#appointment_button"
-  
+
+# Empty pages
+
+- Output: project/media/no-projects-in-db.png
+  Url: https://sod.superoffice.com/Cust36280/default.aspx?project.main
+  Element: "#leftpanel"
+  Before:
+    - WaitForVisible: "#noProjectsInDB" # "#editButton"
+    - WaitForVisible: "#noProjectsInDB span.label_command" # "#editButton"
+
+- Output: sale/media/no-sales-in-db.png
+  Url: https://sod.superoffice.com/Cust36280/default.aspx?sale.main
+  Element: "#leftpanel"
+  Before:
+    - WaitForVisible: "#noSalesInDB" # "#editButton"
+    - WaitForVisible: "#noSalesInDB span.label_command" # "#editButton"
+

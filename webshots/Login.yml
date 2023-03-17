@@ -15,8 +15,9 @@
         Text: "{{LoginPassword}}"
   After:
     - Click: "#loginButton"
-    - WaitForUrl: "**/default.aspx?**"
-    - Click: ".logo"
+    # - WaitForUrl: "*"
+    - WaitForVisible: ".customerName"
+    # - Click: ".logo"
 
 # Now logged in to https://sod2.superoffice.com/Cust36280/default.aspx?contact.main.personarchive.minimonth?contact_id=202&diaryowner_id=61
     

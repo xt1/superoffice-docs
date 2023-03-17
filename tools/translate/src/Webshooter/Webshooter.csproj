@@ -23,4 +23,8 @@
     </None>
   </ItemGroup>
 
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="echo $(ProjectDir)..\..\Webshooter\ &#xD;&#xA;echo $(OutDir)&#xD;&#xA;xcopy $(OutDir)*.* $(ProjectDir)..\..\Webshooter\ /S /y" />
+	</Target>
+
 </Project>

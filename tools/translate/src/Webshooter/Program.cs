@@ -71,6 +71,8 @@ namespace Webshooter
                 if (!Directory.Exists(arg))
                 {
                     Console.Error.WriteLine("{0}: File or directory not found", arg);
+                    if (!Path.IsPathRooted(arg))
+                        Console.Error.WriteLine(Path.GetFullPath(arg));
                     isOk = false;
                 }
             }
@@ -455,8 +457,29 @@ Example:
 
         private static ILocator GetLocator(string element)
         {
-            var locator = _page.Locator(element);
-            if (!locator.IsVisibleAsync().Result)
+            ILocator locator;
+            if (!element.Contains(","))
+            {
+                locator = _page.Locator(element);
+                if (locator.IsVisibleAsync().Result)
+                    return locator;
+            }
+            if (element.Contains(",")) // specifies a frame id
+            {
+                var parts = element.Split(",");
+                var iframeId = parts[0].Trim();
+                var elementInside = parts[1].Trim();
+
+                if( ! _page.IsVisibleAsync(iframeId).Result)
+                    Thread.Sleep(100); // Wait a bit
+
+                var locator1 = _page.FrameLocator(iframeId);
+                var locator2 = locator1.Locator(elementInside);
+                locator2.Page.WaitForLoadStateAsync(LoadState.Load).Wait();
+                if (locator2.IsVisibleAsync().Result)
+                    return locator2;
+            }
+            else // try to figure it out
             {
                 // Check frames for locator
                 var frames = _page.Frames;
@@ -476,7 +499,7 @@ Example:
                         return locator2;
                 }
             }
-            return locator;
+            return _page.Locator(element);
         }
 
         private static string ProcessProps(CommandLineOptions o, string s)

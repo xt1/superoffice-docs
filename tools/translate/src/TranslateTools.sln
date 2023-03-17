@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webshooter", "Webshooter\Webshooter.csproj", "{F852E759-9C31-4B64-84AF-E376124FBE32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranslateFolder", "TranslateFolder\TranslateFolder.csproj", "{B919D316-0E43-436B-BBD6-85FA2232BA6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FixMetadata", "FixMetadata\FixMetadata.csproj", "{7E105565-A2DD-485B-AD10-20852ED85965}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF59916E-2B43-4252-97BA-28BC8F1A52B3}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\webshots\Login.yml = ..\..\..\webshots\Login.yml
+		..\..\..\webshots\Media.yml = ..\..\..\webshots\Media.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F852E759-9C31-4B64-84AF-E376124FBE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F852E759-9C31-4B64-84AF-E376124FBE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F852E759-9C31-4B64-84AF-E376124FBE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F852E759-9C31-4B64-84AF-E376124FBE32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B919D316-0E43-436B-BBD6-85FA2232BA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B919D316-0E43-436B-BBD6-85FA2232BA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B919D316-0E43-436B-BBD6-85FA2232BA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B919D316-0E43-436B-BBD6-85FA2232BA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E105565-A2DD-485B-AD10-20852ED85965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E105565-A2DD-485B-AD10-20852ED85965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E105565-A2DD-485B-AD10-20852ED85965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E105565-A2DD-485B-AD10-20852ED85965}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {026BA10D-2CDD-4A09-8EFB-F45D70806044}
+	EndGlobalSection
+EndGlobal
