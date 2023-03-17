@@ -364,3 +364,6 @@ MigrationBackup/
 tools/translate/docs
 tools/translate/tmp*
 tools/training/artifacts
+.playwright/
+tools/translate/WebShooter/.playwright
+
