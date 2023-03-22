@@ -19,136 +19,301 @@ on-site	on-site
 SuperOffice	SuperOffice
 CRM	CRM
 Company	Firma
+**Company**	**Firma**
 Companies	Firmaer
+**Companies**	**Firmaer**
 Our contact	Vores kontakt
+**Our contact**	**Vores kontakt**
 Category	Kategori
+**Category**	**Kategori**
 Categories	Kategorier
+**Categories**	**Kategorier**
 Business	Branche
+**Business**	**Branche**
 Contact	Person
+**Contact**	**Person**
 Contacts	Personer
+**Contacts**	**Personer**
 Project	Projekt
+**Project**	**Projekt**
 Project Members	Projektdeltagere
+**Project Members**	**Projektdeltagere**
 Project type	Projekttype
+**Project type**	**Projekttype**
 Project guide	Projektguide
+**Project guide**	**Projektguide**
 Project members	Projektdeltagere
+**Project members**	**Projektdeltagere**
 Project member	Projektdeltager
+**Project member**	**Projektdeltager**
 Projects	Projekter
+**Projects**	**Projekter**
 Find Project	Find projekt
+**Find Project**	**Find projekt**
 Project Type	Projekttype
+**Project Type**	**Projekttype**
 Project guide	Projektguide
+**Project guide**	**Projektguide**
 Sale	Salg
+**Sale**	**Salg**
 Sales	Salg
+**Sales**	**Salg**
 Sale type	Salgstype
+**Sale type**	**Salgstype**
 SAINT	SAINT
+**SAINT**	**SAINT**
 Sales Intelligence (SAINT)	Sales Intelligence (SAINT)
+**Sales Intelligence (SAINT)**	**Sales Intelligence (SAINT)**
 Saint	Saint
+**Saint**	**Saint**
 Status monitor	Statusovervågning
+**Status monitor**	**Statusovervågning**
 Status Monitors	Statusovervågning
+**Status Monitors**	**Statusovervågning**
 Status monitors	Statusovervågning
+**Status monitors**	**Statusovervågning**
 Counters	Tællere
+**Counters**	**Tællere**
 Counter	Tæller
+**Counter**	**Tæller**
 Associate	Medarbejder
+**Associate**	**Medarbejder**
 User groups	Brugergrupper
+**User groups**	**Brugergrupper**
 User group	Brugergruppe
+**User group**	**Brugergruppe**
 Roles	Roller
+**Roles**	**Roller**
 Role	Rolle
+**Role**	**Rolle**
 Associates	Medarbejdere
+**Associates**	**Medarbejdere**
 Other associates	Andre medarbejdere
+**Other associates**	**Andre medarbejdere**
 Document template	Dokumentskabelon
+**Document template**	**Dokumentskabelon**
 Chat	Lynmeddelelse
+**Chat**	**Lynmeddelelse**
 Chats	Chat-samtaler
+**Chats**	**Chat-samtaler**
 Chat channel	Chatkanal
+**Chat channel**	**Chatkanal**
 Chat channels	Chatkanaler
+**Chat channels**	**Chatkanaler**
 Chat conversation	Chatsamtale
+**Chat conversation**	**Chatsamtale**
 Chat conversations	Chatsamtaler
+**Chat conversations**	**Chatsamtaler**
 Reply templates	Svarskabeloner
+**Reply templates**	**Svarskabeloner**
 Reply template	Svarskabelon
+**Reply template**	**Svarskabelon**
 Customer centre	Kundecenter
+**Customer centre**	**Kundecenter**
 Customer Centre	Kundecenter
+**Customer Centre**	**Kundecenter**
 Customer	Kunde
+**Customer**	**Kunde**
 Customers	Kunder
+**Customers**	**Kunder**
 Request	Sag
+**Request**	**Sag**
 Requests	Sager
+**Requests**	**Sager**
 Find Request	Find sag
+**Find Request**	**Find sag**
 Selection	Udvalg
+**Selection**	**Udvalg**
 Find Selection	Find udvalg
+**Find Selection**	**Find udvalg**
 Selections	Udvalg
+**Selections**	**Udvalg**
+Configure sort order	Konfigurer sortering
+**Configure sort order**	**Konfigurer sortering**
+Configure columns	Konfigurer kolonner
+**Configure columns**	**Konfigurer kolonner**
+Open contact	Åbn person
+**Open contact**	**Åbn person**
+Contact support	Kontakt support
+**Contact support**	**Kontakt support**
+Open Sale	Åbn salg
+**Open Sale**	**Åbn salg**
+Attach documents	Tilføj dokument
+**Attach documents**	**Tilføj dokument**
+Remove as member	Fjern som medlem
+**Remove as member**	**Fjern som medlem**
+Copy into selection	Kopier til udvalg
+**Copy into selection**	**Kopier til udvalg**
+Add follow-ups	Tilføj til opfølgninger
+**Add follow-ups**	**Tilføj til opfølgninger**
+Open the document	Åbn dokumentet
+**Open the document**	**Åbn dokumentet**
+Send message	Send besked
+**Send message**	**Send besked**
+Add to new project	Tilføj i et nyt projekt
+**Add to new project**	**Tilføj i et nyt projekt**
+Clone contact	Clone person
+**Clone contact**	**Clone person**
+Open documents	Åbne dokumenter
+**Open documents**	**Åbne dokumenter**
+Mark as lost	Marker som tabt
+**Mark as lost**	**Marker som tabt**
 Appointment	Aftale
+**Appointment**	**Aftale**
 Appointments	Aftaler
+**Appointments**	**Aftaler**
 Follow-ups	Opfølgninger
+**Follow-ups**	**Opfølgninger**
 Tasks	Opgaver
+**Tasks**	**Opgaver**
 Phone Call	Samtale
+**Phone Call**	**Samtale**
 Phone calls	Samtaler
+**Phone calls**	**Samtaler**
 Phone call	Samtale
+**Phone call**	**Samtale**
+Make a phone call	Opret samtale
+**Make a phone call**	**Opret samtale**
 Call	Ring
+**Call**	**Ring**
 Tasks	Opgaver
+**Tasks**	**Opgaver**
 Task	Opgave
+**Task**	**Opgave**
 Document template	Dokumentskabelon
+**Document template**	**Dokumentskabelon**
 Document	Dokument
+**Document**	**Dokument**
 Documents	Dokumenter
+**Documents**	**Dokumenter**
 Document type	Dokumenttype
+**Document type**	**Dokumenttype**
 Company card	Firmakort
+**Company card**	**Firmakort**
 Contact card	Personkort
+**Contact card**	**Personkort**
 Project card	Projektkort
+**Project card**	**Projektkort**
 Selection card	Udvalgskort
+**Selection card**	**Udvalgskort**
 Sale card	Salgskort
+**Sale card**	**Salgskort**
 Panel	Panel
+**Panel**	**Panel**
 Web panel	Webpanel
+**Web panel**	**Webpanel**
 Web panels	Webpaneler
+**Web panels**	**Webpaneler**
 Find panel	Panelet Søg
+**Find panel**	**Panelet Søg**
 Side panels	Sidepaneler
+**Side panels**	**Sidepaneler**
 Side panel	Sidepanel
+**Side panel**	**Sidepanel**
 Cards	Kort
+**Cards**	**Kort**
 Dashboard	Dashboard
+**Dashboard**	**Dashboard**
 Dashboard panel	Dashboard-panel
+**Dashboard panel**	**Dashboard-panel**
 Tiles	Ruder
+**Tiles**	**Ruder**
 No tiles	Ingen ruder
+**No tiles**	**Ingen ruder**
 Diary	Dagbog
+**Diary**	**Dagbog**
 Inbox	Indbakke
+**Inbox**	**Indbakke**
 Users	Brugere
+**Users**	**Brugere**
 Other Users	Andre brugere
+**Other Users**	**Andre brugere**
 Navigator	Navigator
+**Navigator**	**Navigator**
 Relations	Relationer
+**Relations**	**Relationer**
 Relation	Relation
+**Relation**	**Relation**
 Request	Sag
+**Request**	**Sag**
 Messages	Meddelelser
+**Messages**	**Meddelelser**
 Message	Meddelelse
+**Message**	**Meddelelse**
 Dialog	Dialogboks
+**Dialog**	**Dialogboks**
 Filter Dialog	Dialogboksen Filter
+**Filter Dialog**	**Dialogboksen Filter**
 Document dialog	Dialogboksen Dokument
+**Document dialog**	**Dialogboksen Dokument**
 Find	Søg
+**Find**	**Søg**
 Find Company	Find firma
+**Find Company**	**Find firma**
 Find Contact	Find person
+**Find Contact**	**Find person**
 Find Project	Find projekt
+**Find Project**	**Find projekt**
 Find Follow-up	Find opfølgning
+**Find Follow-up**	**Find opfølgning**
 Find Date	Søg dato
+**Find Date**	**Søg dato**
 Find Request	Find sag
+**Find Request**	**Find sag**
 Find Selection	Find udvalg
+**Find Selection**	**Find udvalg**
 Find Document	Find dokument
+**Find Document**	**Find dokument**
 Find Mailing	Søg efter udsendelse
+**Find Mailing**	**Søg efter udsendelse**
 Find Sale	Find salg
+**Find Sale**	**Find salg**
 Find companies and contacts	Find firmaer og personer
+**Find companies and contacts**	**Find firmaer og personer**
 Find sales	Find salg
+**Find sales**	**Find salg**
 Find documents	Find dokumenter
+**Find documents**	**Find dokumenter**
 Find projects	Find projekter
+**Find projects**	**Find projekter**
 Find selections	Find udvalg
+**Find selections**	**Find udvalg**
 Find documents	Find dokumenter
+**Find documents**	**Find dokumenter**
 Find follow-ups	Find opfølgninger
+**Find follow-ups**	**Find opfølgninger**
 Freetext	Fritekst
+**Freetext**	**Fritekst**
 Freetext search	Fritekstsøgning
+**Freetext search**	**Fritekstsøgning**
 Quote	Tilbud
+**Quote**	**Tilbud**
 Quotes	Tilbud
+**Quotes**	**Tilbud**
 Quote connection	Tilbudslink
+**Quote connection**	**Tilbudslink**
 Quote alternative	Tilbudsalternativ
+**Quote alternative**	**Tilbudsalternativ**
 Quote version	Tilbudsversion
+**Quote version**	**Tilbudsversion**
 Product	Produkt
+**Product**	**Produkt**
 Products	Produkter
+**Products**	**Produkter**
 Product type	Produkttype
+**Product type**	**Produkttype**
 Product family	Produktfamilie
+**Product family**	**Produktfamilie**
 Product category	Produktkategori
+**Product category**	**Produktkategori**
 Find Product	Find produkt
+**Find Product**	**Find produkt**
 Mailings	Udsendelser
+**Mailings**	**Udsendelser**
 Mailing	Udsendelse
+**Mailing**	**Udsendelse**
 No Mailings	Ingen udsendelser
+**No Mailings**	**Ingen udsendelser**
 No mailings	Ingen udsendelser
+**No mailings**	**Ingen udsendelser**
 

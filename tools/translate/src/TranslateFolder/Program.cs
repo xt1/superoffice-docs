@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Text.RegularExpressions;
 using System.Xml;
 
 Console.WriteLine("Translate folder!");
@@ -45,6 +46,8 @@ void TranslateFolder(string sourceDir, string destDir, string toLangCode, string
     var proc = Process.Start(info);
     proc?.WaitForExit();
 
+    // UnfuckFilesIn(destDir);
+
     var subdirs = Directory.GetDirectories(sourceDir);
     foreach(var subdir in subdirs)
     {
@@ -54,3 +57,29 @@ void TranslateFolder(string sourceDir, string destDir, string toLangCode, string
     }
 }
 
+void UnfuckFilesIn(string destDir)
+{
+    var files = Directory.GetFiles(destDir);
+    foreach (var file in files)
+    {
+        UnfuckFile(file);
+    }
+}
+
+void UnfuckFile(string file)
+{
+    var lines = File.ReadAllLines(file);
+    for (int i = 0; i < lines.Length; ++i)
+        lines[i] = UnfuckLine(lines[i]);
+    File.WriteAllLines(file, lines);
+}
+
+string UnfuckLine(string line)
+{
+    // ** dialogboksene** Avtale**, Oppgave**, **Samtale** og **Dokument**: 
+    line = Regex.Replace(line, @"\*\*([,.]+) (\w+)\*\*", "**$1 **$2**");
+    line = Regex.Replace(line, @"\*\*([,.]+) (\w+)\*\*", "**$1 **$2**");
+
+    line = Regex.Replace(line, @"\*\* (\w+)\*\* ", "$1 **");
+    return line;
+}

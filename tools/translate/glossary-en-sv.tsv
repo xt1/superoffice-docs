@@ -19,136 +19,301 @@ on-site	on-site
 SuperOffice	SuperOffice
 CRM	CRM
 Company	Företag
+**Company**	**Företag**
 Companies	Företag
+**Companies**	**Företag**
 Our contact	Vår kontakt
+**Our contact**	**Vår kontakt**
 Category	Kategori
+**Category**	**Kategori**
 Categories	Kategorier
+**Categories**	**Kategorier**
 Business	Bransch
+**Business**	**Bransch**
 Contact	Kontakt
+**Contact**	**Kontakt**
 Contacts	Kontakter
+**Contacts**	**Kontakter**
 Project	Projekt
+**Project**	**Projekt**
 Project Members	Projektdeltagare
+**Project Members**	**Projektdeltagare**
 Project type	Projekttyp
+**Project type**	**Projekttyp**
 Project guide	Projektguide
+**Project guide**	**Projektguide**
 Project members	Projektmedlemmar
+**Project members**	**Projektmedlemmar**
 Project member	Projektdeltagare
+**Project member**	**Projektdeltagare**
 Projects	Projekt
+**Projects**	**Projekt**
 Find Project	Sök projekt
+**Find Project**	**Sök projekt**
 Project Type	Projekttyp
+**Project Type**	**Projekttyp**
 Project guide	Projektguide
+**Project guide**	**Projektguide**
 Sale	Försäljning
+**Sale**	**Försäljning**
 Sales	Försäljning
+**Sales**	**Försäljning**
 Sale type	Säljtyp
+**Sale type**	**Säljtyp**
 SAINT	SAINT
+**SAINT**	**SAINT**
 Sales Intelligence (SAINT)	Sales Intelligence (SAINT)
+**Sales Intelligence (SAINT)**	**Sales Intelligence (SAINT)**
 Saint	Saint
+**Saint**	**Saint**
 Status monitor	Statusövervakning
+**Status monitor**	**Statusövervakning**
 Status Monitors	Statusövervakning
+**Status Monitors**	**Statusövervakning**
 Status monitors	Statusövervakning
+**Status monitors**	**Statusövervakning**
 Counters	Räknare
+**Counters**	**Räknare**
 Counter	Räknare
+**Counter**	**Räknare**
 Associate	Medarbetare
+**Associate**	**Medarbetare**
 User groups	Användargrupper
+**User groups**	**Användargrupper**
 User group	Användargrupp
+**User group**	**Användargrupp**
 Roles	Roller
+**Roles**	**Roller**
 Role	Roll
+**Role**	**Roll**
 Associates	Medarbetare
+**Associates**	**Medarbetare**
 Other associates	Andra medarbetare
+**Other associates**	**Andra medarbetare**
 Document template	Dokumentmall
+**Document template**	**Dokumentmall**
 Chat	Snabbmeddelande
+**Chat**	**Snabbmeddelande**
 Chats	Chattsamtal
+**Chats**	**Chattsamtal**
 Chat channel	Chattkanal
+**Chat channel**	**Chattkanal**
 Chat channels	Chattkanaler
+**Chat channels**	**Chattkanaler**
 Chat conversation	Chattsamtal
+**Chat conversation**	**Chattsamtal**
 Chat conversations	Chattkonversationer
+**Chat conversations**	**Chattkonversationer**
 Reply templates	Svarsmallar
+**Reply templates**	**Svarsmallar**
 Reply template	Svarsmall
+**Reply template**	**Svarsmall**
 Customer centre	Kundcenter
+**Customer centre**	**Kundcenter**
 Customer Centre	Customer Centre
+**Customer Centre**	**Customer Centre**
 Customer	Kund
+**Customer**	**Kund**
 Customers	Kunder
+**Customers**	**Kunder**
 Request	Ärende
+**Request**	**Ärende**
 Requests	Ärenden
+**Requests**	**Ärenden**
 Find Request	Sök ärende
+**Find Request**	**Sök ärende**
 Selection	Urval
+**Selection**	**Urval**
 Find Selection	Sök urval
+**Find Selection**	**Sök urval**
 Selections	Urval
+**Selections**	**Urval**
+Configure sort order	Konfigurera sortering
+**Configure sort order**	**Konfigurera sortering**
+Configure columns	Konfigurera kolumner
+**Configure columns**	**Konfigurera kolumner**
+Open contact	Öppna kontakt
+**Open contact**	**Öppna kontakt**
+Contact support	Kontakta support
+**Contact support**	**Kontakta support**
+Open Sale	Öppna försäljning
+**Open Sale**	**Öppna försäljning**
+Attach documents	Lägg till dokument
+**Attach documents**	**Lägg till dokument**
+Remove as member	Ta bort som medlem
+**Remove as member**	**Ta bort som medlem**
+Copy into selection	Kopiera till urval
+**Copy into selection**	**Kopiera till urval**
+Add follow-ups	Lägg till händelser
+**Add follow-ups**	**Lägg till händelser**
+Open the document	Öppna dokumentet
+**Open the document**	**Öppna dokumentet**
+Send message	Skicka meddelande
+**Send message**	**Skicka meddelande**
+Add to new project	Lägg till i nytt projekt
+**Add to new project**	**Lägg till i nytt projekt**
+Clone contact	Klona kontakt
+**Clone contact**	**Klona kontakt**
+Open documents	Öppna dokument
+**Open documents**	**Öppna dokument**
+Mark as lost	Markera som förlorad
+**Mark as lost**	**Markera som förlorad**
 Appointment	Bokning
+**Appointment**	**Bokning**
 Appointments	Bokningar
+**Appointments**	**Bokningar**
 Follow-ups	Händelser
+**Follow-ups**	**Händelser**
 Tasks	Uppgifter
+**Tasks**	**Uppgifter**
 Phone Call	Samtal
+**Phone Call**	**Samtal**
 Phone calls	Samtal
+**Phone calls**	**Samtal**
 Phone call	Samtal
+**Phone call**	**Samtal**
+Make a phone call	Inled samtal
+**Make a phone call**	**Inled samtal**
 Call	Ring
+**Call**	**Ring**
 Tasks	Uppgifter
+**Tasks**	**Uppgifter**
 Task	Uppgift
+**Task**	**Uppgift**
 Document template	Dokumentmall
+**Document template**	**Dokumentmall**
 Document	Dokument
+**Document**	**Dokument**
 Documents	Dokument
+**Documents**	**Dokument**
 Document type	Dokumenttyp
+**Document type**	**Dokumenttyp**
 Company card	Företagskort
+**Company card**	**Företagskort**
 Contact card	Kontaktkort
+**Contact card**	**Kontaktkort**
 Project card	Projektkort
+**Project card**	**Projektkort**
 Selection card	Urvalskort
+**Selection card**	**Urvalskort**
 Sale card	Detaljkortet Försäljning
+**Sale card**	**Detaljkortet Försäljning**
 Panel	Panel
+**Panel**	**Panel**
 Web panel	Webbpanel
+**Web panel**	**Webbpanel**
 Web panels	Webbpaneler
+**Web panels**	**Webbpaneler**
 Find panel	Sökpanel
+**Find panel**	**Sökpanel**
 Side panels	Sidopaneler
+**Side panels**	**Sidopaneler**
 Side panel	Sidopanel
+**Side panel**	**Sidopanel**
 Cards	Kort
+**Cards**	**Kort**
 Dashboard	Dashboard
+**Dashboard**	**Dashboard**
 Dashboard panel	Dashboard-panel
+**Dashboard panel**	**Dashboard-panel**
 Tiles	Figurer
+**Tiles**	**Figurer**
 No tiles	Inga figurer
+**No tiles**	**Inga figurer**
 Diary	Kalender
+**Diary**	**Kalender**
 Inbox	Inkorg
+**Inbox**	**Inkorg**
 Users	Användare
+**Users**	**Användare**
 Other Users	Andra användare
+**Other Users**	**Andra användare**
 Navigator	Navigator
+**Navigator**	**Navigator**
 Relations	Relationer
+**Relations**	**Relationer**
 Relation	Relation
+**Relation**	**Relation**
 Request	Ärende
+**Request**	**Ärende**
 Messages	Meddelanden
+**Messages**	**Meddelanden**
 Message	Meddelande
+**Message**	**Meddelande**
 Dialog	Dialogruta
+**Dialog**	**Dialogruta**
 Filter Dialog	Dialogrutan Filter
+**Filter Dialog**	**Dialogrutan Filter**
 Document dialog	Dialogrutan Dokument
+**Document dialog**	**Dialogrutan Dokument**
 Find	Sök
+**Find**	**Sök**
 Find Company	Sök företag
+**Find Company**	**Sök företag**
 Find Contact	Sök kontakt
+**Find Contact**	**Sök kontakt**
 Find Project	Sök projekt
+**Find Project**	**Sök projekt**
 Find Follow-up	Sök uppföljning
+**Find Follow-up**	**Sök uppföljning**
 Find Date	Sök datum
+**Find Date**	**Sök datum**
 Find Request	Sök ärende
+**Find Request**	**Sök ärende**
 Find Selection	Sök urval
+**Find Selection**	**Sök urval**
 Find Document	Sök dokument
+**Find Document**	**Sök dokument**
 Find Mailing	Sök utskick
+**Find Mailing**	**Sök utskick**
 Find Sale	Sök försäljning
+**Find Sale**	**Sök försäljning**
 Find companies and contacts	Sök företag och kontakter
+**Find companies and contacts**	**Sök företag och kontakter**
 Find sales	Sök försäljning
+**Find sales**	**Sök försäljning**
 Find documents	Sök dokument
+**Find documents**	**Sök dokument**
 Find projects	Sök projekt
+**Find projects**	**Sök projekt**
 Find selections	Sök urval
+**Find selections**	**Sök urval**
 Find documents	Sök dokument
+**Find documents**	**Sök dokument**
 Find follow-ups	Sök händelser
+**Find follow-ups**	**Sök händelser**
 Freetext	Fritext
+**Freetext**	**Fritext**
 Freetext search	Fritextsökning
+**Freetext search**	**Fritextsökning**
 Quote	Offert
+**Quote**	**Offert**
 Quotes	Offert
+**Quotes**	**Offert**
 Quote connection	Offertkoppling
+**Quote connection**	**Offertkoppling**
 Quote alternative	Offertalternativ
+**Quote alternative**	**Offertalternativ**
 Quote version	Offertversion
+**Quote version**	**Offertversion**
 Product	Produkt
+**Product**	**Produkt**
 Products	Produkter
+**Products**	**Produkter**
 Product type	Produkttyp
+**Product type**	**Produkttyp**
 Product family	Produktfamilj
+**Product family**	**Produktfamilj**
 Product category	Produktkategori
+**Product category**	**Produktkategori**
 Find Product	Sök produkt
+**Find Product**	**Sök produkt**
 Mailings	Utskick
+**Mailings**	**Utskick**
 Mailing	Utskick
+**Mailing**	**Utskick**
 No Mailings	Inga utskick
+**No Mailings**	**Inga utskick**
 No mailings	Inga utskick
+**No mailings**	**Inga utskick**
 

@@ -366,4 +366,4 @@ tools/translate/tmp*
 tools/training/artifacts
 .playwright/
 tools/translate/WebShooter/.playwright
-
+setenv.bat

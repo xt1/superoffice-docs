@@ -172,11 +172,20 @@ void CreateFile(string filename, string lang)
                 // leave it - but sanitize the keyword so it does not get translated
             }
             else
+            if (line.StartsWith("keywords:", StringComparison.OrdinalIgnoreCase))
+            {
+                lines[i] = line.Replace("keywords:", "3:", StringComparison.OrdinalIgnoreCase);
+                // leave it - but sanitize the keyword so it does not get translated
+            }
+            else
             {
                 if (line.StartsWith("uid:", StringComparison.OrdinalIgnoreCase))
                 {
                     if (line.Contains("-en-"))
                         line = line.Replace("-en-", "-" + lang + "-");
+                    else
+                    if (line.EndsWith("-en"))
+                        line = line.Substring(0, line.Length-3) + "-" + lang;
                     else
                         line = line.TrimEnd() + "-" + lang;
                 }
@@ -229,6 +238,7 @@ void LoadFile(string filename, string lang)
             // keep it
             line = line.Replace("1:", "title:");
             line = line.Replace("2:", "description:");
+            line = line.Replace("3:", "keywords:");
             output.Add(line);
         }
         else // not in front-matter
@@ -241,16 +251,74 @@ void LoadFile(string filename, string lang)
                 if (links.TryGetValue(key, out string link))
                     output.Add(link);
                 else
-                    output.Add(line.Replace(" ", ""));
+                    output.Add(line.Replace(" ", "")); // fallback - just trim the spaces.
             }
             else // not a link
             {
+                line = Unfuck(line);
                 output.Add(line);
             }
         }
     }
     File.WriteAllLines(filename, output);
     File.Delete(metaFilename);
+}
+
+string Unfuck(string line)
+{
+    // ** dialogboksene** Avtale**, Oppgave**, **Samtale** og **Dokument**: 
+    if (CountBolds(line) % 2 == 1)
+    {
+        // line = Regex.Replace(line, @"\*\*([,.]+) (\w+)\*\*", "**$1 **$2**");
+
+    }
+
+
+    line = line.Replace("** .", "**."); // Closing bold
+    line = line.Replace("** :", "**:");
+    line = line.Replace(" ] [", "][");
+    line = line.Replace("] [", "][");
+
+    // Fix malformed markdown bold text
+    // from: "something here ** Legg til hendelse ** and more here**matches here ** too, and maybe even ** one more**test."
+    //   to: "something here **Legg til hendelse** and more here **matches here** too, and maybe even **one more** test."
+
+    line = Regex.Replace(line, @"\s?\*\*(.*?)\*\*\s?", m => $" **{m.Groups[1].Value.Trim()}** ");
+
+    // Fix uppercased image links
+    // from: "Here is a sentence that should contain an image link that looks like this [Img][33], so [Img33][33] does this work [Img3][4], [Img33][4]? Does this work on normal [Something][3] too`?";
+    //   to: "Here is a sentence that should contain an image link that looks like this [img][33], so [img33][33] does this work [img3][4], [img33][4]? Does this work on normal [Something][3] too`?";
+    // _container.RegularExpressions.Add(@"\[Img\d*\]\[\d+\]", m => $"{m.Groups[0].Value.ToLower()}");
+    line = Regex.Replace(line, @"\[Img", m => $"{m.Groups[0].Value.ToLower()}");
+
+    // Fix malformed markdown NOTE and TIP and WARN text
+    // from: "something here [! TIP] and [! WARN] and [! NOTE] here."
+    //   to: "something here [!TIP] and [!WARN] and [!NOTE] here."
+    line = Regex.Replace(line, @"\[\s?!\s?\w+\s?\]", m => $"{m.Groups[0].Value.Replace(" ", "")}");
+
+    // Fix malformed markdown image links
+    // from: "I tjeneste: Velg ! [ikon] [img2] va da ![ some] [more ] here and one more with a digit ![ some] [4 ].""
+    //   to: "I tjeneste: Velg ![ikon][img2] va da ![some][more] here and one more with a digit ![some] [4].""
+    // _container.RegularExpressions.Add(@"\!\s?\[\s?|\w*\]\s?\[\s?\w+\s?\]", m => $"{m.Groups[0].Value.Replace(" ", string.Empty)}");
+
+    // Fix instances where there is no space between a word and a markdown image link.
+    // from: "I tjeneste: Velg![ikon][img2]"
+    //   to: "I tjeneste: Velg ![ikon][img2]"
+    line = Regex.Replace(line, @"[a-zA-Z]\!\s?\[", m => $"{m.Groups[0].Value.Replace("!", " !")}");
+
+    return line;
+}
+
+int CountBolds(string line)
+{
+    int c = 0;
+    int idx = line.IndexOf("**");
+    while( idx < line.Length && idx > 0)
+    {
+        c++;
+        idx = line.IndexOf("**", idx);
+    }
+    return c;
 }
 
 (string[] frontmatter, Dictionary<string,string> links) ReadMetafile(string metaFilename)

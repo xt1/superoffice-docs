@@ -2,6 +2,7 @@
 
 $lang = $args[0]
 echo "Setting $lang on files"
+cd $lang
 
 Get-ChildItem -R *.htm | Rename-item -NewName { $_.Name -replace '.htm',"_$lang.htm" }
 Get-ChildItem -R *.html | Rename-item -NewName { $_.Name -replace '.html',"_$lang.htm" }
@@ -22,3 +23,5 @@ Get-ChildItem -R *.htm |  ForEach-Object{
     [System.IO.File]::WriteAllText($dst, $content)
     
 } 
+
+cd ..

@@ -20,6 +20,8 @@ set LANGCODE=%LANG%
 if "%LANGCODE%" == "no" set LANGCODE=nb
 if "%LANGCODE%" == "se" set LANGCODE=sv
 
+if not exist glossary-en-%LANGCODE%.tsv ..\training\GenGlossary\GenGlossary.exe glossary.tsv ..\training\gloss-md.tsv
+
 if exist "docs\en" rmdir docs\en /s /q
 if exist "docs\%LANG%" rmdir docs\%LANG% /s /q
 
@@ -59,4 +61,5 @@ Robocopy tmp.%LANG% docs\%LANG% *.md /s /njh /njs /np >NUL:
 
 FixMetadata\FixMetadata.exe load %LANG% docs\%LANG%
 
-Robocopy docs\%LANG% ..\..\docs\%LANG% /s /njh /njs /np >NUL:
+rem Exclude PNGs, since those have been translated
+Robocopy docs\%LANG% ..\..\docs\%LANG% /s /njh /njs /np /xf *.png >NUL:

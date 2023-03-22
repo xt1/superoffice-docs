@@ -100,14 +100,6 @@
           }
         }
       },
-      "System.ServiceModel.Primitives/4.8.1.0": {
-        "runtime": {
-          "System.ServiceModel.Primitives.dll": {
-            "assemblyVersion": "4.8.1.0",
-            "fileVersion": "4.800.121.7802"
-          }
-        }
-      },
       "System.Drawing.Common/6.0.0.0": {
         "runtime": {
           "System.Drawing.Common.dll": {
@@ -287,11 +279,6 @@
       "sha512": ""
     },
     "SoCore/10.2.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "System.ServiceModel.Primitives/4.8.1.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
