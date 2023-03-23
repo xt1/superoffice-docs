@@ -367,3 +367,5 @@ tools/training/artifacts
 .playwright/
 tools/translate/WebShooter/.playwright
 setenv.bat
+*.xlf
+

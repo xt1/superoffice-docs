@@ -267,11 +267,11 @@ void LoadFile(string filename, string lang)
 string Unfuck(string line)
 {
     // ** dialogboksene** Avtale**, Oppgave**, **Samtale** og **Dokument**: 
-    if (CountBolds(line) % 2 == 1)
-    {
-        // line = Regex.Replace(line, @"\*\*([,.]+) (\w+)\*\*", "**$1 **$2**");
+    //if (CountBolds(line) % 2 == 1)
+    //{
+    //    // line = Regex.Replace(line, @"\*\*([,.]+) (\w+)\*\*", "**$1 **$2**");
 
-    }
+    //}
 
 
     line = line.Replace("** .", "**."); // Closing bold
@@ -313,10 +313,10 @@ int CountBolds(string line)
 {
     int c = 0;
     int idx = line.IndexOf("**");
-    while( idx < line.Length && idx > 0)
+    while( idx < line.Length && idx >= 0)
     {
         c++;
-        idx = line.IndexOf("**", idx);
+        idx = line.IndexOf("**", idx+1);
     }
     return c;
 }

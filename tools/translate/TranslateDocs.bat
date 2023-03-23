@@ -9,6 +9,8 @@ if x%AZCON% == x exit /b
 if x%AZKEY% == x echo Missing environment variable AZKEY - 1234abcd53d944489bec6e00f6a82c6f for translator Keys and Endpoint
 if x%AZKEY% == x exit /b
 
+if "%LOGIN_USER%x%LOGIN_PASS%" == "x" echo Missing LOGIN_USER and LOGIN_PASS, so won't take new screenshots after translation.
+
 set LANG=%1
 set CATEGORYID=%2
 
@@ -62,4 +64,11 @@ Robocopy tmp.%LANG% docs\%LANG% *.md /s /njh /njs /np >NUL:
 FixMetadata\FixMetadata.exe load %LANG% docs\%LANG%
 
 rem Exclude PNGs, since those have been translated
+echo Copy tmp MD and YML back to docs\%LANG%
 Robocopy docs\%LANG% ..\..\docs\%LANG% /s /njh /njs /np /xf *.png >NUL:
+
+if "%LOGIN_USER%" == "" exit /b
+if "%LOGIN_PASS%" == "" exit /b
+echo Shooting webshots for %LANG%
+
+.\WebShooter\Webshooter.exe -vv ..\..\webshots\login.yml ..\..\webshots\media.yml -u https://sod2.superoffice.com/Cust40407/default.aspx -p "LoginUsername=%LOGIN_USER%" -p "LoginPassword=%LOGIN_PASS%" -p Lang=%LANG% -o ..\..\docs\%LANG%
