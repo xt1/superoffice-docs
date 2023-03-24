@@ -1,57 +1,57 @@
 ---
-title: Fanen Salg (Dagbok)
-description: Fanen Salg seksjon (Dagbok)
+title: Detaljkortet Salg (Dagbok)
+description: Detaljkortet Salg (Dagbok)
+keywords: CRM
 uid: help-no-diary-screen-sales
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Fanen Salg inndeling
+# Detaljkortet Salg
 
-![Fanen Salg (Dagbok) – skjermbilde][img4]
+![Detaljkortet Salg (Dagbok) -skjermbilde][img4]
 
-I tillegg til [Inndelingsfanen Aktiviteter][1]Dagbok inneholder også **** Salg-delen, som viser viktig informasjon om salg.
+I tillegg til [Detaljkortet Aktiviteter][1]inneholder Dagbok også **detaljkortet Salg** , som viser grunnleggende informasjon om salg.
 
 Følgende data vises:
 
-* Datoen for neste aktivitet registrert for salget (den eldste oppfølgingen som ennå ikke er fullført)
+* Datoen for neste aktivitet som er registrert for salget (den eldste oppfølgingen som ennå ikke er utført)
 
     > [!TIP]
-    > For å finne ut hva denne neste oppfølgingen er, dobbeltklikker du på salget for å åpne **Salg-skjermen**. Oppfølgingen kan ses i seksjonsfanen **Aktiviteter** i salget.
+    > Hvis du vil vite hva neste oppfølging er, dobbeltklikker du på salget for å åpne **** Salg-bildet. Oppfølgingen kan vises på **detaljkortet Aktiviteter** i salget.
 
-* Den nåværende fasen av salget
+* Gjeldende fase av salget
 
-* Salgssummen
+* Salgsbeløpet
 
-* Navnet på selskapet salget er knyttet til
+* Navnet på firmaet salget er knyttet til
 
-* Enhver kontakt salget er knyttet til
+* Eventuell person som salget er knyttet til
 
 * Navnet på salget
 
 * Salgsdatoen (estimert, solgt eller tapt)
 
-* Et statusikon for salget, som viser om det er solgt![ikon][img1], tapt ![ikon][img2] eller stoppet ![ikon][img3] (hvis det ikke er noe ikon, er salget "åpent") (se [Stanset, solgt og tapt salg][4])
+* Et statusikon for salget, som viser om det er solgt ![Ikonet][img1], tapt ![Ikonet][img2] eller utsatt ![Ikonet][img3] (hvis det ikke er noe ikon, er salget "åpent") (se [Utsatte, solgte og tapte salg][4])
 
-Salg som ikke er merket som fullført, vises i denne listen.
+Salg som ikke er merket som utført, vises i denne listen.
 
 ## Den Salg sekretæren
 
-Den **Salg** seksjonsfanen i dagboken fungerer som en slags "salgssekretær" for å hjelpe deg med å holde oversikt over salget ditt - aktivitetene du planlegger og de du har glemt å gjøre. På denne måten **** er kategorien Salg inndeling en salgsorientert oppgaveliste, som viser følgende:
+Detaljkortet **Salg** i dagboken fungerer som en slags "salgssekretær" som hjelper deg med å holde oversikten over salget – aktivitetene du planlegger og de du har glemt å gjøre. På denne måten  er **detaljkortet Salg** en salgsrettet oppgaveliste som viser deg følgende:
 
-* Alle ikke-fullførte salg der salgsdatoen er innenfor det definerte visningsområdet.
+* Alle salg som ikke er utført, der salgsdatoen er innenfor det definerte visningsområdet.
 
-* Alle salg med planlagte aktiviteter for et bestemt antall dager fremover.
+* Alle salg med planlagte aktiviteter i et bestemt antall dager fremover.
 
     > [!NOTE]
-    > Antall dager fremover, basert på neste aktivitetsdato, er definert i **dialogboksen Innstillinger** . Gå til ![ikon][img5] **Personlige innstillinger > Innstillinger**. Velg **Funksjoner** > **Vis dager fremover**.
+    > Antall dager fremover, basert på neste aktivitetsdato, defineres i  dialogboksen **Preferanser** . Gå til ![Ikonet][img5] **Personlige innstillinger > Preferanser** . Velg **Funksjoner** > **Vis dager fremover** .
 
-* Alle salg med forfalte aktiviteter (sluttdato er tidligere enn i dag). Disse salgene vises i rødt.
+* Alle salg med forfalte aktiviteter (sluttdato er tidligere enn i dag). Disse salgene vises med rødt.
 
-* [Stanset salget][4] der du har satt en gjenåpningsdato. Gjenåpningsdatoen overskriver datoen  i Neste ** aktivitet-feltet og vises ** i kolonnen Neste aktivitet** i **** Salg-delen.**
+* [Utsatte salg][4] der du har angitt gjenåpningsdato. Gjenåpningsdatoen overskriver datoen i  feltet **Neste aktivitet** og vises i  kolonnen **Neste aktivitet** på **detaljkortet Salg** .
 
 <!-- Referenced links -->
 [1]: activities-tab.md

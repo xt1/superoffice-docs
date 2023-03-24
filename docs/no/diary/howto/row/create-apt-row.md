@@ -1,10 +1,10 @@
 ---
 title: Opprette en avtalerad
 description: Slik oppretter du en avtalerad.
+keywords: dagbok, kalender, avtale, API, rad, AvtaleRow
 uid: create_appointment_row-no
 author: Bergfrid Skaara Dias
 so.date: 11.04.2021
-keywords: diary, calendar, appointment, API, row, AppointmentRow
 so.topic: howto
 # so.envir:
 # so.client:
@@ -12,21 +12,21 @@ so.topic: howto
 
 # Opprette en avtalerad
 
-En [AppointmentRow][2] refererer til en rad i [database tabell for avtaledatabase][1]. Derfor består den av grunnleggende datatyper som støttes av SQL. For å opprette en `AppointmentRow` bruker vi navnerommet `SuperOffice.CRM.Rows` .
+En [AvtaleÅr][2] refererer til en rad i [tabell for avtaledatabase][1]. Den består derfor av grunnleggende datatyper som støttes av SQL. For å opprette en `AppointmentRow` bruker vi navneområdet `SuperOffice.CRM.Rows` .
 
-Følgende eksempel viser hvordan vi oppretter en avtale ved hjelp av `AppointmentRow` klassen.
+Eksempelet nedenfor viser hvordan vi oppretter en avtale ved hjelp av `AppointmentRow` klassen.
 
-## Kode
+## Koden
 
-[!code-csharp[CS]](includes/create-apt-row.cs)
+[!code-csharp[CS](includes/create-apt-row.cs)]
 
 ## Gjennomgang
 
-Det første trinnet i eksemplet viser hvordan du starter en `AppointmentRow` klasse, og deretter er neste trinn å angi standardverdiene for den med metoden `SetDefaults` .
+Det første trinnet i eksempelet viser hvordan du umiddelbart angir en `AppointmentRow` klasse, og deretter angir neste trinn standardverdiene for den med `SetDefaults` metoden.
 
-[!code-csharp[CS]](includes/create-apt-row.cs?range=6,9)
+[!code-csharp[CS](includes/create-apt-row.cs?range=6,9)]
 
-De neste setningene viser hvordan de forskjellige egenskapene til de `AppointmentRow` tilordnes. Når slike oppgaver er gjort, kan raden lagres med metoden som er `Save` tilgjengelig i `AppointmentRow` klassen.
+De neste uttalelsene viser hvordan de ulike egenskapene til disse `AppointmentRow` er tildelt. Når slike fordelinger er gjort, kan raden lagres med `Save` metoden som er tilgjengelig i `AppointmentRow` klassen.
 
 <!-- Referenced links -->
 [1]: ../../../database/tables/appointment.md

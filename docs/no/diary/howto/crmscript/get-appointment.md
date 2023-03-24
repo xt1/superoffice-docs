@@ -1,10 +1,10 @@
 ---
 title: Få avtaler
-description: Hvordan få avtaler med CRMScript
+description: Slik får du avtaler med CRMScript
+keywords: CRMScript, kalender, dagbok, avtale, oppfølging, NSAppointment
 uid: crmscript-get-appointment-no
 author: Bergfrid Skaara Dias
 so.date: 03.18.2022
-keywords: CRMScript, calendar, diary, appointment, follow-up, NSAppointment
 so.topic: howto
 ---
 
@@ -13,11 +13,11 @@ so.topic: howto
 > [!TIP]
 > Du kan bare hente avtaler for personer som er SuperOffice brukere ([Associates][1]).
 >
-> Den påloggede brukeren må også ha tillatelse til å vise disse avtalene. Ellers kastes et unntak.
+> Den påloggete brukeren må også ha tillatelse til å vise disse avtalene. Ellers kastes det et unntak.
 
-## NSAppointment[] GetAppointmentList([] Heltalls-IDer)
+## NSAppointment[] GetAppointmentList([] Heltall-IDer)
 
-Henter en samling avtaler som tilsvarer en liste over ID-er.
+Henter en samling avtaler som tilsvarer en liste over IDer.
 
 ```crmscript!
 Integer[] appointmentIDs;
@@ -34,11 +34,11 @@ for(Integer i = 0; i < appointmentList.length(); i++) {
 ```
 
 > [!TIP]
-> Du kan også bruke [arkiv agent][2] til å hente avtaler.
+> Du kan også bruke [arkivagent][2] til å hente avtaler.
 
-## NSAppointment[] GetPersonDiary(Heltall personId, DateTime startTime, DateTime endTime; Heltallstall)
+## NSAppointment[] GetPersonDiary(HeltallspersonId, DateTime startTid, DateTime endTime, Heltallsantall)
 
-Henter et begrenset antall avtaler innenfor et tidsintervall for den gitte personen. `GetPersonDiary()`  vil ignorere avtaler som ikke vises i brukerens dagbok.
+Henter et begrenset antall avtaler innen et tidsperiode for den angitte personen.  `GetPersonDiary()` ignorerer ikke avtaler som ikke vises i brukerens dagbok.
 
 ```crmscript!
 NSAppointmentAgent appointmentAgent;
@@ -54,11 +54,11 @@ for(Integer i = 0; i < appointmentList.length(); i++) {
 ```
 
 > [!TIP]
-> Sett til `count` -1 for ikke å begrense samlingen av avtaler som er hentet.
+> Sett `count` til -1 for ikke å begrense innsamlingen av avtaler som er hentet.
 
-## NSAppointment[] GetPersonAppointments(Heltall personId, Bool includeProjectAppointments, DateTime startTime, DateTime endTime, Heltall)
+## NSAppointment[] GetPersonAppointments(HeltallspersonId, Bool inkludererProjectAppointments, DateTime startTime, DateTime endTime, Antall heltall)
 
-Samme  som `GetPersonDiary()`, men vil også inkludere alle avtaler i prosjekter som brukeren er medlem av hvis satt til **sann**.
+Samme som `GetPersonDiary()`, men vil også omfatte alle avtaler i prosjekter som brukeren er medlem av, hvis det er satt til **sann** .
 
 ```crmscript!
 NSAppointmentAgent appointmentAgent;

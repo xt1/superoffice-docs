@@ -1,44 +1,44 @@
 ---
 title: Opprette avtaler
 description: Opprette avtaler
+keywords: CRM
 uid: help-no-appointment-create
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Opprette avtale
+# Opprett avtale
 
-Det er mange måter å opprette en avtale på. I alle tilfeller angir du [Avtale detaljer][2] ** dialogboksen** Avtale.
+Du kan opprette en avtale på mange måter. I alle tilfeller angir du [detaljer om avtalen][2] **dialogboksen Avtale** .
 
-## Opprett avtale fra hvor som helst i SuperOffice CRM
-
-Gjør ett av følgende:
-
-* Velg **Ny** > **Avtale** på [øverste linje][3].
-* Klikk **Oppgave-knappen** (![ikon][img1])) på kontaktkortet, og velg **Sak et møte**.
-* Klikk på **Legg** til-knappen i ** kategorien Aktiviteter-delen.**
-
-## Opprette avtale fra Dagbok-skjermen
+## Opprett avtale overalt i SuperOffice CRM
 
 Gjør ett av følgende:
 
-* Klikk på **Legg til-knappen** på seksjonsfanene.
+* Velg **Ny** > **Avtale** på [toppraden][3].
+* Klikk på **** Oppgave-knappen (![Ikonet][img1])) i personkortet, og velg **Sak et møte** .
+* Klikk på **Legg** til-knappen på **detaljkortet Aktiviteter** .
 
-* Klikk tidspunktet du vil at oppfølgingen skal starte, og hold museknappen nede mens du drar musen til ønsket sluttidspunkt for oppgaven. Et blått område vises mens du definerer tidsluken før oppfølgingsdialogboksen åpnes.
+## Opprett avtale fra Dagbok-bildet
 
-* Dobbeltklikk et klokkeslett i Dagbok. Oppfølgingsdialogboksen vises med en standardvarighet for oppfølgingen.
+Gjør ett av følgende:
 
-* Høyreklikk et tidspunkt i Dagbok og velg **Ny**. Oppfølgingsdialogboksen vises med en standardvarighet for oppfølgingen.
+* Klikk på **Legg** til-knappen på detaljkortene.
 
-* Dobbeltklikk på en tom linje i ** kategorien Aktiviteter-delen nederst på **** Dagbok-skjermen.**
+* Klikk på tidspunktet du vil at oppfølgingen skal starte på, og hold museknappen nede mens du drar musen til ønsket sluttidspunkt for oppgaven. Det vises et blått område mens du definerer tidsrommet før dialogboksen for oppfølginger åpnes.
 
-* Klikk på **Ny** i topplinjen, og velg **Avtale**, **Samtale** eller **Oppgave**.
+* Dobbeltklikk på et klokkeslett i Dagbok. Dialogboksen for oppfølginger vises med standard varighet for oppfølgingen.
+
+* Høyreklikk på et klokkeslett i Dagbok og velg **Ny** . Dialogboksen for oppfølginger vises med standard varighet for oppfølgingen.
+
+* Dobbeltklikk på en tom linje i **detaljkortet Aktiviteter** nederst i **Dagbok-bildet** .
+
+* Klikk **på Ny** i toppraden, og velg **Avtale** , **Samtale** eller **Oppgave** .
 
 > [!NOTE]
-> Hvis du oppretter avtalen fra  kategorien **Vis** (se [Visning-fanen][1]), kan du velge å fylle **** ut dialogboksen Deltakere automatisk med medlemmene i visningen. Hvis du vil angi dette alternativet, går du ![ikon][img2] til Personlige innstillinger**  > **Innstillinger** > **funksjoner** og setter ** innstillingen Deltakere fra gruppevisning** til ** **Ja**. Klikk på **Lagre**.
+> Hvis du oppretter avtalen fra fanen **Oversikt** (se [Fanen Oversikt][1]), kan du velge at  dialogboksen **Deltakere** skal fylles ut automatisk med deltakerne i oversikten. Hvis du vil angi dette alternativet, går du til ![Ikonet][img2] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og setter preferansen **Deltakere fra gruppeoversikt** til **Ja** . Klikk på **Lagre** .
 
 <!-- Referenced links -->
 [1]: screen/view.md

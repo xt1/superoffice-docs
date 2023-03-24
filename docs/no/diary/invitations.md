@@ -1,60 +1,60 @@
 ---
 title: Invitasjoner
-description: Innkalling til møter eller andre avtaler med flere deltakere.
+description: Innkalle til møter eller andre arrangementer med flere deltakere.
+keywords: dagbok, kalender, avtale, invitasjon, møte, medarbeider, deltaker
 uid: invitations-intro-no
 author: Bergfrid Skaara Dias
 so.date: 03.18.2022
-keywords: diary, calendar, appointment, invitation, meeting, associate, participant
 so.topic: concept
 ---
 
 # Invitasjoner
 
-Når to avtaler har en delt tekstpost og forskjellige statusverdier, kan det kalles en **invitasjon**.
+Når to avtaler har en delt tekstoppføring og ulike statusverdier, kan det kalles en **invitasjon** .
 
-Invitasjoner opprettes **** når du ringer til møter eller andre ordninger mellom ulike medlemmer av et selskap. Møter har  flere **deltakere**: Du inviterer flere medarbeidere eller ressurser til å bli med.
+Invitasjoner **opprettes** når du kaller møter eller andre ordninger mellom ulike medlemmer av et firma. Møter har flere **deltakere** : Du inviterer flere medarbeidere eller ressurser til å delta.
 
-Mens avtaler med eieren pluss en ressurs teknisk sett er bestillinger, definerer vi her et **møte** som:
+Mens avtaler med eieren pluss én ressurs teknisk sett er bestillinger, definerer vi her et **møte** som:
 
 * 2 eller flere personer
 * eventuelt en ressurs
 
-Når vi lagrer avtalen, vil en invitasjon også bli lagt til personen vi inviterte og vil bli vist i dagboken til personen på riktig dato og klokkeslett.  **Dette skjer bare hvis den inviterte personen også er en medarbeider.**  Du kan invitere personer som tilhører andre kontakter også, disse vil ikke ha en dagbok der timen vises, men den vil bli vist i aktivitetsarkivet til kontakten deres i stedet.
+Når vi lagrer avtalen, legges det også til en invitasjon til personen vi inviterte, og den vises i dagboken til personen på ønsket dato og klokkeslett.  **Dette skjer bare hvis den inviterte personen også er medarbeider.**  Du kan invitere personer som tilhører andre personer også, disse vil ikke ha en dagbok der avtalen vises, men den vil i stedet vises i aktivitetsarkivet til personen.
 
-> [!NOTE]Ressurser og ikke-brukerpersoner mottar ikke invitasjoner – avtalen opprettes bare som en vanlig avtale for disse deltakerne.
+> [!NOTE]Ressurser og ikke-brukerpersoner mottar ikke invitasjoner – avtalen opprettes akkurat som en vanlig avtale for disse deltakerne.
 > 
-Når en invitasjon er **akseptert**,  vil den vises i brukerens dagbok.
+Når en invitasjon **godtas** , vises den i brukerens dagbok.
 
 ## Relevante statuser
 
 | Status | Beskrivelse |
 |:-:|----|
-| 5  | Invitasjon (innledende status for en bestilling) |
+| 5  | Invitasjon (innledende status for bestilling) |
 | 6  | Møtet er flyttet, be om nytt svar |
 | 7  | Brukeren har sett, men ikke avslått eller godtatt invitasjonen |
 | 8  | Møtet er flyttet. Brukeren har sett, men ikke svart på invitasjonen |
 | 9  | Brukeren har avslått møtet |
 | 10 | Møtet avlyses |
 
-## Tilgjengelige fremgangsmåter
+## Tilgjengelige how-tos
 
-### Skape
+### Opprette
 
-* [Opprette invitasjon – CRMScript][8]
-* [Opprette invitasjon – nettjenester][5]
+* [Opprett invitasjon - CRMScript][8]
+* [Opprette invitasjon – webtjenester][5]
 * [Opprette invitasjon – enhet][3]
-* [Opprett invitasjon – rå SQL][1]
+* [Opprette invitasjon – rå SQL][1]
 
 ### Få
 
-* [Få invitasjoner - webtjenester][6]
+* [Hent invitasjoner - webtjenester][6]
 
 ### Godta
 
 * [Godta invitasjon - CRMScript][9]
-* [Godta invitasjon - webtjenester][7]
+* [Godta invitasjon – webtjenester][7]
 * [Godta invitasjon – enhet][4]
-* [Godta invitasjon - rå SQL][2]
+* [Godta invitasjon – rå SQL][2]
 
 <!-- Referenced links -->
 [1]: howto/sql/create-invitation-sql.md

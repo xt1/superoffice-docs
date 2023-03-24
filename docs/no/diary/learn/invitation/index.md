@@ -1,47 +1,47 @@
 ---
-title: Opprette oppfølging med medarbeiderne dine
-description: Opprette oppfølging med medarbeiderne dine
+title: Opprette oppfølginger med andre medarbeidere
+description: Opprette oppfølginger med andre medarbeidere
+keywords: CRM
 uid: help-no-invitation
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Inviter medarbeiderne dine til en oppfølging
+# Invitere andre medarbeidere til en oppfølging
 
-Hvis du vil tildele tid til et møte med én eller flere medarbeidere, bruker du ** kategorien Vis** i **** Dagbok-skjermbildet. Her kan du åpne medarbeidernes dagbøker for å se når kollegene dine er tilgjengelige for et møte. I tillegg kan du velge å se ressurser som konferanserom, for å se når de er ledige og sette opp en felles reservasjon for alle fra din egen dagbok.
+Hvis du vil sette av tid til et møte med én eller flere medarbeidere, bruker **** du fanen Oversikt i **** Dagbok-bildet. Her kan du åpne andre medarbeideres dagbøker for å se når kollegene dine er tilgjengelige for et møte. I tillegg kan du velge å vise ressurser som møterom, for å se når de er ledige og registrere en felles reservasjon for alle innenfra din egen dagbok.
 
-Oppfølginger med medarbeidere settes opp ved å knytte dem som deltakere til oppfølgingen.
+Oppfølginger med medarbeidere opprettes ved å knytte dem til oppfølgingen som deltakere.
 
 ## <a id="status" />Status
 
-Brukerne du valgte å koble til en oppfølging vil bli varslet om dette på skjermene sine. Hvis du åpner oppfølgingens **** Deltakere-fane, vil du se en liste over deltakere og ressurser knyttet til oppfølgingen. Du kan også se hvem som godtok eller avslo invitasjonen, og hvilke ressurser som er bestilt, fra symbolene ved siden av navnene:
+Brukerne du valgte å knytte til en oppfølging, får melding om dette i bildene sine. Hvis du åpner oppfølgingen på fanen **Deltakere** , ser du en liste over deltakere og ressurser som er knyttet til oppfølgingen. Du kan også se hvem som har godtatt eller avslått invitasjonen og hvilke ressurser som er bestilt, fra symbolene ved siden av navnene:
 
-| Ikon | Beskrivelse |
+| Ikonet | Beskrivelse |
 |---|---|
-| ![ikon][img1] | Invitasjonen godtas. |
-| ![ikon][img2] | Invitasjonen avslås. |
-| ![ikon][img3] | Invitasjonen blir sett, men ikke besvart. |
-| Umerkede | Invitasjonen har ikke blitt sett. |
+| ![Ikonet][img1] | Invitasjonen godtas. |
+| ![Ikonet][img2] | Invitasjonen avslås. |
+| ![Ikonet][img3] | Invitasjonen ses, men blir ikke besvart. |
+| Umerkede | Invitasjonen er ikke sett. |
 
 ### Ressurser
 
-Når du kobler ressurser, settes statusen til *godtatt* fordi en ressurs ikke kan svare på selve invitasjonen.
+Når du knytter ressurser, settes statusen til *godtatt* fordi en ressurs ikke kan svare på invitasjonen selv.
 
-Det er mulig å dobbeltbestille en ressurs. Hvis en ressurs ikke er ledig på det aktuelle tidspunktet, ** vises Konflikt** i **Status-kolonnen**. Et utropstegn vises også i  dialogboksen **Avtale**. Du bør endre tidspunktet for oppfølgingen. Feltet **Første tilgjengelige ** viser det første tilgjengelige møtetidspunktet.
+Det er mulig å dobbeltbehandler en ressurs. Hvis en ressurs ikke er ledig på det aktuelle tidspunktet, **vises Konflikt** i  kolonnen **Status** . I tillegg vises det et utropstegn i **dialogboksen Avtale** . Du bør endre tidspunktet for oppfølgingen. I  feltet **Første ledige** vises første ledige møtetidsrom.
 
-### Eksterne kontakter
+### Eksterne personer
 
-Personene du velger under **Firma** i **dialogboksen Invitasjon**, er vanligvis ikke medlemmer av organisasjonen. Du kan sende invitasjonen til dem via e-post ved å bruke  alternativet **E-postinvitasjon**. E-postinvitasjoner som sendes til eksterne kontakter, inneholder en iCal-fil (.ics) med invitasjonsdataene. Når de svarer på invitasjonen din, oppdateres statusen automatisk i SuperOffice.
+Personene du velger under **Firma** i  dialogboksen **Invitasjon** , er vanligvis ikke med i organisasjonen. Du kan sende invitasjonen til dem via e-post ved hjelp av  alternativet **E-postinvitasjon** . Invitasjons-e-postmeldinger som sendes til eksterne personer, inneholder en iCal-fil (.ics) med invitasjonsdataene. Når de svarer på invitasjonen din, oppdateres statusen automatisk i SuperOffice.
 
-Oppfølgingen vises i seksjonsfanen **Aktiviteter** for det aktuelle selskapet.
+Oppfølgingen vises på **detaljkortet Aktiviteter** for det aktuelle firmaet.
 
 ## Hva vil du gjøre?
 
 * [Legge til deltakere i oppfølginger][2]
-* [Opprette gruppevisninger][1]
+* [Opprette gruppeoversikter][1]
 * [Motta invitasjoner][3]
 
 <!-- Referenced links -->

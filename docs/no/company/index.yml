@@ -1,12 +1,12 @@
 ### YamlMime:Category
 
 title: Firma
-summary: Velkommen til bedriftsområdet hvor du kan finne relevante lenker til alt som har med selskaper å gjøre.
+summary: Velkommen til firmaområdet der du kan finne relevante koblinger til alle ting knyttet til firmaer.
 brand: devdocs
 
 metadata:
   title: Firma
-  description: "Lær om og arbeid med et virkelig selskap eller organisasjon; et selskap i brukergrensesnittet; en kontakt i databasen."
+  description: "Lær om og arbeid med et ekte firma eller en organisasjon; et firma i brukergrensesnittet. en person i databasen."
   so.product: superoffice
   so.topic: hub-page
   so.collection: collection
@@ -20,11 +20,11 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
   items:
     # Card
-    - title: Brukerhåndbok
+    - title: Brukerguide
       itemType: reference
       url: learn/index.md
     # Card
-    - title: Mal variabler
+    - title: Malvariabler
       itemType: reference
       url: ../document/templates/variables/from-company-card.md
     # Card
@@ -43,16 +43,16 @@ conceptualContent:
   summary: ""
   items:
   # Card
-    - title: Lær det viktigste
+    - title: Lær det grunnleggende
       summary: ""
       links:
-      - text: Hvorfor legge til selskaper og kontakter til CRM er viktig
+      - text: Hvorfor legge til firmaer og personer i CRM er viktig
         itemType: learn
         url: https://community.superoffice.com/en/learning/user-guide/company-contact/
-      - text: Hvordan legge til et selskap
+      - text: Slik legger du til et firma
         itemType: learn
         url: https://community.superoffice.com/en/learning/user-guide/company-contact/add-company/
-      - text: Hvordan søke etter selskaper
+      - text: Slik søker du etter firmaer
         itemType: learn
         url: https://community.superoffice.com/en/learning/user-guide/get-started/search-find/
 
@@ -63,7 +63,7 @@ conceptualContent:
       - text: Slik importerer du kundekontakter
         itemType: video
         url: https://www.youtube.com/watch?v=dVkCfpOkNl8
-      - text: Hvordan gruppere informasjon
+      - text: Slik grupperer du informasjon
         itemType: video
         url: https://www.youtube.com/watch?v=a3AC64pheok
       - text: Slik filtrerer du informasjon
@@ -71,10 +71,10 @@ conceptualContent:
         url: https://www.youtube.com/watch?v=HYYI4ZCl4S4
 
     # Card
-    - title: Alternativer for konfigurasjon
+    - title: Konfigurasjonsalternativer
       summary: ""
       links:
-        - text: Brukerens preferanser
+        - text: Brukerpreferanser
           itemType: reference
           url: ../admin/user-preferences/index.md
 
@@ -85,27 +85,27 @@ conceptualContent:
       - text: Webpaneler
         itemType: overview
         url: ../ui/web-panels/index.md
-      - text: SoProtocol - skape selskap
+      - text: SoProtocol - opprett firma
         itemType: how-to-guide
         url: ../ui/soprotocol/create-contact.md
       - text: SoProtocol - få selskap
         itemType: how-to-guide
         url: ../ui/soprotocol/get-contact.md
-      - text: SoProtocol - rediger selskap
+      - text: SoProtocol - rediger firma
         itemType: how-to-guide
         url: ../ui/soprotocol/edit-contact.md
 
     # Card
-    - title: Alternativer for data
+    - title: Dataalternativer
       summary: ""
       links:
       - text: Egendefinerte felt
         itemType: overview
         url: ../custom-objects/overview.md
-      - text: UdcontactSmall bord
+      - text: UdcontactSmall tabell
         itemType: reference
         url: ../database/tables/udcontactsmall.md
-      - text: UdcontactLarge bord
+      - text: UdcontactLarge tabell
         itemType: reference
         url: ../database/tables/udcontactlarge.md
 
@@ -116,7 +116,7 @@ conceptualContent:
       - text: Oversikt
         itemType: overview
         url: ../automation/index.yml
-      - text: Utløsere
+      - text: Triggere
         itemType: concept
         url: ../automation/trigger/index.md
       - text: Webhooks
@@ -125,13 +125,13 @@ conceptualContent:
       - text: Zapier
         itemType: reference
         url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
-      - text: SCIM - sync selskap
+      - text: SCIM - sync firma
         itemType: how-to-guide
         url: ../identity-management/scim/provisioning/sync-company.md
 
     # Card
     - title: API-alternativer
-      summary: "Eksempler på hvordan man kan jobbe med selskaper og interesser i CRMScript og NetServer."
+      summary: "Eksempler på hvordan du arbeider med firmaer og interesser i CRMScript og NetServer."
       links:
       - text: CRMScript
         itemType: how-to-guide
@@ -153,25 +153,25 @@ conceptualContent:
         url: howto/services/index.md
 
     # Card
-    - title: Alternativer for database
+    - title: Databasealternativer
       summary: ""
       links:
       - text: Person tabell
         itemType: reference
         url: ../database/tables/contact.md
-      - text: Person tabell
+      - text: Persontabell
         itemType: reference
         url: ../database/tables/person.md
       - text: Medarbeider tabell
         itemType: reference
         url: ../database/tables/associate.md
-      - text: Brukergruppe-tabell
+      - text: Brukergruppetabell
         itemType: reference
         url: ../database/tables/usergroup.md
       - text: Adressetabell
         itemType: reference
         url: ../database/tables/address.md
-      - text: Landstabell
+      - text: Landtabell
         itemType: reference
         url: ../database/tables/country.md
       - text: Kategori tabell
@@ -180,9 +180,9 @@ conceptualContent:
       - text: Bransje tabell
         itemType: reference
         url: ../database/tables/business.md
-      - text: UdcontactSmall bord
+      - text: UdcontactSmall tabell
         itemType: reference
         url: ../database/tables/udcontactsmall.md
-      - text: UdcontactLarge bord
+      - text: UdcontactLarge tabell
         itemType: reference
         url: ../database/tables/udcontactlarge.md

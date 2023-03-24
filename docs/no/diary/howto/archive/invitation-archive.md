@@ -1,16 +1,16 @@
 ---
-title: Invitasjon Arkiv
-description: Invitasjon Arkiv
+title: Invitasjonsarkiv
+description: Invitasjonsarkiv
+keywords: dagbok, kalender, avtale, API, enhet, ArchiveAgent, ArchiveRestrictionInfo, GetArchiveListByColumns, ArchiveListItem, ArchiveColumnData
 uid: invitation_archive-no
 author: Bergfrid Skaara Dias
 so.date: 11.04.2021
-keywords: diary, calendar, appointment, API, entity, ArchiveAgent, ArchiveRestrictionInfo, GetArchiveListByColumns, ArchiveListItem, ArchiveColumnData
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Invitasjon Arkiv
+# Invitasjonsarkiv
 
 ```csharp
 using SuperOffice.CRM.Services;

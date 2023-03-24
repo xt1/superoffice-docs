@@ -1,29 +1,29 @@
 ---
-title: Aktiviteter-fanen (Firma skjerm)
-description: Aktiviteter-fanen (Firma skjerm)
+title: Fanen Aktiviteter (Firma bilde)
+description: Fanen Aktiviteter (Firma bilde)
+keywords: firma
 uid: help-no-company-screen-activities
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: company
 so.topic: reference
 language: no
 ---
 
-# Aktiviteter-fanen
+# Fanen Aktiviteter
 
- **** Inndelingsfanen Aktiviteter i **** Firma-skjermbildet inneholder alle aktivitetene som er knyttet til det aktive firmaet.
+Detaljkortet **Aktiviteter** i **** Firma-bildet inneholder alle aktivitetene som er knyttet til det aktive firmaet.
 
-[!include [Introduksjon til aktiviteter](../../../learn/includes/intro-activities.md)]
+[!include [Intro til aktiviteter](../../../learn/includes/intro-activities.md)]
 
-[!include [Innholdet i kategorien Aktiviteter](../../../learn/includes/activities-tab.md)]
+[!include [Kontenter av fanen Aktiviteter](../../../learn/includes/activities-tab.md)]
 
 ## Hva vil du gjøre?
 
 * [Vise aktiviteter][1]
 * [Slette aktiviteter][2]
-* [Svare på e-post fra inndelingsfanen Aktiviteter][3]
-* [Videresende e-post fra inndelingsfanen Aktiviteter][4]
-* [Bruke filtre i inndelingsfanene][5]
+* [Svare på e-post fra detaljkortet Aktiviteter][3]
+* [Videresende e-post fra detaljkortet Aktiviteter][4]
+* [Bruke filtre i detaljkortene][5]
 
 <!-- Referenced links -->
 [1]: ../../../learn/activity/view-activities.md

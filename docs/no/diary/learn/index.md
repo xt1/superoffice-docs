@@ -1,53 +1,53 @@
 ---
 title: Dagbok
 description: Dagbok
+keywords: CRM
 uid: help-no-diary
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
 # Dagbok
 
-Dagboken i SuperOffice CRM brukes omtrent som en filofax og har egne sider for hver dag, uke og måned.
+Dagboken i SuperOffice CRM brukes omtrent som en filofax og har separate sider for hver dag, uke og måned.
 
-Dagboken er et nyttig verktøy når du skal planlegge og utføre ulike typer oppgaver. Fra dagboken kan du se, redigere og slette [Aktiviteter][16].
+Dagboken er et nyttig verktøy når du vil planlegge og utføre ulike typer oppgaver. Fra dagboken kan du vise, redigere og slette [Aktiviteter][16].
 
-Du får også en [Liste over salg][13] å jobbe med, ved hjelp av **Salg** seksjonsfanen i **** Dagbok-skjermen.
+Du får også en [liste over salg][13] å jobbe med, ved hjelp av **detaljkortet Salg** i **** Dagbok-bildet.
 
-## Arbeid med oppfølging
+## Jobbe med oppfølginger
 
-I SuperOffice CRM er oppfølging en samlebetegnelse for [avtale][1]  , [oppgave][2], og [Telefonsamtale][3] aktiviteter. Disse fungerer i stor grad på samme måte.
+I SuperOffice CRM er oppfølging en samlebetegnelse for aktivitetene [Avtale][1], [Oppgave][2]og [Telefonsamtale][3] . Disse fungerer stort sett på samme måte.
 
 > [!NOTE]
-> Det er viktig å forstå skillet mellom aktiviteter og oppfølging (avtaler, oppgaver og telefonsamtaler).
-Når du oppretter oppfølging fra **** Dagbok-skjermbildet, defineres de som standard som avtaler. Du kan imidlertid endre oppfølgingstypen til oppgave eller telefonsamtale i typefeltet i [**Avtale** dialog][22].
+> Det er viktig å forstå forskjellen på aktiviteter og oppfølginger (avtaler, oppgaver og samtaler).
+Når du oppretter oppfølginger fra Dagbok-bildet **** , defineres de som standard som avtaler. Du kan imidlertid endre oppfølgingstypen til oppgave eller samtale i feltet for type i [ **Avtale** dialogboksen][22].
 
-Oppfølginger er nært knyttet til **** Dagbok-skjermen, og noen funksjoner gjelder spesielt for Dagbok.
+Oppfølginger er nært knyttet til **** Dagbok-bildet, og enkelte funksjoner gjelder spesielt for Dagbok.
 
 > [!TIP]
-> I SuperOffice Innstillinger og vedlikehold kan du definere at all oppfølging av en bestemt type skal vises  i ** Dagbok-skjermbildet i SuperOffice CRM med samme bakgrunnsfarge.**
+> I SuperOffice Innstillinger og vedlikehold kan du definere at alle oppfølginger av en bestemt type skal vises i **bildet Dagbok** i SuperOffice CRM med samme bakgrunnsfarge.
 
 ## Hva vil du gjøre nå?
 
-* [Navigere i Dagbok-skjermbildet][14]
-* [Velg en tidssone][15]
+* [Navigere i Dagbok-bildet][14]
+* [Velge tidssone][15]
 * [Åpne oppfølginger][4]
-* [Rediger oppfølging][6]
-* [Still inn alarmer for oppfølging][7]
-* [Send oppfølging][8]
-* [Opprette avtale ved hjelp av Dagbok][18]
-* [Opprette overlappende oppfølging][9]
-* [Opprett gjentatt oppfølging][10]
-* [Inviter medarbeiderne dine til en oppfølging][11]
-* [Koble aktiviteter][12]
-* [Flytt oppfølging][19]
-* [Endre sluttidspunktet for oppfølgingen][20]
+* [Redigere oppfølging][6]
+* [Sette alarmer for oppfølging][7]
+* [Sende oppfølginger][8]
+* [Opprett avtale ved hjelp av Dagbok][18]
+* [Opprette overlappende oppfølginger][9]
+* [Opprette repeterende oppfølging][10]
+* [Invitere andre medarbeidere til en oppfølging][11]
+* [Knytte aktiviteter][12]
+* [Flytte oppfølginger][19]
+* [Endre sluttidspunkt for oppfølging][20]
 * [Kopier oppfølging til Dagbok][21]
-* [Trykke][5]
-* [Slett oppfølging][17]
+* [Skrive ut][5]
+* [Slette oppfølging][17]
 
 <!-- Referenced links -->
 [1]: appointment.md

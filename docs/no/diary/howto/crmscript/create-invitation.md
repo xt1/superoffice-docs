@@ -1,16 +1,16 @@
 ---
-title: Opprett invitasjon
-description: Hvordan lage møteinvitasjoner med CRMScript
+title: Opprette invitasjon
+description: Slik oppretter du møteinvitasjoner med CRMScript
+keywords: CRMScript, kalender, dagbok, avtaler, oppfølging, invitasjon
 uid: crmscript-create-invitation-no
 author: Bergfrid Skaara Dias
 so.date: 03.21.2022
-keywords: CRMScript, calendar, diary, appointments, follow-up, invitation
 so.topic: howto
 ---
 
-# Opprett invitasjon
+# Opprette invitasjon
 
-> [!TIP]Det er god praksis å alltid finne ut når personer vil være tilgjengelige, før du inviterer dem til et møte ved å koble dem til oppfølging.
+> [!TIP]Det er lurt å alltid finne ut når folk vil være tilgjengelige, før de inviterer dem til et møte ved å knytte dem til oppfølginger.
 > 
 ```crmscript
 NSAppointmentAgent appointmentAgent;
@@ -60,7 +60,7 @@ a.SetParticipants(participants);
 a = appointmentAgent.SaveAppointmentEntity(a);
 ```
 
-## Les også
+## Les mer
 
 * [Invitasjoner][1]
 

@@ -1,17 +1,17 @@
 ---
-title: Lag gjentatte oppfølginger
-description: Hvordan lage gjentatte oppfølginger med CRMScript
+title: Opprette repeterende oppfølginger
+description: Slik oppretter du repeterende oppfølginger med CRMScript
+keywords: CRMScript, kalender, dagbok, avtaler, oppfølging, gjentalse
 uid: crmscript-crate-recurrence-no
 author: Bergfrid Skaara Dias
 so.date: 03.21.2022
-keywords: CRMScript, calendar, diary, appointments, follow-up, recurrence
 so.topic: howto
 ---
 
-# Opprett gjentatte oppfølginger
+# Opprette repeterende oppfølginger
 
-1. Opprett avtalen, samtalen, møtet eller oppgaven som vanlig.
-2. Angi informasjon om regelmessighet.
+1. Opprett avtale, samtale, møte eller oppgave som vanlig.
+2. Angi gjentakelsesinformasjon.
 3. Lagre oppfølgingen.
 
 ```crmscript
@@ -37,13 +37,13 @@ printLine("Pattern: " + r.GetPattern().toString());
 ```
 
 > [!TIP]
-> Alternativt kan du bruke `CreateDefaultRecurrenceByDate()` til datoen da det gjentakende mønsteret skal starte.
+> Du kan eventuelt bruke `CreateDefaultRecurrenceByDate()` den datoen det gjentakende mønsteret skal starte.
 
-## Gjenta med standardintervall
+## Gjenta ved standardintervall
 
-For å gjenta med et standardintervall (daglig, ukentlig, månedlig, årlig), ring med `SetPattern()` verdi \[1-4\]. Se referansedelen for mer informasjon.
+Hvis du vil gjenta med standardintervall (daglig, ukentlig, månedlig, årlig), kaller du `SetPattern()` med verdi \[1-4\]. Se referansedelen hvis du ønsker mer informasjon.
 
-Dette eksemplet skaper en 10-minutters daglig kaffepause klokken 14:00 fra 1. august.
+Dette eksemplet oppretter en 10-minutters daglig kaffepause kl. 14.00 fra 1.
 
 ```crmscript
 DateTime start = String("2020-08-01 14:00").toDateTime();
@@ -76,7 +76,7 @@ newAppointment = appointmentAgent.SaveAppointmentEntity(newAppointment);
 
 ## Gjenta med brukerdefinert intervall
 
-Eksempel: timepåminnelser gjennom hele arbeidsdagen
+Eksempel: Timepåminnelser hele arbeidsdagen
 
 ```crmscript
 NSRecurrenceInfo r;
@@ -95,9 +95,9 @@ for (Integer i =  0; i < 8; +++) {
 r.SetDates(dates);
 ```
 
-## Gjenta på merkede datoer
+## Gjenta på valgte datoer
 
-Du kan også manuelt opprette en liste over valgte datoer som ikke følger et mønster.
+Du kan også opprette en liste over valgte datoer som ikke følger et mønster manuelt.
 
 ```crmscript
 NSRecurrenceInfo r;
@@ -122,9 +122,9 @@ r.SetDates(dates);
 
 ## Gjenta til
 
-Du kan velge å stoppe etter et bestemt antall ganger eller etter en bestemt dato.
+Du kan velge å stoppe etter et bestemt antall ganger eller etter en angitt dato.
 
-**Gjenta 10 ganger:**
+ **Gjenta 10 ganger:** 
 
 ```crmscript
 NSRecurrenceInfo r;
@@ -132,7 +132,7 @@ r.SetRecurrenceEndType(2);
 r.SetRecurrenceCounter(10);
 ```
 
-**Gjenta til slutten av neste måned:**
+ **Gjenta til slutten av neste måned:** 
 
 ```crmscript
 DateTime d;
@@ -143,25 +143,25 @@ r.SetRecurrenceEndType(1);
 r.SetEndDate(d);
 ```
 
-## Beslektede emner
+## Aktuelle emner
 
-* [Regelmessige avtaler og mønstre][4]
+* [Gjentakende avtaler og mønstre][4]
 * [NSAppointmentAgent][1]
 * [NSAppointmentEntity][2]
 * [NSRecurrenceInfo][3]
 
 ### NSRecurrenceInfo
 
-| Felt             | Type             | Beskrivelse                         |
+| Feltet             | Type             | Beskrivelse                         |
 |:------------------|:-----------------|:------------------------------------|
-| IsRecurrence      | Bool             | om det er en gjentatt oppfølging |
-| Gjentakelses-ID      | Heltall          | unik ID for regelen               |
-| TilbakefallEndType | Heltall          | 0 = ukjent 1 = slutt etter dato <br>2 = slutt etter n repetisjoner <br>|
-| GjentakelseCounter | Heltall          | antall repetisjoner<br>som bare brukes når slutten beregnes ut fra en telling |
-| StartDate         | DateTime         | Når repetisjonen starter              |
-| EndDate           | DateTime         |når  repetisjonen avsluttes<br>brukes bare når slutten beregnes fra en dato |
-| Datoer             | NSRecurrenceDate[] | Liste over alle datoer oppfølgingen skjer<br>bryter en DateTime |
-| Mønster           | Heltall          | Hovedmønsteret for gjentakelse      |
+| IsRecurrence      | Bool             | om det er en repeterende oppfølging |
+| Gjentakende ID      | Heltall          | unik ID for regelen               |
+| GjentakendeEndType | Heltall          | 0 = ukjent<br>1 = sluttdato<br>2 = slutt etter n repetisjoner |
+| GjentagelseStelling | Heltall          | antall repetisjoner<br>som bare brukes når slutten beregnes ut fra antall |
+| StartDato         | Datetime         | når repetisjonen starter              |
+| Sluttdato           | Datetime         | når repetisjonen slutter<br>brukt bare når slutten beregnes fra en dato |
+| Datoer             | NSRecurrenceDate[] | Oversikt over alle datoer som oppfølgingen inntreffer<br>, brytes en DateTime |
+| Mønster           | Heltall          | hovedmønstret for tilbakefall      |
 
 <!-- Referenced links -->
 [1]: <xref:CRMScript.NetServer.NSAppointmentAgent>

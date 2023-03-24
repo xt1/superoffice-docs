@@ -1,68 +1,68 @@
 ---
-title: Regelmessige avtaler
+title: Gjentakende avtaler
 description: Gjentakende avtale
+keywords: dagbok, kalender, avtale, gjentakelse, gjentakelse, frekvens, mønster
 uid: recurring_appointment-no
 author: Bergfrid Skaara Dias
 so.date: 03.21.2022
-keywords: diary, calendar, appointment, recurrence, recurrencerule, frequency, pattern
 so.topic: concept
 ---
 
-# Regelmessige avtaler
+# Gjentakende avtaler
 
-En gjentatt oppfølging er en serie med avtaler, oppgaver eller samtaler som er planlagt å skje med jevne mellomrom. For eksempel et ukentlig statusmøte. En gjentakende avtale lagres i to deler:
+En repeterende oppfølging er en serie med avtaler, oppgaver eller samtaler som er planlagt å forekomme med regelmessige mellomrom. Et ukentlig statusmøte. En gjentakende avtale lagres i to deler:
 
-* En gjentakelsesregel, som definerer mønsteret for gjentakelsen
-* Alle avtalene som er opprettet av gjentakelsen, opprettes i [avtale tabell][3], og hver peker på gjentakelsesregelen som definerer den.
+* En gjentakelsesregel, som definerer mønsteret for gjentakelse
+* Alle avtalene som opprettes av gjentakelsen, opprettes i [avtaletabell][3], og hver av dem peker på den gjentakende regelen som definerer den.
 
 > [!CAUTION]
-> Å endre start- eller sluttdatoen på en gjentakende avtale etter at den er lagret, er en dårlig idé. Endring av klokkeslettet på en gjentakende avtale vil fungere fint, men endring av datoen vil bare føre til forvirring. **Hvis du endrer starttidspunktet for en avtale, utløses en oppdatering på alle tilbakefall av delsekvenser** hvis du har satt oppdateringsmodus til denne og fremover.
+> Det er feil å endre start- eller sluttdatoen på en gjentakende avtale etter at den er lagret. Hvis du endrer klokkeslettet for en gjentakende avtale, går det bra å endre datoen, men hvis du endrer datoen, vil det bare føre til forvirring. **Hvis du endrer starttidsfeltet på en avtale, utløses det en oppdatering på alle gjentakelser** hvis du har satt oppdateringsmodusen til denne og videresendingen.
 
 ## Frekvens
 
 | Verdi | Beskrivelse | Kommentar | Eksempel |
 |:--|:--|:--|:--|
-| daglig |hver  arbeidsdag hver<br>dag i uken | eller tilpasset | annenhver dag |
-| ukentlig | hver uke på en gitt dag | må sette ukedag | hver 3. uke på tirsdag |
-| månedlig | hver måned på en gitt dag | må angi dag i måneden  | på den 5. i måneden, hver 4. måned |
-| årlig | hvert år på gitt dato | må angi dag og måned | hver 23 september |
+| Daglig | hver arbeidsdag<br>hver ukedag | eller egendefinert | annenhver dag |
+| Ukentlig | hver uke på gitt dag | må angi ukedag | hver 3. uke på tirsdag |
+| Månedlig | hver måned på gitt dag | må angi månedsdag  | den 5. |
+| Årlig | hvert år på gitt dato | må angi dag og måned | hver 23 september |
 
 En **syklus** er antall dager mellom hver gjentakelse.
 
-Opplistingsverdiene samsvarer med det du ser i  dialogboksen **Mønster**.
+Opplistingsverdiene samsvarer med det du ser i  dialogboksen **Mønster** .
 
-![Tilbakevendende oppfølgingsdialog - skjermbilde][img1]
+![Gjentakende oppfølgingsdialogboks -skjermbilde][img1]
 
 ### Enum RecurrencePattern
 
 | Verdi | Beskrivelse |
 |:-:|:--|
-| 0 | ukjent |
-| 1 | daglig |
-| 2 | ukentlig |
-| 3 | månedlig |
-| 4 | årlig |
-| 5 | skikk |
+| 0 | Ukjent |
+| 1 | Daglig |
+| 2 | Ukentlig |
+| 3 | Månedlig |
+| 4 | Årlig |
+| 5 | Egendefinerte |
 
 ### Enum RecurrenceSubPattern
 
 | Verdi | Navn | Type | Beskrivelse |
 |:-:|:--|---|---|
 | 0 | Ukjent | | |
-| 1 | Hver arbeidsdag| daglig | Man-fre |
-| 2 | EveryWeekday | daglig | Man-søn |
-| 3 | EveryCyclicDay | daglig | Syklisk intervall på dager |
-| 4 | DagOfMonth | ukentlig | Gjenta på dag n i måneden<br>ex: den 17. dagen i hver 2. måned |
-| 5 | UkedagOfMonth | ukentlig | gjenta på gitt ukedag <br>ex: den 3. torsdag i hver 3. måned |
-| 6 | DagOfMonth | årlig | Gjenta på gitt dato hvert år |
-| 7 | UkedagOfMonth | årlig | gjenta på gitte hverdager i måneden<br>eks: den 3. torsdag i hver august |
+| 1 | Hver arbeidsdag| Daglig | Man-fre |
+| 2 | Hver ukedag | Daglig | Man-Søn |
+| 3 | EveryCyclicDay | Daglig | syklisk intervall på dager |
+| 4 | DagAvMonth | Ukentlig | gjenta på dag n i måneden<br>ex: den 17. dagen i hver 2. måned |
+| 5 | UkedagMonth | Ukentlig | gjenta på gitt ukedag <br>ex: den tredje torsdagen i hver 3 måneder |
+| 6 | DagAvMonth | Årlig | gjentas på gitt dato hvert år |
+| 7 | UkedagMonth | Årlig | gjenta på gitte ukedager i måneden<br>ex: den tredje torsdagen i hver august |
 
 > [!CAUTION]
->  **Undermønsteret skal samsvare med mønsteret**. Det er lite feilkontroll hvis du blander feil sett. Du kan sette mønster = årlig og sub-mønster = dagligEveryDay og noe rart vil trolig skje.
+> Undermønstret **skal samsvare med mønsteret** . Det er lite feilkontroll hvis du blander feil sett. Du kan angi mønster = årlig og undermønstret = dagligEveryDay og noe rart vil trolig skje.
 
 #### Ukedager
 
-| Verdi | Hverdag |
+| Verdi | Ukedag |
 |:-:|:--|
 | 0 | Ukjent |
 | 1 | Mandag |
@@ -73,29 +73,29 @@ Opplistingsverdiene samsvarer med det du ser i  dialogboksen **Mønster**.
 | 32 | Lørdag |
 | 64 | Søndag |
 
-> [!TIP]Opplistingsflaggverdier kan kombineres.
+> [!TIP]Nummereringsflaggverdier kan kombineres.
 > 
-#### Uke i måneden
+#### Uke i måned
 
 | Verdi | Beskrivelse |
 |:-:|:--|
 | 0 | Ukjent |
-| 1 | 1. uke i måneden |
-| 2 | Den 2. uken i måneden |
-| 3 | Den 3. uken i måneden |
-| 4 | Den 4. uken i måneden |
+| 1 | Månedens første uke |
+| 2 | Den andre uken i måneden |
+| 3 | Den 3. uke i måneden |
+| 4 | Den fjerde uken i måneden |
 | 5 | Den siste uken i måneden |
 
 ## Eksempel (SQL)
 
-Systemet genererer avtaleposter for alle gjentakelsesforekomstene:
+Systemet genererer avtaleposter for alle forekomster av gjentagelse:
 
 ```SQL
 SELECT appointment_id, associate_id, activeDate, type, status, recurrenceRuleId 
 FROM appointment WHERE recurrenceRuleId = 1
 ```
 
-| appointment_id | associate_id | aktivDate | type | status | gjentakelseRuleId |
+| appointment_id | associate_id | activeDate | Type | Status | recurrenceRuleId |
 |---|---|---|---|---|---|
 | 264 | 15 | 2021-11-04 11:30:00 | 1 | 1 | 1 |
 | 267 | 15 | 2021-11-09 11:30:00 | 1 | 1 | 1 |
@@ -110,32 +110,32 @@ La oss se på regelen:
 SELECT * FROM recurrencerule WHERE recurrencerule_id = 1
 ```
 
-| RecurrenceRule_id | mønster | subPattern | startDate | endDate | syklisk dag | sykliskUke | cyclicMonth|
+| RecurrenceRule_id | Mønster | subPattern | startDato | sluttDato | syklisk dag | cyclicWeek | cyclicMonth|
 |---|---|---|---|---|---|---|---|
 | 1 | 2 | 0 | 2021-11-04 11:30:00 | 2022-01-27 12:00:00 | 0 | 1 | 0 |
 
-Denne gjentakelsesregelen har:
+Denne gjentakelsesregelen har følgende:
 
-* mønster = 2 (ukentlig) (tilsvarer radioknappvalget i dialogboksen).
+* mønster = 2 (ukentlig) (tilsvarer alternativknappen i dialogboksen).
 * subPattern = 0 (ingen)
-* cyclicWeek = 1 = "hver 1 uke (er)"
+* cyclicWeek = 1 = "hver 1 uke(er)"
 
 ## Redigering
 
-Hvis du bestemmer deg for å endre regelmønsteret midt i en serie avtaler, opprettes en ny regel, og den gamle regelen stoppes på det punktet der bruddet oppstår.
+Hvis du bestemmer deg for å endre regelmønstret midt i en rekke avtaler, opprettes det en ny regel, og den gamle regelen stoppes på det punktet hvor pausen inntreffer.
 
-Hvis du endrer starttidspunktet for en enkelt avtale, påvirkes ikke regelen. Oppnevningen behandles som et unntak fra regelen. Unntaket kan gjøres ueksepsjonelt ved å flytte det tilbake på linje med de andre avtalene.
+Hvis du endrer starttidspunkt for én avtale, berøres ikke regelen. Avtalen behandles som et unntak fra regelen. Unntaket kan gjøres u eksepsjonell ved å flytte det tilbake i tråd med de andre avtalene.
 
-## Slik gjør du det
+## Tos
 
-* [Opprette regelmessig avtale - CRMScript][6]
+* [Opprett gjentakende avtale - CRMScript][6]
 * [Opprette gjentakende avtale – webtjenester][4]
-* [Opprette regelmessig avtale – enhetslag][2]
+* [Opprette gjentakende avtale – enhetslag][2]
 
-## Les også
+## Se også
 
-* [Tabell for gjentakelsesregel][1]
-* [GjentakelsePattern enum][5]
+* [gjentagelsestabell][1]
+* [GjentagelsePattern-opplisting][5]
 
 <!-- Referenced links -->
 [1]: ../database/tables/recurrencerule.md

@@ -1,10 +1,10 @@
 ---
 title: Opprette en Person enhet
-description: Opprett en kontaktenhet
+description: Opprette en personenhet
+keywords: person, firma, enhet, API, deklarer, SetDefaults
 uid: create_contact_entity-no
 author: Bergfrid Dias
 so.date: 02.22.2022
-keywords: contact, company, entity, API, assert, SetDefaults
 so.topic: howto
 # so.envir:
 # so.client:
@@ -12,27 +12,27 @@ so.topic: howto
 
 # Opprette en Person enhet
 
-Bruk av `Contact` eksponert [enhet][1]  i `SuperOffice.CRM.Entities` navneområdet er en av de enkleste måtene å opprette en avtale på, som vist i eksemplet nedenfor.
+Bruk av eksponert `Contact` [Enhet][1] i navneområdet `SuperOffice.CRM.Entities` er en av de letteste måtene å opprette en avtale på, som vist i eksempelet nedenfor.
 
-## Kode
+## Koden
 
-[!code-csharp[CS]](includes/create-contact-entity.cs)
+[!code-csharp[CS](includes/create-contact-entity.cs)]
 
 ## Gjennomgang
 
-Etter at `SoSession` en  forekomst er opprettet og brukeren autentisert, kan vi fortsette å opprette en kontakt.
+Etter at en `SoSession` forekomst er opprettet og brukeren autentisert, kan vi fortsette å opprette en person.
 
-For å opprette en kontakt oppretter vi en forekomst `Contact` av enheten ved hjelp av  metodene som vises i `CreateNew` klassen, hvoretter standardverdiene for enheten angis ved hjelp av `Contact` metoden slik:`SetDefaults` 
+For å opprette en person oppretter vi en forekomst av `Contact` enheten ved hjelp  av `CreateNew` metodene som eksponeres i `Contact` klassen, hvoretter standardverdiene for enheten settes ved hjelp av `SetDefaults` metoden slik:
 
-[!code-csharp[CS]](includes/create-contact-entity.cs?range=7,11)
+[!code-csharp[CS](includes/create-contact-entity.cs?range=7,11)]
 
-Den neste delen av koden viser [Hvordan verdier tilordnes til egenskaper][2] eksponert av enheten.
+Den neste delen av koden vises [hvordan verdier tildeles egenskaper][2] av enheten.
 
-Når de nødvendige verdiene til egenskapene for `Contact` enheten er lagt til eller tilordnet, kan de lagres med `Save` metoden.
+Når ønskede verdier til egenskapene for `Contact` enheten er lagt til eller tildelt, kan den lagres med `Save` metoden.
 
-## Bruke påstand
+## Bruke påslag
 
-[!code-csharp[CS]](includes/create-contact-assert.cs)
+[!code-csharp[CS](includes/create-contact-assert.cs)]
 
 <!-- Referenced links -->
 [1]: ../../../api/entities/index.md

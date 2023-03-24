@@ -1,19 +1,19 @@
 ---
 title: Person - rad
-description: Arbeide med selskaper (kontakt) i API med rader.
+description: Arbeide med firmaer (person) i API med rader.
+keywords: person, firma, rad, API
 uid: api_contact_row-no
 author: Bergfrid Skaara Dias
 so.date: 02.22.2022
-keywords: contact, company, row, API
 so.topic: concept
 ---
 
 # Person - rad
 
-* [Opprette kontakt (rad)][1]
-* [Opprette kontakt (rader)][2]
-* [Legge til ny kontaktinteresse][3]
-* [Få kategoriliste][4]
+* [Opprett person (Rad)][1]
+* [Opprett person (Rader)][2]
+* [Legge til ny personinteresse][3]
+* [Hent kategoriliste][4]
 
 <!-- Referenced links -->
 [1]: create-contact-row.md

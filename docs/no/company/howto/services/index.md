@@ -1,22 +1,22 @@
 ---
 title: Person - tjenester
-description: Arbeide med bedrifter (kontakt) i API med tjenester.
+description: Arbeide med firmaer (person) i API med tjenester.
+keywords: person, firma, tjenester, API
 uid: api_contact_services-no
 author: Bergfrid Skaara Dias
 so.date: 02.22.2022
-keywords: contact, company, services, API
 so.topic: howto
 ---
 
 # Person - tjenester
 
-* [Opprett kontakt][1]
-* [Opprette kontakt (REST)][2]
-* [Opprette kontakt WebAPI-agenter][3]
-* [Få kontakt][4]
-* [Hente alle kontakter (REST)][5]
-* [Liste interesser for kontakt][6]
-* [Sett renter på/av][7]
+* [Opprett person][1]
+* [Opprett person (REST)][2]
+* [Opprette webapiagenter for person][3]
+* [Hent person][4]
+* [Få alle personer (REST)][5]
+* [Vise interesser for person][6]
+* [Angi av/på-interesse][7]
 
 <!-- Referenced links -->
 [1]: create-contact-services.md

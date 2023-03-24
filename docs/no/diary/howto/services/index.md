@@ -1,10 +1,10 @@
 ---
 title: Dagbok - tjenester
 description: Arbeide med avtaler via webtjenester
+keywords: dagbok, kalender, avtale, invitasjon, API, webtjenester
 uid: api_diary_services-no
 author: Bergfrid Skaara Dias
 so.date: 03.18.2022
-keywords: diary, calendar, appointment, invitation, API, web services
 so.topic: concept
 ---
 
@@ -12,13 +12,13 @@ so.topic: concept
 
 ## Opprette avtaler
 
-* [Opprette avtale][1]
-* [Opprette regelmessig avtale][2]
+* [Opprett avtale][1]
+* [Opprette gjentakende avtale][2]
 
 ## Arbeide med invitasjoner
 
-* [Opprett invitasjon][3]
-* [Få invitasjoner][4]
+* [Opprette invitasjon][3]
+* [Hente invitasjoner][4]
 * [Godta invitasjon][5]
 
 <!-- Referenced links -->

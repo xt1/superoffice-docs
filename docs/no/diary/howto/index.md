@@ -1,10 +1,10 @@
 ---
 title: Dagbok howto
-description: Hvordan jobbe med avtaler på flere nivåer av NetServer.
+description: Slik arbeider du med avtaler på flere nivåer i NetServer.
+keywords: dagbok, kalender, avtale, API
 uid: diary-howto-no
 author: Bergfrid Skaara Dias
 so.date: 03.22.2022
-keywords: diary, calendar, appointment, API
 so.topic: howto
 ---
 
@@ -12,22 +12,22 @@ so.topic: howto
 
 ## Opprette avtaler
 
-Du kan opprette en avtale på flere nivåer av NetServer:
+Du kan opprette en avtale på flere nivåer i NetServer:
 
 * [Opprette en avtale med CRMScript][15]
 * [Opprette en avtale ved hjelp av tjenester][14]
 * [Opprette en Avtale enhet][1]
-* [Opprette en Avtale enhet gjennom en enhet][2]
-* [Opprette en Avtale enhet gjennom en enhetssamling][3]
-* [Opprette en Avtale rad][4]
-* [Opprette en Avtale gjennom radsamling (rader)][5]
-* [Lag en Avtale gjennom OSQL][6]
+* [Opprette en Avtale enhet via en enhet][2]
+* [Opprette en Avtale enhet via en enhetssamling][3]
+* [Opprette Avtale rad][4]
+* [Opprette en Avtale gjennom radsamling (Rader)][5]
+* [Opprette en Avtale via OSQL][6]
 * [Opprette en Avtale gjennom rå SQL][7]
 
 ## Slik gjør du det etter API
 
 * [CRMScript][8]
-* [Web-tjenester][9]
+* [Webtjenester][9]
 * [Enhetslag][10]
 * [Rader][11]
 * [OSQL][12]

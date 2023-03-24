@@ -1,18 +1,18 @@
 ---
-title: Registrer et innkommende anrop
-description: Hvordan registrere et innkommende anrop med CRMScript
+title: Registrere en innkommende samtale
+description: Slik registrerer du en innkommende samtale med CRMScript
+keywords: CRMScript, kalender, dagbok, samtale, oppfølging
 uid: crmscript-call-incoming-no
 author: Bergfrid Skaara Dias
 so.date: 03.21.2022
-keywords: CRMScript, calendar, diary, call, follow-up
 so.topic: howto
 ---
 
-# Registrer et innkommende anrop
+# Registrere en innkommende samtale
 
-Aktivitetstypen **** for telefonsamtaler er 5. Som standard er retningen *innkommende*.
+ **Aktivitetstypen** for samtaler er 5. Som standard er retningen *innkommende*.
 
-Denne eksempelkoden registrerer et innkommende anrop med en beskrivelse, som starter nå og varer i 10 minutter.
+Denne eksempelkoden registrerer en innkommende samtale med en beskrivelse som starter nå og varer i 10 minutter.
 
 ```crmscript
 DateTime start;
@@ -30,13 +30,13 @@ incomingCall.SetDescription("My favorite customer calling re migration.");
 incomingCall = appointmentAgent.SaveAppointmentEntity(incomingCall);
 ```
 
-## Beslektede emner
+## Aktuelle emner
 
 * [NSAppointmentAgent][1]
 * [NSAppointmentEntity][2]
-* [Om telefonsamtaler][3]
+* [Om samtaler][3]
 
 <!-- Referenced links -->
 [1]: <xref:CRMScript.NetServer.NSAppointmentAgent>
 [2]:<xref:CRMScript.NetServer.NSAppointmentEntity>
-[3]:../../oversikt.md#telefonsamtaler
+[3]:../../overview.md#samtaler

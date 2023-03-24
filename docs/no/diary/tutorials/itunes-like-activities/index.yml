@@ -1,9 +1,9 @@
 ### YamlMime:Tutorial
 uid: tutorial-itunes-like-activities
-title: Tutorial - iTunes-lignende klient for aktiviteter
+title: Opplæring – iTunes-lignende klient for aktiviteter
 metadata:
   title: Tutorial - iTunes-lignende klient for aktiviteter.
-  description: I denne opplæringen lærer du hvordan du oppretter et Windows-program som henter en liste over aktiviteter for de siste 6 månedene av den påloggede brukeren ved hjelp av ActivityArchiveProvider.
+  description: I denne opplæringen lærer du hvordan du oppretter et Windows-program som henter en liste over aktiviteter de siste 6 månedene av den påloggede brukeren ved hjelp av ActivityArchiveProvider.
   audience: Developer
   keywords: diary, iTunes
   so.topic: tutorial
@@ -11,14 +11,14 @@ metadata:
   author: {github-id}
   level: Intermediate
 items:
-- title: Innledning
+- title: Introduksjon
   durationInMinutes: 1
   content: |
     This Windows application retrieves a list of activities for the past 6 months of the logged-in user. It also supports filtering the activities based on user input.
 
     Steps 2 and 3 explain how to retrieve activity information using the Activity Archive Provider and convert the retrieved information into a format that can be displayed in a data grid.
     The code segments use the **SuperOffice.CRM.ArchiveLists.ActivityArchiveProvider** to retrieve the activities.
-- title: Forbered parametere
+- title: Klargjøre parametere
   durationInMinutes: 3
   content: |
     [!include[Content: prepare parameters](includes/steps/prepare-parameters.md)]

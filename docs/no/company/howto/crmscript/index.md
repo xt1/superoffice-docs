@@ -1,43 +1,43 @@
 ---
 title: Firma (klasse)
-description: Hvordan jobbe med selskaper i CRMScript.
+description: Slik arbeider du med firmaer i CRMScript.
+keywords: CRMScript, firma, organisasjon, person
 uid: crmscript_class_company-no
 author: Bergfrid Skaara Dias
 so.date: 02.21.2022
-keywords: CRMScript, company, organization, contact
 so.topic: howto
 ---
 
-# Arbeide med selskaper i CRMScript
+# Arbeide med firmaer i CRMScript
 
 ## Firma (klasse)
 
-Representerer [Firma CRMScript-klassen][1] følgende enheter:
+Her [Firma CRMScript-klasse][1] vises følgende elementer:
 
-* Real-life: et selskap eller en organisasjon
-* SuperOffice brukergrensesnitt: selskap
-* Database tabell: [kontakt][4]
+* Virkelige liv: et firma eller en organisasjon
+* SuperOffice Brukergrensesnitt: firma
+* Databasetabell: [Kontakt][4]
 
- **Firmadatabasetabellen** er ikke relatert til **Firma** CRMScript-klassen. Tabellen skal bare ha én rad, som inneholder informasjon om lisenser og eieren av den SuperOffice databasen.
+Tabellen **for** firmadatabasen er ikke relatert til Firma **** CRMScript-klassen. Tabellen bør bare ha én rad, som inneholder informasjon om lisenser og eieren av SuperOffice databasen.
 
 [!include[ Ikke endre firmatabell](../../../includes/warn-company-table.md)]
 
-## Parser variabler
+## Analysere variabler
 
-Anrop `toParser()` vil laste inn følgende felt og gjøre dem tilgjengelige for [Maler][2]:
+Kalling `toParser()` laster inn følgende felt og gjør dem tilgjengelige for [Maler][2]:
 
 * company.id
 * company.name
-* selskap.note
-* firma.domene
+* firma.note
+* company.domain
 * firma.telefon
 * firma.faks
-* selskap.adr
-* selskap.ourKontakt
+* firma.adr
+* firma.ourKontakt
 * company.primaryContact.id
 * company.primaryContact.email
 
-Se [Tilknyttede personer][5] tabellen for beskrivelse av `ourContact` og `primaryContact`.
+Se [tilknyttede personer][5] tabellen for å få en beskrivelse av `ourContact` og `primaryContact`.
 
 ```crmscript!
 Parser p;
@@ -52,13 +52,13 @@ printLine(p.getVariable("company.name", 0));
 
 ## How-to
 
-* [Opprett selskap][6]
-* [Få selskap][7]
-* [Få aktiviteter][8]
+* [Opprett firma][6]
+* [Hent firma][7]
+* [Hent aktiviteter][8]
 
 <!-- Referenced links -->
 [1]: <xref:CRMScript.Native.Company>
-[2]:../../../automatisering/crmscript/parser-og-maler/svar-template.md
+[2]:../../../automation/crmscript/parser-and-templates/reply-template.md
 [3]: ../../../globalization-and-localization/address/index.md
 [4]: ../../../database/tables/contact.md
 [5]: create-company.md#connected-persons

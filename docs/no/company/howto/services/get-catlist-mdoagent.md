@@ -1,10 +1,10 @@
 ---
-title: Få en kategoriliste ved hjelp av MDO Agent
+title: Få en kategoriliste ved hjelp av MDO-agenten
 description: Få en kategoriliste gjennom MDO-agenten
+keywords: kategori, MDO-agent
 uid: get_category_list_mdoagent-no
 author: {github-id}
 so.date: 
-keywords: category, MDO agent
 so.topic: howto
 # so.envir:
 # so.client:
@@ -12,6 +12,6 @@ so.topic: howto
 
 # Få en kategoriliste ved hjelp av MDO-agenten
 
-[!code-csharp[CS]](includes/get-catlist-mdoagent.cs)
+[!code-csharp[CS](includes/get-catlist-mdoagent.cs)]
 
-Eksemplet ovenfor viser hvordan vi kan bruke metoden som er `GetSimpleList` tilgjengelig gjennom `MDOAgent` for å hente kategorilisten.
+Eksemplet ovenfor viser hvordan vi kan bruke `GetSimpleList` metoden som er tilgjengelig via `MDOAgent` listen for å hente kategorilisten.

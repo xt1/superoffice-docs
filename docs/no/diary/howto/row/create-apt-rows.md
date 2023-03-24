@@ -1,34 +1,34 @@
 ---
-title: Opprette en avtale gjennom radsamling (rader)
-description: Slik oppretter du en avtale gjennom radsamling (rader).
+title: Opprette en avtale via radsamling (Rader)
+description: Slik oppretter du en avtale via radsamling (Rader).
+keywords: dagbok, kalender, avtale, API, rader, samling, AppointmentRows
 uid: create_appointment_rows-no
 author: Bergfrid Skaara Dias
 so.date: 11.04.2021
-keywords: diary, calendar, appointment, API, rows, collection, AppointmentRows
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Opprette en avtale via radsamling (rader)
+# Opprette en avtale via radsamling (Rader)
 
-`Rows`Type består av en samling  rader, for eksempel Type, består av en samling `AppointmentRows` typer [AppointmentRow][3] .
+`Rows` -typen består av en samling av rader, slik som `AppointmentRows` type, består av en samling av [AvtaleÅr][3] typer.
 
-Derfor er det mulig å lage en `AppointmentRow` med klassen `AppointmentRows` .
+Derfor er det mulig å opprette en `AppointmentRow` med `AppointmentRows` klassen.
 
-## Kode
+## Koden
 
-[!code-csharp[CS]](includes/create-apt-rows.cs)
+[!code-csharp[CS](includes/create-apt-rows.cs)]
 
 ## Gjennomgang
 
-En `AppointmentRow` kan opprettes som i [dette eksemplet][1].
+En `AppointmentRow` kan opprettes på samme måte som i [dette eksempelet][1].
 
-Den neste fasen av kodesegmentet er å starte en `AppointmentRows` klasse. Forekomsten kan deretter legges til samlingen med utførelsen av `Add` metoden.
+Neste fase av kodesegmentet er å starte en `AppointmentRows` klasse. Forekomsten kan deretter legges til i samlingen med kjøringen av `Add` metoden.
 
-[!code-csharp[CS]](includes/create-apt-rows.cs?range=20,23,26)
+[!code-csharp[CS](includes/create-apt-rows.cs?range=20,23,26)]
 
-Når samlingen `AppointmentRow` er lagt til, kan den lagres ved å utføre `Save` metoden, som sikrer at den opprettede enheten legges til [avtale tabell][2] i databasen.
+Når `AppointmentRow` samlingen er lagt til, kan den lagres ved å kjøre `Save` metoden, noe som sikrer at den opprettede enheten legges til [avtaletabell][2] i databasen.
 
 <!-- Referenced links -->
 [1]: create-apt-row.md

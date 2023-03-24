@@ -1,10 +1,10 @@
 ---
 title: AvtaleMatrix
-description: AppointmentMatrix brukes til å administrere komplekse avtaler på NetServer-datalaget.
+description: AppointmentMatrix brukes til å håndtere komplekse avtaler på NetServer-datalaget.
+keywords: enhet
 uid: appointmentmatrix-no
 author: Bergfrid Skaara Dias
 so.date: 03.04.2022
-keywords: entity
 so.topic: howto
 # so.envir:
 # so.client:
@@ -12,7 +12,7 @@ so.topic: howto
 
 # AvtaleMatrix
 
-Den [AvtaleMatrix][1] brukes til å administrere komplekse avtaler: [Invitasjoner][2] og [Gjentakelser][3].
+Brukes [AvtaleMatrix][1] til å håndtere komplekse avtaler: [Invitasjoner][2] og [Gjentakelser][3].
 
 ```csharp
 using SuperOffice.CRM.Entities;

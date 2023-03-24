@@ -1,84 +1,84 @@
 ---
-title: Kategorien Aktiviteter-delen (Dagbok)
-description: Fanen Aktiviteter-delen (Dagbok)
+title: Detaljkortet Aktiviteter (Dagbok)
+description: Detaljkortet Aktiviteter (Dagbok)
+keywords: CRM
 uid: help-no-diary-screen-activities
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Kategorien Aktiviteter-delen
+# Detaljkortet Aktiviteter
 
-![Inndelingsfanen Aktiviteter (Dagbok) – skjermbilde][img4]
+![Detaljkortet Aktiviteter (Dagbok) -skjermbilde][img4]
 
- **Inndelingsfanen Aktiviteter** gir deg en oversikt over aktiviteter og fungerer som en gjøremålsliste eller oppgaveliste. Den inneholder blant annet avtaler og oppgaver som du ennå ikke har fullført, og du kan bruke den til midlertidig å lagre oppfølginger som du ennå ikke har tildelt til et bestemt tidspunkt eller dato.
+Detaljkortet **Aktiviteter** gir deg en oversikt over aktiviteter og fungerer som en gjøremålsliste eller oppgaveliste. Den inneholder blant annet avtaler og oppgaver som du ikke har utført ennå, og du kan bruke den til midlertidig å lagre oppfølginger som du ennå ikke har angitt et bestemt klokkeslett eller en bestemt dato for.
 
-Aktivitetslisten endres ikke når du bytter mellom de forskjellige fanene i den øverste delen av **** Dagbok-skjermen.
+Aktivitetslisten endres ikke når du skifter mellom de ulike fanene i den øverste delen av **** Dagbok-bildet.
 
 ## Kolonner
 
-Aktivitetslistekolonnene inneholder følgende informasjon:
+I kolonnene i aktivitetslisten finner du følgende informasjon:
 
-* ![ikon][img3] : Den første kolonnen i aktivitetslisten angir **Fullført** [status for en aktivitet][1]. En hake i avmerkingsboksen (![ikon][img2]) betyr at aktiviteten er fullført, mens en tom boks betyr at den ikke er fullført.
+* ![Ikonet][img3] : Den første kolonnen i aktivitetslisten angir Utført **** [status for en aktivitet][1]. En hake i avmerkingsboksen (![Ikonet][img2]) betyr at aktiviteten er utført, mens en tom boks betyr at den ikke er utført.
 
     > [!TIP]
-    > Hvis du vil endre **statusen Fullført** for en aktivitet, klikker du bare i boksen.
+    > Hvis du vil endre **** Utført-status for en aktivitet, klikker du bare i boksen.
 
-* Den andre kolonnen inneholder ikoner som angir typen aktivitet, for eksempel en telefon for en samtale. Disse ikonene gjenspeiler teksten i **Type-kolonnen** .
+* Den andre kolonnen inneholder ikoner som angir type aktivitet, for eksempel en telefon for samtale. Disse ikonene gjenspeiler teksten i  kolonnen **Type** .
 
    [!include [Tabell som viser ikoner for aktiviteter](../../../learn/includes/table-activity-icons.md)]
 
-* Resten av kolonnene i aktivitetslisten viser andre [informasjon om aktiviteten][2]. Hvis ikke all teksten i et felt er synlig, holder du musepekeren over det for å vise det i et verktøytips.
+* Resten av kolonnene i aktivitetslisten viser andre [informasjon om aktiviteten][2]. Hvis du ikke ser all teksten i et felt, kan du holde musepekeren over teksten for å vise den i en infoboks.
 
 ## Vise aktiviteter i aktivitetslisten
 
-Bruk avmerkingsboksene under aktivitetslisten til å angi hvilke aktiviteter som skal vises. Alternativene er **Oppfølginger**, **Oppgaver** og **Dokumenter**.
+Bruk avmerkingsboksene under aktivitetslisten til å angi hvilke aktiviteter som skal vises. Alternativene er **Oppfølginger** , **Oppgaver** og **Dokumenter** .
 
 > [!NOTE]
-> Oppgaver er oppfølginger som vanligvis ikke har en definert tid eller varighet.
+> Oppgaver er oppfølginger som vanligvis ikke har angitt tid eller varighet.
 
 ## Åpne aktiviteter i aktivitetslisten
 
-Åpne en aktivitet direkte fra aktivitetslisten ved å dobbeltklikke på den. Dette bringer opp **Avtale**, **Oppgave** eller **Samtale** dialog, avhengig av type aktivitet. Hvis du dobbeltklikker et dokument, åpnes selve dokumentet.
+Du kan åpne en aktivitet direkte fra aktivitetslisten ved å dobbeltklikke på den. Da får du opp **dialogboksen Avtale** , **Oppgave** eller **Samtale** , avhengig av type aktivitet. Hvis du dobbeltklikker på et dokument, åpnes selve dokumentet.
 
-## Flytte mellom aktiviteter i aktivitetslisten
+## Bla mellom aktiviteter i aktivitetslisten
 
-Bruk rullepilene til høyre for å rulle opp og ned i aktivitetslisten.
+Bruk rullepilene på høyre side for å bla oppover og nedover i aktivitetslisten.
 
-Slik viser du detaljene for flere aktiviteter fra aktivitetslisten, uten å måtte åpne hver enkelt aktivitet:
+Hvis du vil se detaljene for flere aktiviteter fra aktivitetslisten, kan du uten å måtte åpne hver enkelt aktivitet:
 
-1. Gå til sidepanelet og velg ** forhåndsvisningsvisningen.**
-2. Klikk en aktivitet i aktivitetslisten. Sidepanelet viser en forhåndsvisning av den valgte aktiviteten.
+1. Gå til sidepanelet, og velg **oversikten Forhåndsvisning** .
+2. Klikk på en aktivitet i aktivitetslisten. Sidepanelet viser en forhåndsvisning av den valgte aktiviteten.
 
 ## Innstillinger
 
-Når en aktivitet er fullført, fjernes den fra aktivitetslisten innen neste dag. Som standard **** viser inndelingsfanen Aktiviteter oppgaver som du ikke har fullført per dagens dato.
+Når en aktivitet er utført, fjernes den fra aktivitetslisten innen neste dag. Detaljkortet **Aktiviteter** viser som standard oppgaver du ikke har utført frem til dagens dato.
 
 ### Vise fremtidige oppgaver
 
-1. Gå til ![ikon][img1] **Personlige innstillinger > Innstillinger**.
-2. Velg **Funksjoner** og finn **alternativet Vis dager fremover** .
+1. Gå til ![Ikonet][img1] **Personlige innstillinger > Preferanser** .
+2. Velg **Funksjoner,** og finn  alternativet **Vis dager fremover** .
 
-    Her definerer du hvor mange dager fremover du vil at fullførte aktiviteter skal være synlige for.
-    Hvis du for eksempel skriver inn 7 her, vises aktiviteter for neste uke.
+    Her angir du hvor mange dager frem i tid du vil at utførte aktiviteter skal være synlige.
+    Hvis du for eksempel angir 7, vises oppgaver den neste uken.
 
-### Fjern aktivitet fra listen når du er ferdig
+### Fjerne aktivitet fra listen når den er utført
 
-1. Gå til ![ikon][img1] **Personlige innstillinger > Innstillinger**.
-2. Velg **Visuelle effekter**, og rediger deretter Fjern **fullførte aktiviteter** [preferanse][8].
+1. Gå til ![Ikonet][img1] **Personlige innstillinger > Preferanser** .
+2. Velg **Visuelle effekter** , og rediger deretter Fjern **utførte aktiviteter** [Preferanse][8].
 
-### Fremhev forfalte aktiviteter
+### Merke forfalte aktiviteter
 
-Hvis en aktivitet er uthevet i rød type, betyr dette at den foreløpige datoen ble passert. Slik endrer du denne innstillingen:
+Hvis en aktivitet er uthevet med rød skrift, betyr det at den foreløpige datoen for den foreløpige aktiviteten ble passert. Slik endrer du denne innstillingen:
 
-1. Gå til ![ikon][img1] **Personlige innstillinger > Innstillinger**.
-2. Velg **Funksjoner**, og rediger  alternativet **Merk forfalte aktiviteter**.
+1. Gå til ![Ikonet][img1] **Personlige innstillinger > Preferanser** .
+2. Velg **Funksjoner** , og rediger  alternativet **Merk forfalte aktiviteter** .
 
 ## Hva vil du gjøre nå?
 
-* [Opprette oppfølging i aktivitetslisten][5]
+* [Opprette oppfølginger i aktivitetslisten][5]
 * [Slette aktiviteter i aktivitetslisten][7]
 
 <!-- Referenced links -->

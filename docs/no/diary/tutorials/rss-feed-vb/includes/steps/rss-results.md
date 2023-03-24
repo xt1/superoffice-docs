@@ -1,13 +1,13 @@
 <!-- markdownlint-disable-file MD041 -->
-**Feedinnhold som vises i en nettleser før du abonnerer:**
+ **Mate innhold som vises i en nettleser før du abonnerer:** 
 
-![RSS-feed før du abonnerer -skjermbilde][img2]
+![RSS-feed før du abonnerer på -skjermbilde][img2]
 
-Når du abonnerer på feeden, blir den tilgjengelig i mappen som er spesifisert av brukeren.
+Når den er abonnert på feeden, blir den tilgjengelig i mappen som er angitt av brukeren.
 
-![RSS-feed etter abonnement -skjermbilde][img3]
+![RSS-feed etter abonnement på -skjermbilde][img3]
 
-Ved å klikke på lenken i feedinnholdet åpnes den aktuelle dialogboksen i SuperOffice CRM Web:
+Ved å klikke på koblingen i innholdet i feeden åpnes den relevante dialogboksen i SuperOffice CRM Web:
 
 ![Dialogboks åpnet fra RSS-feed -skjermbilde][img4]
 

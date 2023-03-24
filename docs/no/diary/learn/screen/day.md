@@ -1,23 +1,23 @@
 ---
-title: Dag-fanen
-description: Dag-fanen
+title: Fanen Dag
+description: Fanen Dag
+keywords: CRM
 uid: help-no-diary-screen-day
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Dag-fanen
+# Fanen Dag
 
- **Kategorien Dag** vises én dag om gangen.
+Fanen **Dag** viser én dag om gangen.
 
-![Dagbok skjermen, Dag-fanen -skjermbilde][img1]
+![Dagbok bildet, fanen Dag -skjermbilde][img1]
 
-Langs venstre kant av **** Dag-fanen er det tidsintervaller hver time. Du kan rulle opp og ned i tidsintervallene.
+Langs venstre kant i fanen **Dag** finner du intervaller på 1 time. Du kan rulle oppover og nedover i tidsintervallene.
 
-Nederst til venstre  i **kategorien Dag** er et felt for å velge en [tidssone][1], hvis tidssoner er aktivert i SuperOffice Innstillinger og vedlikehold.
+Nederst til venstre i fanen **Dag** finnes det et felt hvor du kan velge en [Tidssone][1], hvis tidssoner er aktivert i SuperOffice Innstillinger og vedlikehold.
 
 <!-- Referenced links -->
 [1]: ../../../globalization-and-localization/learn/time-zones.md

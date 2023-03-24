@@ -1,30 +1,30 @@
 ---
-title: Relasjoner fane (Firma skjerm)
-description: Relasjoner fane (Firma skjerm)
+title: Relasjoner fanen (Firma bilde)
+description: Relasjoner fanen (Firma bilde)
+keywords: firma
 uid: help-no-company-screen-relations
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: company
 so.topic: reference
 language: no
 ---
 
-# Relasjoner-fanen
+# Relasjoner fanen
 
-![Relasjoner (Firma skjerm) -skjermbilde][img2]
+![Relasjoner (Firma bilde) -skjermbilde][img2]
 
-Inndelingsfanen **Relasjoner** viser eventuelle forbindelser mellom selskaper og/eller kontakter, for eksempel informasjon om eierstruktur eller om personer som har vært ansatt i ulike selskaper.
+Detaljkortet **Relasjoner** viser eventuelle forbindelser som finnes mellom firmaer og/eller personer, for eksempel informasjon om eierstruktur eller om personer som har vært ansatt hos forskjellige firmaer.
 
-## <a id="columns" />Kolonner i Relasjoner-fanen
+## <a id="columns" />Kolonnene i fanen Relasjoner
 
-Kolonnene i **** Relasjoner-inndelingsfanen inneholder følgende informasjon:
+I kolonnene på **detaljkortet Relasjoner** finner du følgende informasjon:
 
-* Navn på selskapene (og eventuelle kontakter) definert som parter i forholdet.
-* Hvilket forhold de har til hverandre.
-* Hvem skapte relasjonen.
-* Hvis et binderssymbol (![ikon][img1]) vises, indikerer dette at det er en mer detaljert beskrivelse av forholdet i **Relasjon** dialogboksen.
+* Navn på firmaene (og eventuelle personer) som er definert som parter i relasjonen.
+* Hvilken relasjon de har til hverandre.
+* Hvem som har opprettet relasjonen.
+* Hvis det vises et binderssymbol (![Ikonet][img1]), betyr det at det ligger en nærmere beskrivelse av relasjonen i **dialogboksen Relasjon** .
 
-Dobbeltklikk på en relasjonsrad for å åpne **Relasjon** dialogboksen, som viser all informasjonen som er angitt for den relasjonen.
+Hvis du dobbeltklikker på en relasjonsrad, kommer du til **dialogboksen Relasjon** , og viser all informasjonen som er registrert for den aktuelle relasjonen.
 
 ## Hva vil du gjøre?
 

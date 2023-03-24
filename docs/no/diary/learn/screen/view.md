@@ -1,41 +1,41 @@
 ---
-title: Vis-fanen
-description: Vis-fanen
+title: Fanen Oversikt
+description: Fanen Oversikt
+keywords: CRM
 uid: help-no-diary-screen-view
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Visning-fanen
+# Fanen Oversikt
 
- **Vis-fanen** i **** Dagbok-skjermen viser din egen dagbok med bruker-ID-en din øverst på siden.
+ **Fanen Oversikt** i **** Dagbok-bildet viser din egen dagbok med bruker-IDen din øverst på siden.
 
-![Dagbok skjermen, Vis-fanen -skjermbilde][img1]
+![Dagbok-bildet, fanen Oversikt - skjermbilde][img1]
 
- **Vis-fanen** brukes hovedsakelig til å åpne og se på oversikter over andre brukere eller ressurser, for å finne ut når de vil være tilgjengelige, før du inviterer dem til et møte av , eller oppretter oppfølginger for dem [knytte dem til oppfølging][5].
+ **Fanen Oversikt** brukes hovedsakelig til å åpne og se på oversikter over andre brukere eller ressurser, for å finne ut når de skal være tilgjengelige, før du inviterer dem til et møte i [knytte dem til oppfølginger][5]ved eller opprette oppfølginger for dem.
 
 ## Oppgave-knappen
 
-Hvis du velger **** Vis-fanen på **** Dagbok-skjermen, ![ikon][img2] vises Oppgave-knappen.**** 
+Hvis du velger fanen **Oversikt** i **** Dagbok-bildet, ![Ikonet][img2] **vises Oppgave-knappen.** 
 
-**Alternativer:**
+ **Alternativer:** 
 
-* Velg **Rediger** for å redigere en eksisterende visning. Forhåndsdefinerte visninger kan ikke redigeres.
-* Velg **Ny gruppevisning ** for å opprette en ny gruppevisning.
-* Velg **Kopier** for å lage en kopi av gruppevisningen du åpnet.
-* Velg **Slett gruppevisning** for å slette gruppevisningen du åpnet.
-* Velg **Inviter deltakere til ** å koble deltakere til en oppfølging.
-* Velg **Hjelp** for å åpne denne brukerhåndboken.
+* Velg **Rediger** for å redigere en eksisterende oversikt. Forhåndsdefinerte visninger kan ikke redigeres.
+* Velg **Ny gruppeoversikt** for å opprette en ny gruppeoversikt.
+* Velg **Kopier** for å lage en kopi av gruppeoversikten du åpnet.
+* Velg **Slett gruppeoversikt** for å slette gruppeoversikten du åpnet.
+* Velg **Invitere deltakere** til å knytte deltakere til en oppfølging.
+* Velg **Hjelp** for å åpne denne brukerguiden.
 
 ## Hva vil du gjøre nå?
 
-* [Opprette gruppevisninger][1]
-* [Vise gruppevisninger for en brukergruppe][2]
-* [Opprette avtaler for medarbeidere][4]
-* [Inviter deltakere][5]
+* [Opprette gruppeoversikter][1]
+* [Vise gruppeoversikter for en brukergruppe][2]
+* [Opprette avtaler for andre medarbeidere][4]
+* [Invitere deltakere][5]
 
 <!-- Referenced links -->
 [1]: ../create-view.md

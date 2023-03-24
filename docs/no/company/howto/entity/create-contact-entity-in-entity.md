@@ -1,43 +1,43 @@
 ---
-title: Opprette en Person enhet gjennom en enhet
-description: Hvordan lage en Person enhet gjennom en enhet på to måter.
+title: Opprette en Person enhet via en enhet
+description: Slik oppretter du en Person enhet på to måter.
+keywords: person, firma, enhet, API,
 uid: create_contact_entity_in_entity-no
 author: {github-id}
 so.date: 05.11.2016
-keywords: contact, company, entity, API,
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Opprette en Person enhet gjennom en enhet
+# Opprette en Person enhet via en enhet
 
-Oppretting av en kontakt gjennom en enhet kan gjøres på to forskjellige måter:
+Du kan opprette en person via en enhet på to forskjellige måter:
 
 [!include [ALT](../../../api/includes/create-entity-options.md)]
 
 ## Eksempel 1
 
-[!code-csharp[CS]](includes/create-contact-entity-in-entity-1.cs)
+[!code-csharp[CS](includes/create-contact-entity-in-entity-1.cs)]
 
-I eksemplet ovenfor oppretter vi en ny kontakt som forklart i [dette eksemplet][1]. Forskjellen er at vi ikke lagrer den opprettede kontakten. I stedet tilordner vi den til en annen enhet, for eksempel enheten, `Person` og lagrer deretter `Person`:
+I eksempelet ovenfor oppretter vi en ny person som forklart i [dette eksempelet][1]. Forskjellen er at vi ikke lagrer den opprettede personen. I stedet tilordner vi den til en annen enhet, for eksempel enheten, `Person` og deretter lagrer vi følgende `Person`:
 
-[!code-csharp[CS]](includes/create-contact-entity-in-entity-1.cs?range=44,47)
+[!code-csharp[CS](includes/create-contact-entity-in-entity-1.cs?range=44,47)]
 
 ## Eksempel 2
 
-Nedenfor er eksemplet på å opprette `Contact` en enhet,  som er en eiendom for en annen enhet, for eksempel `Person`.
+Nedenfor er eksempelet på å opprette en `Contact` enhet, som er en egenskap for en annen enhet, for eksempel `Person`.
 
-[!code-csharp[CS]](includes/create-contact-entity-in-entity-2.cs)
+[!code-csharp[CS](includes/create-contact-entity-in-entity-2.cs)]
 
-Forskjellen mellom eksempel 1 og eksempel 2 er at her er egenskapene `Contact` til enheten tilgjengelig gjennom forekomsten av enheten `Person` som vist nedenfor. Uttalelsene kan imidlertid variere litt avhengig av datatypen.
+Forskjellen mellom eksempel 1 og eksempel 2 er at her får du `Contact` tilgang til egenskapene for enheten gjennom forekomsten av `Person` enheten som vist nedenfor. Uttalelsene kan imidlertid variere litt, avhengig av datatypen.
 
-[!code-csharp[CS]](includes/create-contact-entity-in-entity-2.cs?range=12)
+[!code-csharp[CS](includes/create-contact-entity-in-entity-2.cs?range=12)]
 
-Når du lagrer `Person` enheten ved bruk av metoden, `Save` lagres  også den nye `Contact` NestedPersistent).
+Når du lagrer `Person` enheten ved bruk av `Save` metoden, lagres også den nye `Contact` NestedPersistent.
 
 > [!NOTE]
-> Når du bruker ovennevnte type kode, bør hovedenheten (for eksempel `Person` enheten ovenfor) også opprettes. Når du henter en person, kan det hende at den allerede har en kontakt tilordnet. Så derfor når vi legger til verdier til egenskapene til `Contact` i en slik enhet, er det vi faktisk ville gjøre å oppdatere eksisterende `Contact` informasjon.
+> Når du bruker ovennevnte kodetype, opprettes også hovedenheten (for eksempel `Person` enheten ovenfor). Når du henter en person, kan det hende at den allerede har tildelt en person. Så når du legger til verdier i egenskapene til `Contact` i en slik enhet, er det vi faktisk ville gjøre, å oppdatere den eksisterende `Contact` informasjonen.
 
 <!-- Referenced links -->
 [1]: create-contact-entity.md

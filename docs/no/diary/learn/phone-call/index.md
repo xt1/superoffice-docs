@@ -1,38 +1,38 @@
 ---
 title: Samtale
 description: Samtale
+keywords: CRM
 uid: help-no-phone-call
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
 # Samtale
 
-Samtaler er oppfølginger med en standardvarighet på 15 minutter. Standard starttidspunkt er gjeldende klokkeslett og datoen er dagens dato. Du kan konfigurere en samtaleoppfølging hvis du for eksempel vil gå inn i en utgående telefonsamtale.
+Samtaler er oppfølginger med en standard varighet på 15 minutter. Standard starttid er gjeldende klokkeslett, og datoen er dagens dato. Du kan sette opp en samtaleoppfølging hvis du for eksempel vil registrere en utgående samtale.
 
 > [!TIP]
-> Du kan endre standardvarigheten til noe annet enn 15 minutter. Velg ![ikon][img1] **Personlige innstillinger** > Innstillinger** > Standardverdier** ** > **Varigheten av en ny telefonsamtale** og **.[Angi ønsket verdi][4] 
+> Du kan endre standard varighet til noe annet enn 15 minutter. Velg ![Ikonet][img1] **Personlige innstillinger** > **Preferanser** > **Standardverdier** > **Varighet på ny samtale** og [angi ønsket verdi][4].
 
-![ikon][img2]
+![Ikonet][img2]
 
-Uansett hvor du er i SuperOffice CRM, kan du opprette en ny telefonsamtale ved å velge **Ny** > **Samtale** på topplinjen.
+Uansett hvor i SuperOffice CRM du er, kan du opprette en ny telefonsamtale ved å velge **Ny** > **Samtale** på toppraden.
 
 Samtaler kan vises på følgende steder i SuperOffice CRM:
 
 <!-- markdownlint-disable MD032 -->
-[!include [Liste over aktiviteter seksjonsfaner](../../../learn/includes/list-activities-section-tabs.md)]
-* På  fanene **Dag**/Uke**/Måned****/****Vis** i **** Dagbok-skjermen.
-* I disse sidepanelvisningene: **Dag**, **Måned**, **Neste dag** og **Uke**.
+[!include [Liste over detaljkortene Aktiviteter](../../../learn/includes/list-activities-section-tabs.md)]
+* På fanene **Dag** / **Uke** / **Måned** / **Oversikt** i **** Dagbok-bildet.
+* I disse sidepanelvisningene: **Dag** , **Måned** , **Neste dag** og **Uke** .
 <!-- markdownlint-restore -->
 
 ## Hva vil du gjøre?
 
-* [Gå inn i telefonsamtaler][2]
-* [Finn ut mer om aktiviteter][1]
-* [Arbeid med oppfølging][3]
+* [Registrere samtaler][2]
+* [Lære om aktiviteter][1]
+* [Jobbe med oppfølginger][3]
 
 <!-- Referenced links -->
 [1]: ../../../learn/activity/index.md

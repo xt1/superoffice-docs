@@ -1,32 +1,32 @@
 ---
-title: Prosjekter-fanen
-description: Prosjekter fane
+title: Prosjekter fanen
+description: Prosjekter fanen
+keywords: firma
 uid: help-no-company-screen-projects
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: company
 so.topic: reference
 language: no
 ---
 
-# Prosjekter-fanen
+# Prosjekter fanen
 
-![Prosjekter delen i selskapet -skjermbilde][img1]
+![Prosjekter delen i firma -skjermbilde][img1]
 
-Fanen **Prosjekter** seksjon viser alle prosjektene for det aktive selskapet. For å vise et prosjekt her må minst én ansatt i den aktuelle bedriften være registrert som prosjektmedlem.
+Detaljkortet **Prosjekter** viser alle prosjektene for det aktive firmaet. For at et prosjekt skal vises her, må minst én ansatt hos det aktuelle firmaet være registrert som prosjektdeltaker.
 
-Klikk Legg **** til i [Opprette et nytt prosjekt][2]
+Klikk på **Legg til** i [opprette et nytt prosjekt][2]
 
-Dobbeltklikk et prosjekt i listen for å åpne Prosjekt **** skjermbilde med informasjon om det aktive prosjektet.
+Dobbeltklikk på et prosjekt i listen for å åpne Prosjekt-bildet **** med informasjon om det aktive prosjektet.
 
-[!include [Innholdet i Prosjekter-fanen](../../../learn/includes/projects-tab.md)]
+[!include [Contents av fanen Prosjekter](../../../learn/includes/projects-tab.md)]
 
-[!include[ Conf. ](../../../learn/includes/tip-configure-columns.md)kolonner]
+[!include [Conf. kolonner](../../../learn/includes/tip-configure-columns.md)]
 
-## Beslektede emner
+## Aktuelle emner
 
-* [Opprette prosjekter][2]
-* [Administrere prosjekt][1]
+* [Opprett prosjekter][2]
+* [Håndtere prosjekt][1]
 
 <!-- Referenced links -->
 [1]: ../../../project/learn/index.md

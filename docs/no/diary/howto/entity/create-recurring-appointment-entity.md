@@ -1,38 +1,38 @@
 ---
-title: Hvordan lage en gjentakende avtale (datalag)
-description: Slik oppretter du en regelmessig avtale ved hjelp av enheter på NetServer-datalaget.
+title: Slik oppretter du en gjentakende avtale (datalag)
+description: Slik oppretter du en gjentakende avtale ved hjelp av enheter på NetServer-datalaget.
+keywords: dagbok, kalender, avtale, API, enhet, AppointmentMatrix, RecurrencePattern, RecurrenceDailyPattern
 uid: create_recurring_appointment_entity-no
 author: Bergfrid Skaara Dias
 so.date: 11.04.2021
-keywords: diary, calendar, appointment, API, entity, AppointmentMatrix, RecurrencePattern, RecurrenceDailyPattern
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Slik oppretter du en regelmessig avtale (datalag)
+# Slik oppretter du en gjentakende avtale (datalag)
 
-Dette demonstrerer bruken av [AvtaleMatrix][1] å lage [Regelmessige avtaler][2]. `SuperOffice.CRM.Entities.AppointmentMatrix`  er en matrise som inneholder informasjon om gjentatte avtaler og deres deltakere.
+Dette demonstrerer bruken av [AvtaleMatrix][1] å opprette [gjentakende avtaler][2]. `SuperOffice.CRM.Entities.AppointmentMatrix`  er en matrise som inneholder informasjon om repeterende avtaler og deltakerne.
 
-I det følgende eksemplet vil vi opprette en avtale kl. 14.00 i morgen som vil gjenta seg de neste 8 virkedagene.
+I det følgende eksempelet skal vi opprette en avtale kl. 14.00 i morgen som vil gjenta seg de neste 8 arbeidsdagene.
 
-## Kode
+## Koden
 
-[!code-csharp[CS]](includes/create-recurring-apt-entity.cs)
+[!code-csharp[CS](includes/create-recurring-apt-entity.cs)]
 
 ## Gjennomgang
 
-Først har vi opprettet avtalen som skal gjenta seg, ved hjelp av `CreateNew` metoden som er eksponert i `Appointment` enheten. Avtaleteksten angis deretter, etterfulgt av innstilling av kontakt, avtaletype og status for avtalen.
+Først har vi opprettet avtalen som skal gjentas, ved hjelp av `CreateNew` metoden som eksponeres i `Appointment` enheten. Teksten om avtalen angis nå, etterfulgt av å angi person, avtaletype og status for avtalen.
 
-Deretter har vi opprettet avtalematrisen som passerer avtalen for å gjenta seg.
+Deretter har vi opprettet matrisen for avtaler som passerer avtalen for å gjenta seg.
 
-Når du oppretter regelmessige avtaler, er den viktigste delen **å angi informasjonen om regelmessighet.** Dette gjøres ved å lage et gjentakelsesmønster. I dette eksemplet er mønsteret som sådan at avtalen skal gjenta seg daglig i 8 dager fra i morgen. Dermed er gjentakelsesmønsteret satt til *Daglig* og videre spesifisert som *EveryWorkday*. Den `RecurrencePattern` og `RecurrenceDailyPattern` er oppregninger.
+Når du skal opprette regelmessige avtaler, er det viktigste **å angi informasjon om gjentakelse** . Dette gjøres ved å opprette et mønster for gjentakelse. I dette eksempelet er mønsteret at avtalen skal gjentas daglig i 8 dager som starter fra i morgen. Dermed settes gjentakelsesmønstret til *Daglig* og angis ytterligere som *EveryWorkday*. Og `RecurrencePattern` `RecurrenceDailyPattern` er opplistinger.
 
-Deretter har vi satt start- og sluttdato for repetisjonsmønsteret. Ved hjelp av `CalculateDays` metoden opprettes dagene for gjentakelsesmønsteret.
+Deretter har vi angitt start- og sluttdatoer for repetisjonsmønstret. Med `CalculateDays` metoden opprettes dagene for gjentakelsesmønstret.
 
-Til slutt tilordnes gjentakelsesinformasjonen til matrisen og matrisen lagres i databasen.
+Til slutt tildeles den gjentakende informasjonen til matrisen, og matrisen lagres i databasen.
 
-<a href="../../../../assets/downloads/api/howtocreaterecurringappointment.zip" download>Få kildekoden (zip)</a>
+<a href="../../../../assets/downloads/api/howtocreaterecurringappointment.zip" download>Hent kildekoden (zip)</a>
 
 <!-- Referenced links -->
 [1]: appointment-matrix.md

@@ -1,10 +1,10 @@
 ---
-title: Hvordan få kategorilisten og sette kategori på en kontakt
-description: Hvordan få kategorilisten og sette Person.Kategori fra kombinasjonsboksen
+title: Slik får du kategorilisten og angir kategori for en person
+description: Slik får du kategorilisten og setter Person.Kategori fra kombinasjonsboks
+keywords: MDOAgent
 uid: get_set_category_mdoagent-no
 author: Bergfrid Dias
 so.date: 02.22.2022
-keywords: MDOAgent
 so.topic: howto
 so.category: list
 so.area: api-services
@@ -12,9 +12,9 @@ so.area: api-services
 # so.client:
 ---
 
-# Hvordan få kategorilisten og angi kategori på en kontakt
+# Slik får du tak i kategorilisten og angi kategori på en person
 
-Her har vi brukt 2 arrangementer for å få jobben gjort. Vi har brukt én hendelse til å fylle kontrollen med kategorier fra listen vi har hentet, og den andre til å angi kontaktkategorien og lagre enheten.
+Her har vi brukt to arrangementer for å få jobben gjort. Vi har brukt ett arrangement til å fylle kontrollen med kategorier fra listen vi har hentet, og den andre for å angi kategorien for personen og lagre enheten.
 
 ```csharp
 using SuperOffice.CRM.Services;

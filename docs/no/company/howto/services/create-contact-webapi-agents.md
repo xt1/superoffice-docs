@@ -1,18 +1,18 @@
 ---
-title: Opprett et nytt selskap
-description: Hvordan lage en ny Firma ved hjelp av webapi kontakt agent.
+title: Opprette et nytt firma
+description: Hvordan opprette et nytt Firma ved hjelp av webapi kontaktagent.
+keywords: person, firma, tjenester, API, WebAPI, agenter, CreateDefaultContactEntity, JavaScript
 uid: create_company_webapi_agents-no
 author: Bergfrid Dias
 so.date: 11.18.2021
-keywords: contact, company, services, API, WebAPI, agents, CreateDefaultContactEntity, JavaScript
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Opprett et nytt selskap
+# Opprette et nytt firma
 
-Få et tomt selskap, endre det og legg det tilbake for å opprette et nytt selskap.
+Hent tomt firma, endre det og poster det tilbake for å opprette et nytt firma.
 
 ```javascript
 company = Post("api/v1/Agents/Contact/CreateDefaultContactEntity")
@@ -23,4 +23,4 @@ company.NoMailing = true
 company = Post("api/v1/Agents/Contact/SaveContactEntity", company)
 ```
 
-[!include [Pseudokode](../../../api/includes/note-javascripty.md)]
+[!include [Pseudocode](../../../api/includes/note-javascripty.md)]

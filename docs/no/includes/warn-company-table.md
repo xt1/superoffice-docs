@@ -1,3 +1,3 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!WARNING]
-> Endring av `company` tabellen vil gjøre det **umulig å logge på** for alle brukere. Den eneste løsningen er å gjenopprette databasen fra sikkerhetskopi.
+> Hvis du endrer tabellen, `company` kan det **være umulig å logge på** alle brukere. Den eneste løsningen er å gjenopprette databasen fra sikkerhetskopiering.

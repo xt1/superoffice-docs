@@ -1,22 +1,22 @@
 ---
-title: Dagbok opplæringsprogrammer
-description: Inneholder en liste over opplæringsprogrammer for arbeid med oppfølging og kalendere.
+title: Dagbok opplæring
+description: Her finner du en oversikt over veiledninger for arbeid med oppfølginger og kalendere.
+keywords: dagbok, kalender, oppfølging, avtale
 uid: diary-tutorials-no
 author: Bergfrid Skaara Dias
 so.date: 03.21.2022
-keywords: diary, calendar, follow-up, appointment
 so.topic: tutorial
 so.envir: cloud
 so.client: online
 ---
 
-# Dagbok veiledninger
+# Dagbok opplæring
 
-Tilgjengelige opplæringsprogrammer:
+Tilgjengelige opplæringstekster:
 
 * [iTunes-lignende klient for aktiviteter][1]
 * [SuperOffice iCal-feed][2]
-* [Generere RSS-feed i VB.Net][3]
+* [Generer RSS-feed i VB.Net][3]
 
 > [!CAUTION]Disse er ganske gamle. Bruk etter eget skjønn.
 > 

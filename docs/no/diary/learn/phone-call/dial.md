@@ -1,31 +1,31 @@
 ---
-title: Ringe kontakter
-description: Ringe kontakter
+title: Ringe til personer
+description: Ringe til personer
+keywords: CRM
 uid: help-no-contact-dial
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Ringe kontakter
+# Ringe til personer
 
-Hvis IP-telefonløsningen din er riktig konfigurert (se [Telefoninnstillinger][1]), kan du ringe en kontakt direkte fra SuperOffice CRM.
+Hvis IP-telefonløsningen din er konfigurert riktig (se [Telefonpreferanser][1]), kan du ringe en person direkte fra SuperOffice CRM.
 
-## Ringe en kontakt fra dialogboksene Avtale, Oppgave, Samtale og Dokument
+## Ringe til en person fra dialogboksene Avtale, Oppgave, Samtale og Dokument
 
-Dette gjør du ved hjelp av telefonknappen i for eksempel ** dialogboksene** Avtale**, Oppgave**, **Samtale** og **Dokument**: 
+Det gjør du ved hjelp av telefonknappen i for eksempel **dialogboksene Avtale** , **Oppgave** , **Samtale** og **Dokument** :
 
-1. Åpne en avtale, oppgave, telefonsamtale eller et dokument.
-2. Velg ønsket kontakt  i ** Person-feltet i dialogboksen.**
-3. Klikk knappen ved siden av kontaktfeltet ![ikon][img1]. En liste over numre for den valgte kontakten vises.
-4. Velg nummeret du vil ringe. Kontakten ringes deretter.
+1. Åpne en avtale, oppgave, samtale eller dokument.
+2. Merk ønsket person i feltet **Person** i dialogboksen.
+3. Klikk på knappen ved siden av personfeltet ![Ikonet][img1]. En liste over numrene til den valgte personen vises.
+4. Velg nummeret du vil ringe til. Personen ringes deretter.
 
-## Ring fra inndelingsfaner (til kontakter, utvalgsmedlemmer, interessenter, deltakere)
+## Ring fra detaljkort (til personer, utvalgsmedlemmer, interessenter, deltakere)
 
-1. Gå til en inndelingsfane som inneholder kontakter.
-2. Klikk på et telefonnummer i en kolonne som inneholder telefonnumre. Kontakten ringes deretter.
+1. Gå til et detaljkort som inneholder personer.
+2. Klikk på et telefonnummer i en kolonne som inneholder telefonnumre. Personen ringes deretter.
 
 <!-- Referenced links -->
 [1]: preferences.md

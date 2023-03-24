@@ -1,46 +1,46 @@
 ---
-title: Telefoninnstillinger
-description: Telefoninnstillinger
+title: Telefonpreferanser
+description: Telefonpreferanser
+keywords: CRM
 uid: help-no-phone-preferences
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Telefoninnstillinger
+# Telefonpreferanser
 
 Du kan ringe ut fra SuperOffice CRM på en av følgende måter:
 
-* Klikk på et telefonnummer i **** Firma-skjermbildet
-* Klikk ![ikon][img1] i en dialogboks.
-* Høyreklikk en person i en inndelingsfane, og velg ** *navnet ***Ring.
-* [Ringe kontakter][1].
+* Klikk på et telefonnummer i **** Firma-bildet
+* Klikk ![Ikonet][img1] i en dialogboks.
+* Høyreklikk på en person på et detaljkort, og velg **Ring *navn** *.
+* [Ringe til personer][1].
 
-Telefoninnstillinger håndteres på en annen måte i Windows- og webklientene. Finn ut mer om telefoninnstillinger for Windows og Internett nedenfor.
+Telefonpreferanser håndteres ulikt i Windows- og Web-klientene. Du kan lære mer om telefonpreferanser for Windows og Web nedenfor.
 
 ## Tekniske krav
 
-For å bruke telefonfunksjonene i SuperOffice må du kanskje installere TAPI-programvare.
+Hvis du vil bruke telefonfunksjonene i SuperOffice må du kanskje installere programvaren TAPI.
 
 ### Foreslåtte leverandører
 
-* Standard Windows-oppringingsprogramvare
+* Standard telefonprogramvare fra Windows
 * Panasonic TSP
-* PBX-hjul
+* PBX-oppringing
 
 ## Innstillinger
 
-Hvis IP-telefon, Skype eller FaceTime er installert, kan du ringe fra SuperOffice CRM. **Innstillingen for Telefonkoblingsformat** må være riktig angitt, enten  i Innstillinger ** > **Standardverdier eller i **SuperOffice Innstillinger** og vedlikehold. I SuperOffice Innstillinger og vedlikehold kan telefoninnstillingene angis for individuelle brukere, brukergrupper eller hele systemet.
+Hvis IP-telefon, Skype eller FaceTime er installert, kan du ringe fra SuperOffice CRM. Preferansen **for telefonkoblingsformat** må angis riktig, enten i **Preferanser** > **Standardverdier** eller i SuperOffice Innstillinger og vedlikehold. I SuperOffice Innstillinger og vedlikehold kan telefonpreferansene angis for enkeltbrukere, brukergrupper eller hele systemet.
 
 ### Tilgjengelige parametere
 
-**IP-telefon**: tel:% p (standardverdi)
-**Skype**: callto:% p
-**FaceTime**: facetime:%p
+ **IP-telefon** : tel:%p (standardverdi)
+ **Skype** : callto:%p
+ **FaceTime** : ansiktstid:%p
 
-[Mal variabler][2] kan også brukes i telefonparametrene.
+[Malvariabler][2] kan også brukes i telefonparameterne.
 
 <!-- Referenced links -->
 [1]: dial.md

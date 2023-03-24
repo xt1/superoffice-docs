@@ -1,18 +1,18 @@
 <!-- markdownlint-disable-file MD041 -->
-[!kode-vb [VB](../rss-page.vb?range=71-174)]
+[!kode-vb [100 000 00](../rss-page.vb?range=71-174)
 
 [!kode-vb[VB](../rss-page.vb?range=199-208)]
 
-Avsnitt 2 viser hvordan du ved hjelp av spørringsresultatene genererer RSS-feeden. Her har vi valgt å iterere over den hentede samlingen `ArchiveListItem` . Den trekker ut dataverdier for hver `ArchiveListItem` og lagrer dem i en `ListDictionary`.
+Seksjon 2 viser hvordan du genererer RSS-feeden ved hjelp av spørringsresultatene. Her har vi valgt å iteratere over den hentet `ArchiveListItem` samlingen. Den henter ut dataverdier for hver `ArchiveListItem` og lagrer dataverdiene i en `ListDictionary`.
 
-Den `ListDictionary` inneholder detaljer om en aktivitet om gangen. Deretter settes følgende `item` underelementverdier basert på data i `ListDictionary`:
+Her `ListDictionary` finner du detaljer om én aktivitet om gangen. Deretter angis følgende `item` underelementverdier basert på data i `ListDictionary`:
 
-* tittel
-* lenke
-* beskrivelse
-* pubDate
+* Tittel
+* Link
+* Beskrivelse
+* pubDato
 * dc:skaper
 
-Som vist i feedkodesegmentet er dette dataene det refereres til i `<%= _items %>` det databindende uttrykket.
+Som det fremgår av feedkode-segmentet, er dette dataene  som `<%= _items %>` det databindende uttrykket henviser til.
 
 <!-- Referenced links -->

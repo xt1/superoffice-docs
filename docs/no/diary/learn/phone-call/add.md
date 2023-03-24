@@ -1,22 +1,22 @@
 ---
-title: Legge inn telefonsamtaler
-description: Legge inn telefonsamtaler
+title: Registrere samtaler
+description: Registrere samtaler
+keywords: CRM
 uid: help-no-call-create
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Gå inn i telefonsamtaler
+# Registrere samtaler
 
 1. Gjør ett av følgende:
 
-    * Velg **Ny** > **Samtale** på [øverste linje][2].
-    * Klikk **Oppgave** ( ![ikon][img1] ) > **Foreta et anrop** på et kontaktkort.
+    * Velg **Ny** > **Samtale** på [toppraden][2].
+    * Klikk **på Oppgave** ( ![Ikonet][img1] ) > **Opprett samtale** i et personkort.
 
-1. I den **Samtale** dialogen, [Angi detaljer om telefonsamtalen][1].
+1. I dialogboksen **Samtale** , [angi detaljene for samtalen][1].
 
 <!-- Referenced links -->
 [1]: ../screen/dialog-for-followups.md

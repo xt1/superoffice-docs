@@ -1,10 +1,10 @@
 ---
-title: Arbeide med selskaper
-description: Firmakortet bruker kontakttabellen og de relaterte tabellene. Det finnes flere personoppføringer for alle kontakter.
+title: Arbeide med firmaer
+description: Firmakortet bruker persontabellen og tilhørende tabeller. Det finnes flere personoppføringer for enhver person.
+keywords: firma, person, person
 author: Bergfrid Skaara Dias
 so.date: 11.02.2021
 so.topic: concept
-keywords: company, person, contact
 ---
 
 # Person
@@ -13,7 +13,7 @@ keywords: company, person, contact
 
 ## E-post og URL
 
-Slik setter du sammen en liste over URL-adresser og e-postmeldinger som tilhører denne kontakten:
+Slik setter du sammen en liste over URL-adressene og e-postmeldingene som tilhører denne personen:
 
 ```SQL
 SELECT * FROM url WHERE contact_id = 123 ORDER BY rank
@@ -21,13 +21,13 @@ SELECT * FROM url WHERE contact_id = 123 ORDER BY rank
 SELECT * FROM email WHERE contact_id = 123 ORDER BY rank
 ```
 
-Det kan være flere nettadresser som alle refererer til det samme `project_id`. Dette er OK. URL-ene vil bli presentert i rangrekkefølge. Den første rangeringen vil alltid være 1.
+Det kan være flere URL-adresser som alle refererer til det samme `project_id`. Dette er OK. URL-adressene vil bli presentert i rangeringsrekkefølge. Den første rangeringen vil alltid være 1.
 
-Dette er enklere relasjoner enn relasjonene for eier-ID + som brukes på telefon og adresse.
+Dette er enklere relasjoner enn eier-ID + typerelasjoner som brukes på telefon og adresse.
 
 ## Personliste
 
-Slik får du listen over personer under en kontakt:
+Slik får du frem listen over personer under en person:
 
 ```SQL
 SELECT * FROM person WHERE contact_id = 123 ORDER BY rank
@@ -35,37 +35,37 @@ SELECT * FROM person WHERE contact_id = 123 ORDER BY rank
 
 ## Rader og enheter
 
-A `ContactRow` refererer til en rad i `contact` databasetabellen. Derfor består den av grunnleggende datatyper som støttes av SQL.
+En `ContactRow` refererer til en rad i `contact` databasetabellen. Den består derfor av grunnleggende datatyper som støttes av SQL.
 
-Typen `Rows` består av en samling  rader, for eksempel `ContactRows` type består av en samling typer `ContactRow` .
+Typen `Rows` består av en samling av rader som `ContactRows` type består av en samling av `ContactRow` typer.
 
-Den `ContactEntity` representerer et forretningsobjekt. Den inneholder et sett med egenskaper samlet som en enkelt enhet som representerer et bestemt forretningsobjekt. Enheter inneholder egenskaper for ulike datatyper, for eksempel egenskaper for grunnleggende datatyper som int, string, boolsk, enheter, enhetsmatriser, EntityElement og LocalizedField.
+Det `ContactEntity` representerer et forretningsobjekt. Den inneholder et sett med egenskaper som er samlet som én enhet som representerer et bestemt forretningsobjekt. Enheter inneholder egenskaper for ulike datatyper, for eksempel egenskaper for grunnleggende datatyper som int, streng, boolsk, enheter, enhetsmatriser, EntityElement og LocalizedField.
 
 > [!NOTE]
->  `Person` Egenskapen til er `ContactEntity` et *skrivebeskyttet* `Person` element og ikke en `PersonEntity`.
+>  `Person` Egenskapen til er `ContactEntity` en *skrivebeskyttet* `Person` forekomst og ikke en `PersonEntity`.
 
-## Opprette kontakter
+## Opprette personer
 
-Du kan opprette en kontakt på flere nivåer av NetServer:
+Du kan opprette en person på flere nivåer i NetServer:
 
-* [Opprette en kontakt med rå SQL][9]
-* [Opprette en kontaktenhet][1]
-* [Opprette en kontaktenhet gjennom en enhet][2]
-* [Opprette en kontaktenhet gjennom en enhetssamling][3]
-* [Opprette en kontaktrad][4]
-* [Opprette en kontakt via radsamling (rader)][5]
-* [Opprett en kontakt gjennom OSQL][6]
+* [Opprette en person med rå SQL][9]
+* [Opprette en personenhet][1]
+* [Opprette en personenhet via en enhet][2]
+* [Opprette en personenhet via en enhetssamling][3]
+* [Opprette en personrad][4]
+* [Opprette en person via radsamling (Rader)][5]
+* [Opprette en person via OSQL][6]
 
-## Få kontaktenhet
+## Hente personenhet
 
-Du kan få en `Contact` enhet enten ved å bruke  klassene som er angitt i enhetslaget, eller ved å bruke agentene på tjenestelaget.
+Du kan hente en `Contact` enhet enten ved å bruke klassene som er angitt i enheter-laget eller ved å bruke agentene i tjenestelaget.
 
-* [Få en kontakt via Enheter-laget][7]
-* [Få en kontakt via Tjenester-laget][8]
+* [Få en person gjennom Ettitetslag][7]
+* [Få en person gjennom Services-laget][8]
 
 ## Mer
 
-* [Adresse og telefon: eier-id og type][10]
+* [Adresse og telefon: eier-ID og type][10]
 
 <!-- Referenced links -->
 [1]: entity/create-contact-entity.md

@@ -1,65 +1,65 @@
 ---
-title: Personer-fanen
-description: Personer-fanen
+title: Personer fanen
+description: Personer fanen
+keywords: firma
 uid: help-no-company-screen-contacts
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: company
 so.topic: reference
 language: no
 ---
 
-# Personer fane
+# Personer fanen
 
-![Personer delen om firma-skjermbilde][img1]
+![Personer delen på firma -skjermbilde][img1]
 
-**Personer** er en av seksjonsfanene nederst på **** Firma-skjermen. Den inneholder informasjon om [ansatte i det aktive selskapet][1]. Dobbeltklikk på et navn i listen for å åpne kontakten i **** Person-skjermen.
+ **Personer** er et av detaljkortene nederst i **** Firma-bildet. Her finner du informasjon om [ansatte i det aktive firmaet][1]. Dobbeltklikk på et navn i listen for å åpne personen i Person-bildet **** .
 
-## <a id="columns" />Kolonner i Personer-inndelingsfanen
+## <a id="columns" />Kolonnene på detaljkortet Personer
 
-Kategorien Personer **** inndeling inneholder følgende kolonner:
+Detaljkortet **Personer** inneholder følgende kolonner:
 
 ### Informasjon
 
-Et bindersikon (![ikon][img3]) i denne kolonnen betyr at  kategorien **Notat** på kontaktkortet inneholder informasjon.
+Et bindersikon (![Ikonet][img3]) i denne kolonnen betyr at fanen **Notat** i personkortet inneholder informasjon.
 
-Plasser musepekeren over prikken, og informasjonen vises som et verktøytips.
+Hvis du plasserer musepekeren over prikken, vises informasjonen som en infoboks.
 
 ### Interesser
 
-Et PIN-ikon (![ikon][img2]) i denne kolonnen betyr at det er angitt én eller flere interesser for kontakten. Plasser musepekeren over prikken, og informasjonen vises i et verktøytips. Hvis du vil redigere interessene, dobbeltklikker du kontaktens navn for å åpne kontaktkortet, og går til **kategorien Interesser** .
+Et knappenålikon (![Ikonet][img2]) i denne kolonnen betyr at det er registrert en eller flere interesser for den aktuelle personen. Hvis du plasserer musepekeren over prikken, vises den registrerte informasjonen i form av en infoboks. Hvis du vil redigere interessene, dobbeltklikker du på personens navn for å åpne personkortet og går til fanen **Interesser** .
 
-### Mr/Ms
+### Hr/Fr
 
-Viser hvordan kontakten skal adresseres.
+Viser hvordan personen skal håndteres.
 
-### Fornavn/mellomnavn/etternavn/tittel/mobiltelefon
+### Fornavn/Mellomnavn/Etternavn/Tittel/Mobiltelefon
 
-Viser kontaktens navn, tittel og mobiltelefonnummer.
+Her vises personens navn, tittel og mobiltelefonnummer.
 
 > [!NOTE]
-> Bruk av mellomnavn kan aktiveres i SuperOffice Innstillinger og vedlikehold. Hvis innstillingen er aktivert, brukes den første delen av etternavnet som mellomnavn (men sorteres ikke etter). Hvis innstillingen ikke er aktivert, kan du skrive inn  et mellomnavn i ** Fornavn-feltet, og mellomnavnet vil da bli betraktet som et andre fornavn.**
+> Bruk av mellomnavn kan aktiveres i SuperOffice Innstillinger og vedlikehold. Hvis preferansen er aktivert, brukes første del av etternavnet som mellomnavnet (men sorteres ikke på). Hvis preferansen ikke er aktivert, kan du skrive inn et mellomnavn i **Fornavn-feltet** , og mellomnavnet vil da bli sett på som et andre fornavn.
 
-### E-post
+### Email
 
-Viser kontaktens e-postadresse. Klikk e-postadressen til [Send en melding til denne personen][7]. Dette åpner meldingen i e-postprogrammet du angav.
+Viser personens e-postadresse. Klikk på e-postadressen til [sende en melding til denne personen][7]. Meldingen åpnes i e-postprogrammet du har angitt.
 
 ### Tidligere ansatte
 
-Hvis du merker av for dette alternativet, vises også personer som har forlatt selskapet i listen over kontakter.
+Hvis du merker av for dette alternativet, vil også personer som har sluttet, vises på listen over personer.
 
-De vil da bli vist i en annen farge. De vises også på denne måten på **** Prosjektdeltakere seksjonsfanen ** i Prosjekt-skjermen** og i listen over medlemmer i Utvalg-skjermen **** .
+De vil da vises i en annen farge. De vises også på denne måten på **detaljkortet Prosjektdeltakere** i **Prosjekt-bildet** og på medlemslisten i **** Utvalg-bildet.
 
 ## Hva vil du gjøre nå?
 
-* [Opprette nye kontakter][2]
-* [Redigere kontakter][3]
-* [Flytte kontakter][4]
-* [Slå sammen kontakter][5]
-* [Slette kontakter][6]
-* [Sende e-post til kontakter][7]
-* [Endre rangeringen av kontakter][8]
-* [Konfigurere kolonner][9]
+* [Opprette nye personer][2]
+* [Redigere personer][3]
+* [Flytte personer][4]
+* [Slå sammen personer][5]
+* [Slette personer][6]
+* [Sende e-post til personer][7]
+* [Endre rangering av personer][8]
+* [Konfigurer kolonner][9]
 
 <!-- Referenced links -->
 [1]: ../../../contact/learn/index.md

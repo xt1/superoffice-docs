@@ -1,26 +1,26 @@
 ---
-title: Sende oppfølging
-description: Sende oppfølging
+title: Sende oppfølginger
+description: Sende oppfølginger
+keywords: CRM
 uid: help-no-follow-up-send
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Send en oppfølging som en e-post
+# Sende en oppfølging som en e-post
 
-1. Høyreklikk på ønsket oppfølging  i ** kategorien Aktiviteter-delen i skjermbildene **Firma, **Person**, **Dagbok****, **Salg** eller **Prosjekt**,  og velg **Send som e-post**.** 
+1. Høyreklikk på ønsket oppfølging på **detaljkortet Aktiviteter** i **Firma** , **Person** , **Dagbok** , **Salg** eller **Prosjekt** bilder, og velg **Send som e-post** .
 
-2. En melding åpnes i e-postprogrammet:
+2. Det åpnes en melding i e-postprogrammet ditt:
 
-    * Som standard angis adressen til en angitt kontakt i **** Til-feltet.
+    * Som standard legges adressen til en angitt person inn i Til-feltet **** .
 
-    * Oppfølgingstype og beskrivelse fra dialogboks for oppfølging settes inn i emnefeltet.
+    * Oppfølgingstypen og beskrivelsen fra dialogboksen for oppfølginger settes inn i emnefeltet.
 
     * Rediger e-postmeldingen etter behov. Du kan for eksempel legge til flere mottakere.
 
-        > [!NOTE]Denne informasjonen vil ikke bli oppdatert i SuperOffice CRM.
+        > [!NOTE]Denne informasjonen blir ikke oppdatert i SuperOffice CRM.
         > 
-3. Klikk Send **** for å sende meldingen.
+3. Klikk  på **Send** for å sende meldingen.

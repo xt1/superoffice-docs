@@ -1,26 +1,26 @@
 ---
-title: Uke-fanen
-description: Uke-fanen
+title: Fanen Uke
+description: Fanen Uke
+keywords: CRM
 uid: help-no-diary-screen-week
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Uken-fanen
+# Fanen Uke
 
- **Kategorien Uke** vises én uke om gangen. Den er delt inn i kolonner, en for hver dag i uken.
+Fanen **Uke** viser én uke om gangen. Den er delt inn i kolonner, en for hver ukedag.
 
-![Dagbok skjermen, Uke-fanen -skjermbilde][img2]
+![Dagbok-bildet, fanen Uke -skjermbilde][img2]
 
-Hvis du vil åpne **** Dag-fanen for en bestemt dag, klikker du den aktuelle dagsoverskriften.
+Hvis du vil åpne fanen **Dag** for en bestemt dag, klikker du på den aktuelle dagsoverskriften.
 
 > [!NOTE]
-> Du kan definere om søndag eller mandag skal regnes som den første dagen i uken under ![ikon][img1] **Personlige innstillinger > Innstillinger**.
+> Du kan definere om søndag eller mandag skal regnes som den første dagen i uken under ![Ikonet][img1] **Personlige innstillinger > Preferanser** .
 
-Langs venstre kant av **** Uke-fanen er det intervaller hver time. Du kan rulle opp og ned i tidsintervallene.
+Langs venstre kant i fanen **Uke** finner du intervaller på 1 time. Du kan rulle oppover og nedover i tidsintervallene.
 
 <!-- Referenced links -->
 

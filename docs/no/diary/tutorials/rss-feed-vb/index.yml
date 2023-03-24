@@ -1,9 +1,9 @@
 ### YamlMime:Tutorial
 uid: tutorial-rss-feed-vb
-title: Tutorial - generere RSS-feed i VB.Net
+title: Tutorial - generere RSS feed i VB.Net
 metadata:
-  title: Tutorial - generere RSS-feed i VB.Net.
-  description: I denne opplæringen vil vi opprette en feed som viser alle aktiviteter opprettet av andre brukere på den nåværende brukerens kontakt. En feed viser informasjon. Hvert element i feeden inneholder metadata om den aktuelle varen.
+  title: Tutorial - generer RSS-feed i VB.Net.
+  description: I denne opplæringen skal vi lage en feed som viser alle aktiviteter som er opprettet av andre brukere på den aktuelle brukerens person. En feed viser informasjon. Hver forekomst i feeden inneholder metadata om forekomsten.
   audience: Developer
   level: Advanced
   so.topic: tutorial
@@ -11,7 +11,7 @@ metadata:
   so.date: 03.21.2022
   keywords: rss, diary
 items:
-- title: Innledning
+- title: Introduksjon
   durationInMinutes: 2
   content: |
     The example handles user authentication with forms authentication mode with a custom login page. Based on the user credentials provided, the link to the RSS feed is generated.
@@ -43,7 +43,7 @@ items:
     ```
 
     An XML stylesheet formats how the feed is displayed. The stylesheet is referenced on the first line in the example above and will be discussed later.
-- title: Autentisering og hvordan du oppretter lenken til feeden
+- title: Autentisering og hvordan du oppretter koblingen til feeden
   durationInMinutes: 2
   content: |
     The generated feed link uses the user credentials along with the user preference for the number of items displayed in Feed contents is read and appended to the feed URL.
@@ -57,11 +57,11 @@ items:
     Let's take a look at how the activity is generated and passed to the feed.
 
     [!include[Content: get activity info](includes/steps/get-activity-info.md)]
-- title: Generere RSS-feed
+- title: Generer RSS-feeden
   durationInMinutes: 3
   content: |
     [!include[Content: generate RSS feed](includes/steps/generate-feed.md)]
-- title: Formatering RSS i XSLT
+- title: Formatere RSS i XSLT
   durationInMinutes: 3
   content: |
     Internet Explorer 7+ and Firefox 2+ browsers have the integrated RSS reading capability. Previous versions of these browsers display RSS as plain XML. To address this issue, we use XSLT style sheets to control how the Feed will be rendered in a browser. The XML stylesheet will be ignored depending on whether the RSS is recognized as an XML document or as an RSS feed by a browser.

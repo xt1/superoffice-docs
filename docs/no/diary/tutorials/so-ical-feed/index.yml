@@ -1,16 +1,16 @@
 ### YamlMime:Tutorial
 uid: tutorial-so-ical-feed
-title: Opplæring - SuperOffice iCal Feed
+title: Opplæring – SuperOffice iCal-feed
 metadata:
-  title: Opplæring - SuperOffice iCal Feed
-  description: I denne opplæringen lærer du hvordan du bygger et enkelt nettsted som lar deg logge på SuperOffice og få en unik URL som du kan bruke til å lese kalenderen din uten å logge inn hver gang.
+  title: Opplæring – SuperOffice iCal-feed
+  description: I denne opplæringen lærer du hvordan du bygger et enkelt nettsted som lar deg logge deg på SuperOffice og få en unik URL som du kan bruke til å lese kalenderen din uten å logge deg på hver gang.
   audience: Developer
   author: {github-id}
   so.date: 03.22.2022
   keywords: diary, iCal
   level: Advanced
 items:
-- title: Innledning
+- title: Introduksjon
   durationInMinutes: 3
   content: |
     Having calendar data in SuperOffice is nice, but there are lots of other places that your calendar shows up. Your phone has a calendar, and while SuperOffice Pocket is nice, it may not be available on your type of phone, or you may want to display the calendar on your desktop using a calendar widget.
@@ -37,7 +37,7 @@ items:
     As an added precaution, we set up the GUID system so that only one GUID is valid at a time. If you log in again, we generate a new GUID and overwrite the old one, so that old logins no longer work.
 
     So if someone steals your iCal link, just make a new one and the old one will stop working.
-- title: Logg inn
+- title: Logge på
   durationInMinutes: 2
   content: |
     Our website will start with a simple web form: Username + Password.
@@ -69,7 +69,7 @@ items:
   durationInMinutes: 3
   content: |
     [!include[Content: iCal results](includes/steps/ical-results.md)]
-- title: Integrer eksterne kalenderhendelser
+- title: Integrere eksterne kalenderhendelser
   durationInMinutes: 3
   content: |
     [!include[Content: integrating external calendar events](includes/steps/integrate.md)]

@@ -1,23 +1,23 @@
 ---
-title: Måned-fanen
-description: Måned-fanen
+title: Fanen Måned
+description: Fanen Måned
+keywords: CRM
 uid: help-no-diary-screen-month
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Måned-fanen
+# Fanen Måned
 
- **Kategorien Måned** viser én måned om gangen. Den viser ikke klokkeslettet, men oppfølging for enkeltdager vises.
+Fanen **Måned** viser én måned om gangen. Den viser ikke klokkeslettet, men du ser oppfølginger for de enkelte dagene.
 
-> [!TIP]Hvis du holder musepekeren over en oppfølging, vises et verktøytips med informasjon om oppfølgingen.
+> [!TIP]Hvis du holder musepekeren over en oppfølging, vises en infoboks med informasjon om oppfølgingen.
 > 
-![Dagbok skjermen, Måned-fanen -skjermbilde][img1]
+![Dagbok-bildet, fanen Måned -skjermbilde][img1]
 
-Hvis du vil åpne **** Dag-fanen for en bestemt dag, klikker du overskriften/datoen.
+Hvis du vil åpne fanen **Dag** for en bestemt dag, klikker du på toppteksten/datoen.
 
 <!-- Referenced links -->
 

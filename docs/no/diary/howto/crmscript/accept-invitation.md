@@ -1,18 +1,18 @@
 ---
-title: Opprett invitasjon
-description: Hvordan godta møteinvitasjoner med CRMScript
+title: Opprette invitasjon
+description: Slik godtar du møteinvitasjoner med CRMScript
+keywords: CRMScript, kalender, dagbok, avtaler, oppfølging, invitasjon
 uid: crmscript-accept-invitation-no
 author: Bergfrid Skaara Dias
 so.date: 03.21.2022
-keywords: CRMScript, calendar, diary, appointments, follow-up, invitation
 so.topic: howto
 ---
 
 # Slik godtar du en invitasjon
 
-## Vis oppfølging du er invitert til
+## Vise oppfølginger du er invitert til
 
-[GetMyAppointments()][2] henter avtaler for den påloggede brukeren. Hvis du vil hente etter tilknyttet ID, bruker du [GetPersonDiary()][3] i stedet.
+[GetMyAppointments()][2] henter avtaler for den påloggete brukeren. Hvis du vil hente etter medarbeider-ID, bruker du [GetPersonDiary()][3] i stedet.
 
 ```crmscript!
 DateTime start;
@@ -33,18 +33,18 @@ for (Integer i = 0; i < appointmentList.length(); i++) {
 
 ## Godta()
 
-Å ringe `Accept()` er alt som trengs for å bli [En invitasjon][4] til en avtale i dagboken din. I det virkelige liv anbefales det å sjekke for konflikter 1.
+Å ringe `Accept()` er alt som trengs for å bli til [en invitasjon][4] en avtale i dagboken din. I det virkelige liv anbefales det å se etter 1.
 
-1. argument er avtale-ID. 2. brukes med regelmessige møter, og vi lar den stå på 0 for nå.
+Det første argumentet er avtale-IDen. Den andre brukes med gjentakende møter, og vi lar den stå på 0 for nå.
 
 ```crmscript
 NSAppointmentAgent appointmentAgent;
 appointmentAgent.Accept(242,0);
 ```
 
-## Gjør endringer
+## Gjøre endringer
 
-Deltakere kan bare endre feltene prioritet, alarm og utfylt. Resten er møtearrangørens ansvar. Oppdateringer dekkes [Avtaler][1] generelt.
+Deltakerne kan bare endre prioritets-, alarm- og utførte felt. Resten er møtearrangørens ansvar. Oppdateringer dekkes [Avtaler][1] generelt.
 
 <!-- Referenced links -->
 [1]: update-appointment.md

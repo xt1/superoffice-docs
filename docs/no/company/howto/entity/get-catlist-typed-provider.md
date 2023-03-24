@@ -1,32 +1,32 @@
 ---
-title: Få en kategoriliste gjennom maskinskrevne listeleverandører
-description: Få en kategoriliste gjennom maskinskrevne listeleverandører
+title: Få en kategoriliste gjennom innskrevne listeleverandører
+description: Få en kategoriliste gjennom innskrevne listeleverandører
+keywords: kategori, listeleverandør, Kategoriliste
 uid: get_category_list_typed_provider-no
 author: {github-id}
 so.date: 05.11.2016
-keywords: category, list provider, CategoryList
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Få en kategoriliste gjennom maskinskrevne listeleverandører
+# Få en kategoriliste gjennom innskrevne listeleverandører
 
-I `SoList` klassen er det spesifikke metoder for å lage forskjellige typer listeleverandører. Derfor er det en metode spesialisert på å skape `CategoryList` leverandører også.
+I `SoList` klassen finnes det bestemte metoder for å opprette ulike typer listeleverandører. Derfor er det en metode spesialisert i å opprette `CategoryList` leverandører også.
 
-Følgende eksempel viser hvordan du får en [Kategori Liste][2] bruker [Leverandører av maskinskrevne lister][1].
+I eksemplet nedenfor vises hvordan du bruker . [kategoriliste][2][typede listeleverandører][1]
 
-[!code-csharp[CS]](includes/get-catlist-typed.cs)
+[!code-csharp[CS](includes/get-catlist-typed.cs)]
 
-Ved å bruke metoden som `CategoryList` er definert i klassen, `SoList` kan du få en `CategoryList` leverandør.
+Ved å bruke metoden `CategoryList` som er definert i `SoList` klassen, kan du skaffe deg en `CategoryList` leverandør.
 
-Det er 3 forskjellige elementer til stede i `CategoryList` leverandøren: HeadingItems, HistoryItems og RootItems. Hvert av disse elementene inneholder sine egne egenskaper, og i dette eksemplet har vi bare brukt og `Id` egenskapene `Name` .
+Det finnes tre forskjellige forekomster i `CategoryList` tilbyderen: HeadingItems, HistoryItems og RootItems. Hver av disse forekomstene inneholder egne egenskaper, og i dette eksempelet har vi bare brukt egenskapene `Id` og `Name` .
 
-De `HistoryItems` er definert i [historie tabell][1] med sitt `table_Id` felt som refererer til den konseptuelle tabell-ID-en til [Kategori-tabell][4]. Med mindre MDO-modusen for `Contact` listen er aktivert, blir ingen post lagt til i `history` tabellen.
+I `HistoryItems` feltet defineres med [historikktabell][1] feltet  med `table_Id` henvisning til den konseptuelle tabell-IDen til [kategoritabell][4]. Med mindre MDO-modusen på `Contact` listen er slått på, legges det ikke til noen post i `history` tabellen.
 
-De `RootItems` er  definert av postene i `category` tabellen bare hvis MDO-modus er satt til usann. Hvis MDO-modus er satt til sann, inneholder den `RootItems` bare elementene som ikke er tilordnet noen overskrift. Normalt er alle HeadingItems hentet direkte fra[overskrift tabell][5].
+Oppføringene `RootItems` defineres bare av postene i `category` tabellen hvis MDO-modusen er satt til usann. Hvis MDO-modusen er satt til sann, inneholder den `RootItems` bare forekomstene som ikke er tilordnet noen overskrift. Vanligvis hentes alle HeadingItems direkte fra [overskriftstabell][5].
 
-**Utgang av eksemplet:**
+ **Utdata fra eksempelet:** 
 
 ![01 -skjermbilde][img1]
 

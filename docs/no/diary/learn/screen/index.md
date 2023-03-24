@@ -1,61 +1,61 @@
 ---
-title: Den Dagbok skjermen
-description: Den Dagbok skjermen
+title: Bildet Dagbok
+description: Bildet Dagbok
+keywords: CRM
 uid: help-no-diary-screen
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Den Dagbok skjermen
+# Bildet Dagbok
 
-Den **Dagbok** skjermen består av to hoveddeler:
+Bildet **Dagbok** består av to hoveddeler:
 
-* En kalender som viser oppfølginger som er tildelt et bestemt tidspunkt eller en bestemt dato.
-* Et inndelingsfaneområde, som inneholder og [aktiviteter liste][6] . [salgsliste][7]
+* En kalender som viser oppfølginger som er tildelt et bestemt klokkeslett eller en bestemt dato.
+* Et detaljkortområde med [aktivitetslisten][6] knappen og [salgsliste][7].
 
-Nederst til venstre i kalenderen er et felt for å velge en [tidssone][12], hvis tidssoner er aktivert i SuperOffice Innstillinger og vedlikehold.
+Nederst til venstre i kalenderen finnes det et felt hvor du kan velge en [Tidssone][12], hvis tidssoner er aktivert i SuperOffice Innstillinger og vedlikehold.
 
-## Faner på Dagbok-skjermen
+## Faner i Dagbok-bildet
 
-Dagboken består av fire forskjellige faner du kan velge ved å klikke på dem øverst på **Dagbok-skjermen**.
+Dagboken består av fire forskjellige faner du enkelt kan velge ved å klikke på dem øverst i **** Dagbok-bildet.
 
-* [Dag-fanen][2]
-* [Uken-fanen][3]
-* [Måned-fanen][4]
-* [Visning-fanen][5]
+* [Fanen Dag][2]
+* [Fanen Uke][3]
+* [Fanen Måned][4]
+* [Fanen Oversikt][5]
 
-Klikk ordet **Dagbok** i Navigator og velg en tidsperiode fra listen som vises.
+Klikk på ordet **Dagbok** i Navigator og velg en tidsperiode fra listen som vises.
 
-Du kan [opprette, redigere, flytte og slette oppfølginger][13] direkte i disse fanene. Klikk og dra en oppfølging for å planlegge den på nytt.
+Du kan [opprette, redigere, flytte og slette oppfølginger][13] gå direkte til disse fanene. Klikk og dra en oppfølging for å planlegge den på nytt.
 
-Oppfølginger med tider vises som bokser i de ulike visningene i **Dagbok** skjermbilde, med informasjon om selskapet og type oppfølging. Følgende ikoner vises også:
+Oppfølginger med klokkeslett vises som bokser i de ulike oversiktene i **** Dagbok-bildet, med informasjon om firmaet og typen oppfølging. Følgende ikoner vises også:
 
-| Ikon | Beskrivelse | Les også |
+| Ikonet | Beskrivelse | Les mer |
 |:-:|---|---|
-| ![ikon][img1] | Dette er en gjentakende oppfølging. | [Opprett gjentatte oppfølginger][11] |
-| ![ikon][img2] | Oppfølgingen har flere deltakere. | [Inviter medarbeiderne dine til en oppfølging][12] |
-| ![ikon][img3] | Oppfølgingen er fullført. | [Endre statusen Fullført for en aktivitet][8] |
-| ![ikon][img4] | Oppfølgingen har en aktiv alarm. | |
-| ![ikon][img5] | Det er ubesvarte invitasjoner til denne oppfølgingen. | [Status for invitasjoner][9] |
-| ![ikon][img6] | Denne oppfølgingen er et videomøte. Hvis du vil bli med i møtet, høyreklikker du oppfølgingen og velger **Bli med i møte**. | [Arbeide med videomøter][10] |
+| ![Ikonet][img1] | Dette er en repeterende oppfølging. | [Opprette repeterende oppfølginger][11] |
+| ![Ikonet][img2] | Oppfølgingen har flere deltakere. | [Invitere andre medarbeidere til en oppfølging][12] |
+| ![Ikonet][img3] | Oppfølgingen er utført. | [Endre Utført-status for en aktivitet][8] |
+| ![Ikonet][img4] | Oppfølgingen har en aktiv alarm. | |
+| ![Ikonet][img5] | Det finnes ubesvarte invitasjoner til denne oppfølgingen. | [Status for invitasjoner][9] |
+| ![Ikonet][img6] | Denne oppfølgingen er et videomøte. Hvis du vil bli med på møtet, høyreklikker du på oppfølgingen og velger **Bli med i møte** . | [Jobbe med videomøter][10] |
 
-Som standard vises oppfølgingene som et blått felt i dagbokfanene. Hvis du holder musepekeren over ett av disse feltene, vises et verktøytips som viser mer informasjon om oppfølgingen. Du kan også dobbeltklikke på det blå feltet for å åpne oppfølgingen.
+Oppfølgingene vises som standard som et blått felt i dagbokfanene. Hvis du holder musepekeren over ett av disse feltene, vises en infoboks med mer informasjon om oppfølgingen. Du kan også dobbeltklikke på det blå feltet for å åpne oppfølgingen.
 
 > [!NOTE]
-> I SuperOffice Innstillinger og vedlikehold kan du definere at all oppfølging av en bestemt type vises  i **Dagbok-skjermen** i SuperOffice CRM med en annen bakgrunnsfarge enn den vanlige blå.
+> I SuperOffice Innstillinger og vedlikehold kan du definere at alle oppfølginger av en bestemt type skal vises i **bildet Dagbok** i SuperOffice CRM med en annen bakgrunnsfarge enn vanlig blått.
 
-## Inndelingsfaner i Dagbok-skjermbildet
+## Detaljkortene i Dagbok-bildet
 
-Det **Dagbok** skjermbildet inneholder følgende inndelingsfaner:
+Bildet **Dagbok** inneholder følgende detaljkort:
 
-* [Aktiviteter][6]: **Kategorien** Aktiviteter-delen gir deg en oversikt over aktiviteter og fungerer som en gjøremålsliste eller oppgaveliste.
+* [Aktiviteter][6]: Detaljkortet **Aktiviteter** gir deg en oversikt over aktiviteter og fungerer som en gjøremålsliste eller oppgaveliste.
 
-* [Salg][7]: Fanen Salg **** delen viser viktig informasjon om salg.
+* [Salg][7]: **Detaljkortet Salg** viser grunnleggende informasjon om salg.
 
-[!include [Legg til flere seksjonsfaner](../../../learn/includes/more-tab.md)]
+[!include [Legg til flere detaljkort](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
 [2]: day.md

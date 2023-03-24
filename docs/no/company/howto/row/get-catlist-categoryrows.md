@@ -1,20 +1,20 @@
 ---
-title: Få CategoryList via CategoryRows objektet
-description: Få CategoryList via CategoryRows-objektet
+title: Hent kategorilisten via KategoriRows-objektet
+description: Hent kategorilisten via KategoriRows-objektet
+keywords: kategori, rader
 uid: get_category_list_categoryrows-no
 author: {github-id}
 so.date: 05.11.2016
-keywords: category, rows
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Få CategoryList via CategoryRows-objektet
+# Hent categorylist via KategoriRows-objektet
 
-`CategoryRows` er definert under `SuperOffice.CRM.Rows` navneområde. Du kan til og med få en kategoriliste via objektet `CategoryRows` .
+`CategoryRows` defineres under `SuperOffice.CRM.Rows` navneområde. Du kan til og med få en kategoriliste via `CategoryRows` objektet.
 
-## Kode
+## Koden
 
 ```csharp
 using SuperOffice.CRM.Rows;
@@ -39,6 +39,6 @@ CategoryRows.CustomSearch mySearch = newCategoryRows.CustomSearch();
 
 ## Gjennomgang
 
-Vi har først opprettet en forekomst av `CustomSearch` klassen. Gjennom dette prøver vi å hente alle kategoriradene som ikke er slettet. I dette eksemplet henter vi ganske enkelt en liste over kategorier. Du kan til og med gruppere disse kategoriene i henhold til overskriftene deres ved å legge til flere begrensninger i forekomsten `CustomSearch` .
+Vi har først opprettet en forekomst av `CustomSearch` klassen. Gjennom dette prøver vi å hente ut alle kategoriradene som ikke slettes. I dette eksempelet henter vi bare en liste over kategorier. Du kan også gruppere disse kategoriene i henhold til overskriftene ved å legge til flere begrensninger i `CustomSearch` forekomsten.
 
-Eksemplet ovenfor er en veldig enkel demonstrasjon av hvordan en kategoriliste oppnås via `CategoryRows` objekt. Du kan til og med forbedre den i henhold til dine krav.
+Eksemplet ovenfor er en svært enkel demonstrasjon av hvordan en kategoriliste hentes via `CategoryRows` objekt. Du kan også forbedre det i henhold til dine krav.

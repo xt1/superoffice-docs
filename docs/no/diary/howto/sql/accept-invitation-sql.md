@@ -1,22 +1,22 @@
 ---
 title: Godta invitasjon
-description: Hvordan godta en invitasjon til en avtale ved hjelp av rå SQL.
+description: Slik godtar du en invitasjon til en avtale med rå SQL.
+keywords: dagbok, kalender, avtale, API, invitasjon
 uid: accept_invitation_sql-no
 author: Bergfrid Skaara Dias
 so.date: 03.02.2022
-keywords: diary, calendar, appointment, API, invitation
 so.topic: howto
 ---
 
 # Godta invitasjon
 
-Å godta en invitasjon innebærer å endre typen avtale.
+Hvis du godtar en invitasjon, må du endre typen avtale.
 
-Her er Ingrid Istad i ferd med å takke ja til en invitasjon til time fra Frode Freestad.
+Her er Ingrid Istad i ferd med å overta en invitasjon til avtale fra Frode Freestad.
 
-En invitasjon har type = 6 (bestilling i dagbok) og status = 6 eller 7 (ikkeSett og sett).
+En invitasjon har type = 6 (bestilling i dagbok) og status = 6 eller 7 (notSeen og sett).
 
-Her er hva som skjer når  du klikker på **GODTA-knappen**:
+Her er hva som skjer når **KNAPPEN GODTA** klikkes på:
 
 <!-- markdownlint-disable MD013 -->
 ## Oppdatere invitasjonsavtale
@@ -37,7 +37,7 @@ INSERT INTO CRM."traveltransactionlog"
 VALUES (110522, 1164908036, 0, 4608, 10, 9, 740)
 ```
 
-## Oppdater SAINT tellere for kontakten
+## Oppdatere SAINT tellere for personen
 
 ```SQL
 UPDATE CRM."countervalue" SET "CounterValue_id" = 16402, "contact_id" = 13, "person_id" = 0, "project_id" = 0, 
@@ -53,7 +53,7 @@ UPDATE CRM."countervalue" SET "CounterValue_id" = 16591, "contact_id" = 13, "per
 UPDATE CRM."countervalue" SET "CounterValue_id" = 16595, "contact_id" = 13, "person_id" = 0, "project_id" = 0, "extra1_id" = 0, "extra2_id" = 0, "record_type" = 10, "direction" = 3, "intent_id" = 5, "sale_status" = 0, "amountClassId" = 0, "totalReg" = 1, "totalRegInPeriod" = 1, "notCompleted" = 1, "notCompletedInPeriod" = 1, "lastRegistered" = 1164888900, "lastCompleted" = 0, "lastDoBy" = 1164888900, "extra1_count" = 0, "extra2_count" = 0, "extra3_count" = 0, "extra4_count" = 0, "registered" = 0, "registered_associate_id" = 0, "updated" = 1164904436, "updated_associate_id" = 10, "updatedCount" = 0 WHERE "CounterValue_id" = 16595
 ```
 
-## Les også
+## Se også
 
 * [Avtale tabell][1]
 * [Invitasjoner][2]

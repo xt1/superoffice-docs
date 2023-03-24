@@ -1,116 +1,116 @@
 ---
-title: Adresseformater for forskjellige land
+title: Adresseformater for ulike land
 description: Adresseformater for ulike land
+keywords: firma
 uid: help-no-address-formats-for-different-countries
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: company
 so.topic: reference
 language: no
 ---
 
-# Adresseformater for forskjellige land
+# Adresseformater for ulike land
 
-I SuperOffice CRM kan du opprette selskaper med adresser i mange forskjellige land. For å lette publiseringen av brev til selskaper i utlandet, inkluderer SuperOffice CRM åtte forskjellige adresseformater: europeisk, australsk / kanadisk, amerikansk, tysk, britisk, spansk, japansk og et generelt adresseformat.
+I SuperOffice CRM kan du opprette firmaer med adresser i mange forskjellige land. For å lette utsending av brev til firmaer i utlandet inneholder SuperOffice CRM åtte forskjellige adresseformater: europeisk, australsk/kanadisk, amerikansk, tysk, britisk, spansk, japansk og et generelt adresseformat.
 
-Når du [Opprett et selskap][1] og velger hvilket land selskapet tilhører, endres adressefeltene ** i ** Firma-fanen i henhold til ditt valg. Adressefeltene som endres, er beskrevet nedenfor.
+Når du [opprette et firma][1] og velger hvilket land firmaet tilhører, endres adressefeltene i fanen **Firma** etter hva du velger. Nedenfor beskrives adressefeltene som endres.
 
 > [!TIP]Du kan endre standard adresseformat for et land i SuperOffice Innstillinger og vedlikehold.
 > 
 ## Generelt adresseformat
 
-Dette adresseformatet er standardformatet for alle land som ikke dekkes av områdene nevnt nedenfor, for eksempel land i Midtøsten, Latin-Amerika og Afrika.
+Dette adresseformatet er standardformat for alle land som ikke omfattes av områdene som nevnes nedenfor, for eksempel land i Midtøsten, Latin-Amerika og Afrika.
 
-| Felt | Beskrivelse |
+| Feltet | Beskrivelse |
 |---|---|
 | Adresse 1 | Første adresselinje |
 | Adresse 2 | Andre adresselinje |
 | Adresse 3 | Tredje adresselinje |
-| Postnummer/Poststed | Postnummer og poststed |
+| Postnr/sted | Postnummer og poststed |
 | Land | Land |
 
 ## Tyskland
 
-Dette adresseformatet brukes for Tyskland. Tyskland har alltid et annet postnummer / by for en kontoradresse og postadresse.
+Dette adresseformatet brukes for Tyskland. Tyskland har alltid forskjellige postnummer/-sted for besøksadresse og postadresse.
 
-| Felt | Beskrivelse |
+| Feltet | Beskrivelse |
 |---|---|
-| Besøke | Office-adresse |
-| Postnummer/Poststed | Postnummer og poststed for kontoradresse. |
+| Besøke | Besøksadresse |
+| Postnr/sted | Postnr og poststed for besøksadresse. |
 | Postboks | Postadresse |
-| Postnummer/Poststed | Postnummer og poststed for postadresse. |
+| Postnr/sted | Postnr og poststed for postadresse. |
 | Land | Land |
 
 ## Spania
 
 Dette adresseformatet brukes for Spania.
 
-| Felt | Beskrivelse |
+| Feltet | Beskrivelse |
 |---|---|
 | Adresse 1 | Første adresselinje |
 | Adresse 2 | Andre adresselinje |
 | Adresse 3 | Tredje adresselinje |
-| Postnummer/Poststed | Postnummer og poststed for postadresse. |
-| Fylke | Fylke |
+| Postnr/sted | Postnr og poststed for postadresse. |
+| County | County |
 | Land | Land |
 
-## Resten av Europa
+## Europa for øvrig
 
-Dette adresseformatet brukes når du oppretter et selskap i Norge og de fleste europeiske land, unntatt Storbritannia, Tyskland og Spania, som har egne adresseformater.
+Dette adresseformatet brukes når du oppretter et firma i Norge og de fleste europeiske land, unntatt Storbritannia, Tyskland og Spania, som har egne adresseformater.
 
-| Felt | Beskrivelse |
+| Feltet | Beskrivelse |
 |---|---|
-| Besøke | Office-adresse |
+| Besøke | Besøksadresse |
 | Post | Postadresse |
-| Postnummer/Poststed | Postnummer og by |
+| Postnr/sted | Postnr og sted |
 | Land | Land |
 
 ## Canada
 
 Dette adresseformatet brukes for Canada.
 
-| Felt | Beskrivelse |
+| Feltet | Beskrivelse |
 |---|---|
 | Adresse 1 | Første adresselinje |
 | Adresse 2 | Andre adresselinje |
-| By | Navn på postby |
-| Provins/ postnummer | Provins og postnummer |
+| Byen | Navn på poststed |
+| Provins/postnummer | Provins og postnummer |
 | Land | Land |
 
 ## Australia
 
 Dette adresseformatet brukes for Australia.
 
-| Felt | Beskrivelse |
+| Feltet | Beskrivelse |
 |---|---|
 | Adresse 1 | Første adresselinje |
 | Adresse 2 | Andre adresselinje |
-| By | Andre adresselinje |
-| Provins/ postnummer | Provins og postnummer |
+| Byen | Andre adresselinje |
+| Provins/postnummer | Provins og postnummer |
 | Land | Land |
 
 ## Norge
 
 Dette adresseformatet brukes for USA. Det ligner formatet for Australia/Canada, men feltene har forskjellige navn.
 
-| Felt | Beskrivelse |
+| Feltet | Beskrivelse |
 |---|---|
 | Adresse 1 | Første adresselinje |
 | Adresse 2 | Andre adresselinje |
-| By | Navn på postby |
-| Stat / postnummer | Delstatskode (for eksempel CA) og postnummer (postnummer) |
+| Byen | Navn på poststed |
+| Tilstand / postnummer | Tilstandskode (for eksempel CA) og postnummer (postnummer) |
 | Land | Land |
 
 ## STORBRITANNIA
 
 Dette adresseformatet brukes for Storbritannia.
 
-| Felt | Beskrivelse |
+| Feltet | Beskrivelse |
 |---|---|
 | Adresse 1 | Første adresselinje |
 | Adresse 2 | Andre adresselinje |
 | Adresse 3 | Tredje adresselinje |
-| By | Poststed |
+| Byen | Poststed |
 | Fylke/postnummer | Fylke og postnummer. For eksempel Somerset TA1 2WB |
 | Land | Land |
 
@@ -118,11 +118,11 @@ Dette adresseformatet brukes for Storbritannia.
 
 Dette adresseformatet brukes for Japan.
 
-| Felt | Beskrivelse |
+| Feltet | Beskrivelse |
 |---|---|
 | Adresse 1 | Første adresselinje |
 | Adresse 2 | Andre adresselinje |
-| Poststed/postnummer | Poststed og postnummer |
+| Sted/postnummer | Poststed og postnummer |
 | Land | Land |
 
 <!-- Referenced links -->

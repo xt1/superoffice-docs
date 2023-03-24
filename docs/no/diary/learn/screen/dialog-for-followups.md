@@ -1,19 +1,19 @@
 ---
-title: Dialogboks for oppfølging
-description: Dialogboks for oppfølging
+title: Dialogboks for oppfølginger
+description: Dialogboks for oppfølginger
+keywords: CRM
 uid: help-no-dialog-for-followups
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Den Dialogboks for oppfølging
+# Dialogboks for oppfølginger
 
-Uansett hvilken type oppfølging du jobber med, vil du se dialogboksen for oppfølging. Det faktiske navnet på denne dialogen varierer avhengig av type oppfølging  – [Avtale][1], [Oppgave][2]eller [Samtale][3] – men feltene er de samme i hvert tilfelle. Feltene i dialogboksen og hvordan du bruker dem er beskrevet nedenfor.
+Uansett hva slags oppfølging du skal jobbe med, ser du dialogboksen for oppfølginger. Det faktiske navnet på denne dialogboksen varierer avhengig av type oppfølging – [Avtale][1], [Oppgave][2]eller [Samtale][3] – men feltene er de samme uansett. Nedenfor kan du lese mer om feltene i dialogboksen og hvordan du bruker dem.
 
-Dialogen består av en hoveddel med generell informasjon om oppfølgingen, og fem faner med tilleggsinformasjon:
+Dialogboksen består av en hoveddel med generell informasjon om oppfølgingen, samt fem faner med tilleggsinformasjon:
 
 * Beskrivelse
 * Detaljer
@@ -23,137 +23,137 @@ Dialogen består av en hoveddel med generell informasjon om oppfølgingen, og fe
 
 ## Informasjon om oppfølgingen
 
-Hoveddelen inneholder følgende viktige opplysninger om oppfølgingen:
+Hoveddelen inneholder følgende grunnleggende informasjon om oppfølgingen:
 
 ### Type
 
-Klikk pilen ved siden av dette feltet (![ikon][img2]) for å vise en forhåndsdefinert liste over oppfølgingstyper du kan velge mellom, for eksempel et møte eller en utgående telefonsamtale. Du kan også søke etter typer ved å skrive inn i dette feltet. Her kan du også bruke [FastSearcher][12].
+Klikk på pilen ved siden av dette feltet (![Ikonet][img2]) for å vise en forhåndsdefinert liste over oppfølgingstyper du kan velge mellom, for eksempel et møte eller en utgående telefonsamtale. Du kan også søke etter typer ved å skrive inn noe i dette feltet. Her kan du også bruke [Hurtigsøk][12].
 
 > [!NOTE]
-> **** Type-feltet bestemmer hvilken type oppfølging det er snakk om: avtale, oppgave eller telefonsamtale.
+> Feltet **Type** bestemmer hva slags oppfølging det gjelder: avtale, oppgave eller samtale.
 
 ## Videomøte
 
-Klikk ![ikon][img3] for å sette opp en [videomøte][9]. Ikonet endres til ![ikon][img4].
+Klikk ![Ikonet][img3] her for å sette opp en [videomøte][9]. Ikonet endres til ![Ikonet][img4].
 
 ### Firma
 
-Skriv inn her navnet på firmaet som er knyttet til oppfølgingen (valgfritt). Hvis du ikke husker hele navnet, kan du søke direkte fra dette feltet.
+Her skriver du inn navnet på firmaet som er knyttet til oppfølgingen (valgfritt). Hvis du ikke husker hele navnet, kan du søke direkte fra dette feltet.
 
 ### Person
 
-Klikk pilen ved siden av dette feltet, og en liste over kjente kontakter i firmaet vises. Hvis ingen selskap er valgt, vil du se en liste over kontakter som ikke er knyttet til et selskap. Du kan søke direkte fra dette feltet.
+Hvis du klikker på pilen ved siden av dette feltet, vises en liste over personer som er registrert på firmaet. Hvis ingen firma er valgt, ser du en liste over personer som ikke er tilknyttet et firma. Du kan søke direkte fra dette feltet.
 
 ### Prosjekt
 
 Skriv inn navnet på prosjektet som oppfølgingen er knyttet til. Hvis du ikke husker hele navnet, kan du søke direkte fra dette feltet.
 
 > [!NOTE]
-> I **** Prosjekt-feltet kan du angi et hvilket som helst prosjekt i SuperOffice CRM, uavhengig av hvilket firma oppfølgingen er knyttet til.
+> I feltet **Prosjekt** kan du angi eventuelt prosjekt i SuperOffice CRM, uavhengig av hvilket firma oppfølgingen er knyttet til.
 
 ### Salg
 
-Skriv inn navnet på salget (hvis aktuelt) som oppfølgingen er knyttet til. Hvis du ikke husker hele navnet, kan du søke direkte fra dette feltet.
+Skriv inn navnet på salget (hvis det er noen) som oppfølgingen er knyttet til. Hvis du ikke husker hele navnet, kan du søke direkte fra dette feltet.
 
 ### Tidssonevelger
 
-Hvis [Tidssoner][10] den er aktivert i SuperOffice Innstillinger og vedlikehold, kan du velge hvilken tidssone oppfølgingen skal opprettes i. Tidssonene vises etter land, og du kan søke både etter land og by direkte i tidssonefeltet.
+Hvis [Tidssoner][10] du har blitt aktivert i SuperOffice Innstillinger og vedlikehold, kan du velge hvilken tidssone oppfølgingen skal opprettes i. Tidssonene vises etter land, og du kan søke etter både land og sted direkte i tidssonefeltet.
 
-### Start / Slutt/Forfalt / Varighet
+### Start / Slutt/Frist / Varighet
 
-Angi en dato og eventuelt et klokkeslett i **Start-feltet og **Slutt-feltet** (for  avtaler og telefonsamtaler) eller **Forfall-feltet (for ** ** oppgaver), for henholdsvis oppfølgingsstart og oppfølgingsslutt/tidsfrist. Hvis du angir et tidspunkt, justeres innholdet i Varighet-feltet **** automatisk tilsvarende.
+I  feltet **Start og** Slutt **(for avtaler og samtaler) eller** Frist (for oppgaver) skriver du **inn dato og eventuelt klokkeslett** for henholdsvis oppfølgingsstart og oppfølgingsslutt. Hvis du angir klokkeslett, justeres innholdet i  feltet **Varighet** automatisk.
 
 > [!TIP]
-> Hvis oppfølgingen er i konflikt med en annen eller har flere deltakere, ** vises feltet Første** tilgjengelige som  viser det første tilgjengelige møtetidspunktet.
+> Hvis oppfølgingen kommer i konflikt med en annen eller har flere deltakere, **vises feltet Første ledige** , og første ledige møtetidspunkt vises.
 
 ### Hele dagen
 
-Hvis du merker  av for **Hele dagen**, settes tidspunktet for avtalen til perioden som er angitt som standard arbeidsdag.
+Hvis du merker  av **for Hele dagen** , settes tidspunktet for avtalen til perioden som er angitt som standard arbeidsdag.
 
 > [!TIP]
-> Disse standardverdiene er angitt i dialogboksen [Innstillinger][13] . Velg **Dagbok**, og angi de nødvendige tidspunktene for ** Heldags starttid** og **Heldags sluttidspunkt**.
+> Disse standardverdiene angis i [Innstillinger][13] dialogboksen. Velg **Dagbok** , og angi ønskede klokkeslett for **Dagen starter og**  **Dagen slutter** .
 
-### Plassering
+### Plasseringen
 
-Her velger du adressen der oppfølgingen skal foregå. Som standard er dette feltet tomt, men hvis du klikker pilen ![ikon][img2] ved siden av feltet, vises to oppføringer i en liste. Den ene er brukerens selskap og den andre er selskapet å følge opp.
+Her velger du adressen der oppfølgingen skal foregå. Dette feltet er tomt som standard, men hvis du klikker på pilen ![Ikonet][img2] ved siden av feltet, vises to oppføringer i en listeboks. Den ene er brukerens firma, og den andre er firmaet som skal følge opp.
 
-Hvis du har angitt en ressurs av typen **Plassering** (for eksempel et møterom) som deltaker  i kategorien **Deltakere**, vises ressursen også i denne listen.
+Hvis du har angitt en ressurs av typen **Sted** (for eksempel et møterom) som deltaker i fanen **Deltakere** , vises også ressursen i denne listeboksen.
 
-> [!TIP]Du kan også ganske enkelt skrive inn en adresse for stedet.
+> [!TIP]Du kan også skrive inn en adresse for stedet.
 > 
-Fullført ![ikon][img5] ![ikon][img6]
+Fullført ![Ikonet][img5] ![Ikonet][img6]
 
-Sjekk her når [Oppfølgingen er fullført][11].
+Merk av her når . [oppfølgingen er utført][11]
 
 ### Oppgave
 
-![ikon][img1]
+![Ikonet][img1]
 
-Klikk denne knappen for å få tilgang til relevante oppgaver som kan utføres på den aktive oppføringen. Eksempler: Slette, skrive ut, sende som e-post, tilordne til og avlyse møte. I SuperOffice Innstillinger og vedlikehold kan du også definere dine egne oppgaver og legge dem til under **Oppgave-knappen**.
+Klikk på denne knappen for å få tilgang til relevante oppgaver som kan utføres i den aktive oppføringen. Eksempler: Slett, Skriv ut, Send som e-post, Overfør til og Avbryt møte. I SuperOffice Innstillinger og vedlikehold kan du også definere egne oppgaver og legge dem til under **** Oppgave-knappen.
 
-### Registrert/sist endret
+### Registrert/Sist endret
 
-Disse feltene viser datoen da oppfølgingen ble opprettet første gang og sist ble endret. De viser også hvem som fullførte disse handlingene.
+Disse feltene viser datoen da oppfølgingen først ble opprettet, og når den sist ble endret. De viser også hvem som utførte handlingene.
 
-> [!TIP]Hvis du holder musepekeren over denne teksten, vises et verktøytips som inneholder mer informasjon om når oppfølgingen sist ble opprettet og endret.
+> [!TIP]Hvis du holder musepekeren over denne teksten, vises en infoboks med mer informasjon om når oppfølgingen ble opprettet og sist endret.
 > 
-## Beskrivelse-fanen
+## Fanen Beskrivelse
 
-I denne kategorien kan du legge til en beskrivelse av oppfølgingen. Du kan bruke dette anlegget for fritekstsøk. Beskrivelsen kan ikke være lengre enn 2048 tegn.
+I denne fanen kan du legge til en beskrivelse av oppfølgingen. Du kan bruke denne funksjonen til fritekstsøk. Beskrivelsen kan ikke være lenger enn 2048 tegn.
 
-## Detaljer-fanen
+## Fanen Detaljer
 
  **Fanen Detaljer** inneholder detaljert informasjon om oppfølgingen.
 
-### Gjentakelse
+### Regelmessighet
 
-I dette feltet angir du om oppfølgingen skal gjentas. Klikk ordet **Aldri** til høyre for **** Regelmessighet-feltet hvis du vil ha regelmessige [avtale som skal gjentas][4] intervaller. Hvis en oppfølging gjentas, vises et ikon ![ikon][img1] øverst til venstre i hoveddelen av dialogboksen.
+I dette feltet angir du om oppfølgingen gjentar seg. Klikk på ordet **Aldri** til høyre for  feltet **Gjentas** hvis du vil ha [avtale som skal gjentas][4] med jevne mellomrom. Hvis en oppfølging gjentar seg, vises det et ikon ![Ikonet][img1] øverst til venstre i hoveddelen av dialogboksen.
 
 ### Prioritet
 
-Angi her prioriteten for oppfølgingen. Klikk pilen for å vise en liste med standardalternativene høy, middels og lav prioritet. Disse er definert i SuperOffice Innstillinger og vedlikehold.
+Her angir du hvordan du vil prioritere oppfølgingen. Hvis du klikker på pilen, vises en liste med standardalternativene høy, middels og lav prioritet. Disse defineres i SuperOffice Innstillinger og vedlikehold.
 
 ### Alarm
 
-For varsel om oppfølging, sjekk **Alarm**. Hvis en [alarm er spesifisert][5] for oppfølging, vises et ikon ![ikon][img2] øverst til venstre i hoveddelen av dialogboksen.
+Hvis du vil ha et varsel om oppfølgingen, merker du av for **Alarm** . Hvis en [alarmen er angitt][5] for en oppfølging vises et ikon ![Ikonet][img2] øverst til venstre i hoveddelen av dialogboksen.
 
 ### Eier
 
-Her spesifiserer du hvem som eier oppfølgingen. Standard er brukeren som er logget på. Hvis du klikker på navnet ved siden av **** Eier-feltet, kan du overføre avtalen til en annen SuperOffice bruker. **Dialogboksen Tilordne til** åpnes. Under  feltet **Tilordne denne oppfølgingen til** er det en liste der du kan velge ønsket brukergruppe. Velg ønsket bruker og klikk **OK** for å lagre endringene og lukke dialogboksen.
+Her angir du hvem som eier oppfølgingen. Standardinnstillingen er at brukeren er logget på. Hvis du klikker på navnet ved siden av **feltet Eier** , kan du overføre avtalen til en annen SuperOffice bruker. Dialogboksen **Overfør til** vises. Under feltet **Overfør denne oppfølgingen til** finner du en listeboks der du kan velge ønsket brukergruppe. Merk ønsket bruker, og klikk på **OK** for å lagre endringene og lukke dialogboksen.
 
 > [!NOTE]
-> Hvis en bruker allerede er opptatt på det aktuelle tidspunktet, vises ordet **KONFLIKT** i **** Status-feltet. Hvis du vil skjule brukere med konflikter, merker du av for **Skjul konflikt** nederst i dialogboksen.
+> Hvis en bruker allerede er opptatt på det aktuelle tidspunktet, vises ordet **KONFLIKT** i feltet **Status** . Hvis du vil skjule brukere med konflikter, merker du av for **Skjul konflikt** nederst i dialogboksen.
 
 ### Vis som
 
-Merk av ** for Ledig** eller **Opptatt** i Vis som-feltet **** for  å angi om du er tilgjengelig for andre mens avtalen finner sted. Hvis du velger **Gratis**, kan du ha annen oppfølging samtidig, for eksempel hvis du reserverte mesteparten av dagen til å jobbe med et prosjekt, men fortsatt har tid til korte møter.
+Merk **av for Ledig** eller **Opptatt** i  feltet **Vis som** for å angi om du er tilgjengelig for andre mens avtalen pågår. Hvis du velger **Ledig** , kan du ha andre oppfølginger samtidig, for eksempel hvis du reserverte store deler av dagen for å jobbe med et prosjekt, men fremdeles har tid til korte møter.
 
 ### Synlig for
 
-Klikk på **Synlig** for-feltet for å vise en liste der du kan velge om oppfølgingen skal være synlig for alle brukere, bare synlig for brukeren som er definert som eier, eller synlig for alle brukere i en av brukergruppene som eieren tilhører.
+Klikk i  feltet **Synlig for for** å vise en liste der du kan velge om oppfølgingen skal være synlig for alle, synlig bare for den som er definert som eier, eller synlig for alle i en av brukergruppene som eieren tilhører.
 
 > [!NOTE]
-> Hvis du angir synlighet til bare eier, vises oppføringen i kursiv på inndelingsfanen **Aktiviteter** .
+> Hvis du bare angir synlighet som eier, vises oppføringen i kursiv på **detaljkortet Aktiviteter** .
 
-Dette alternativet er bare tilgjengelig hvis **konfidensielle aktiviteter** er aktivert for gjeldende bruker i SuperOffice Innstillinger og vedlikehold.
+Dette alternativet er bare tilgjengelig hvis **Confidential activities** er aktivert for gjeldende bruker i SuperOffice Innstillinger og vedlikehold.
 
-### Publiser (krever separat lisens)
+### Publiser (krever egen lisens)
 
-Sjekk her om du vil at oppfølgingen skal være synlig for eksterne brukere.
+Merk av her hvis du vil at oppfølgingen skal være synlig for eksterne brukere.
 
-## Deltakere-fanen
+## Fanen Deltakere
 
-Denne fanen inneholder en [Liste over deltakere][6] i oppfølgingen. Registrerte deltakere er merket med prikk.
+Denne fanen inneholder en [liste over deltakere][6] oppfølging. Registrerte deltakere merkes med en prikk.
 
-Hvis du klikker på **Vis som gruppe-knappen**![ikon][img7] nederst til høyre  i ** Deltakere-fanen, ** åpnes Vis-fanen i dagboken, som gir deg en oversikt over (SuperOffice ** brukere).** [Dagbøker for de inviterte medarbeiderne][7]
+Hvis du klikker  på **knappen** Vis som gruppe ![Ikonet][img7] nederst til høyre i fanen **Deltakere  ,** åpnes fanen Oversikt i dagboken med en oversikt over **(SuperOffice brukere).** [dagbøker for de inviterte medarbeiderne][7]
 
-## Koblinger-fanen
+## Fanen Koblinger
 
-Denne fanen inneholder informasjon om nettadresser, aktiviteter (dokumenter og oppfølginger), prosjekter og salg som er aktuelle [knyttet til oppfølgingen][8] . Hvis noe er registrert i denne kategorien, vises en prikk ved siden av **Koblinger**.
+Denne fanen inneholder informasjon om URL-adresser, aktiviteter (dokumenter og oppfølginger), prosjekter og salg som er [knyttet til oppfølgingen][8] aktuelle. Hvis det er registrert noe i denne fanen, vises det en prikk ved siden av **Koblinger** .
 
-## Mer-fanen
+## Fanen Mer
 
-Denne kategorien viser alle som er [egendefinerte felt][14] konfigurert i SuperOffice Innstillinger og vedlikehold.
+I denne fanen vises eventuelt [egendefinerte felt][14] konfigurert i SuperOffice Innstillinger og vedlikehold.
 
 <!-- Referenced links -->
 [1]: ../appointment.md

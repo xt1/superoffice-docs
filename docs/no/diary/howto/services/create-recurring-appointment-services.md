@@ -1,10 +1,10 @@
 ---
-title: Hvordan lage en gjentakende avtale (tjenester)
-description: Hvordan lage en gjentakende avtale ved hjelp av tjenester
+title: Slik oppretter du en gjentakende avtale (tjenester)
+description: Slik oppretter du en gjentakende avtale ved hjelp av tjenester
+keywords: dagbok, kalender, avtale, API, webtjenester, gjentakelse
 uid: create_recurring_appointment_ws-no
 author: Bergfrid Skaara Dias
 so.date: 03.18.2022
-keywords: diary, calendar, appointment, API, web services, recurrence
 so.topic: howto
 # so.envir:
 # so.client:
@@ -12,29 +12,29 @@ so.topic: howto
 
 # Slik oppretter du en regelmessig avtale (tjenester)
 
-Dette viser hvordan du oppretter [Regelmessige avtaler][2] ved hjelp av [NetServer-tjenester][1].
+Dette viser hvordan du oppretter [gjentakende avtaler][2] med [NetServer-tjenester][1].
 
-I det følgende eksemplet vil vi opprette en avtale kl. 14.00 i morgen som vil gjenta seg de neste 8 virkedagene.
+I det følgende eksempelet skal vi opprette en avtale kl. 14.00 i morgen som vil gjenta seg de neste 8 arbeidsdagene.
 
-## Kode
+## Koden
 
-[!code-csharp[CS]](includes/create-recurring-apt-services.cs)
+[!code-csharp[CS](includes/create-recurring-apt-services.cs)]
 
 ## Gjennomgang
 
-Når du oppretter en regelmessig avtale, opprettes først en avtale, og deretter må regelmessighetsinformasjonen angis i henhold til kravet. I koden ovenfor har vi opprettet  en `AppointmentAgent`, som vi deretter bruker til å lage en ny `AppointmentEntity`. Deretter angis avtaleteksten, kontakten og varigheten.
+Når du oppretter en gjentakende avtale, opprettes det først en avtale, og da må informasjonen om gjentagelse angis i henhold til kravet. I koden ovenfor har vi opprettet en `AppointmentAgent`, som vi deretter bruker til å opprette en ny `AppointmentEntity`. Deretter angis avtaleteksten, personen og varigheten.
 
-Informasjonen om regelmessighet angis ved å opprette et **mønster for regelmessighet**. Her ønsker vi at avtalen skal gjenta seg daglig i 8 dager fra i morgen. Dermed er gjentakelsesmønsteret satt til *Daglig* og videre spesifisert som *EveryWorkday*. `RecurrencePattern`  og `RecurrenceDailyPattern` er oppregninger.
+Informasjonen om gjentagelse angis ved å opprette et **mønster for gjentakelse** . Her vil vi at avtalen skal gjentas daglig i 8 dager som starter fra i morgen. Dermed settes gjentakelsesmønstret til *Daglig* og angis ytterligere som *EveryWorkday*. `RecurrencePattern`  og `RecurrenceDailyPattern` er opplistinger.
 
-[!code-csharp[CS]](includes/create-recurring-apt-services.cs?range=31-34)
+[!code-csharp[CS](includes/create-recurring-apt-services.cs?range=31-34)]
 
-Fordi det skal gjenta seg i 8 virkedager, kan vi ikke spesifisere en sluttdato direkte. I stedet settes antall regelmessigheter til 8, og sluttdatoen for regelmessighet beregnes basert på antall regelmessigheter:
+Siden den skal gjentas i 8 arbeidsdager, kan vi ikke angi en sluttdato direkte. Antall gjentalser settes i stedet til 8, og sluttdatoen for gjentakelse beregnes basert på antall gjentakelser:
 
-[!code-csharp[CS]](includes/create-recurring-apt-services.cs?range=38-39)
+[!code-csharp[CS](includes/create-recurring-apt-services.cs?range=38-39)]
 
-Deretter opprettes tilbakefallsmønsteret ved hjelp `CalculateDays` av agentmetoden.  Til slutt tilordnes gjentakelsesinformasjonen til og `AppointmentEntity` avtalen lagres i databasen.
+Deretter opprettes gjentakelsesmønstret ved hjelp `CalculateDays` av agentens metode.  Til slutt tildeles den gjentakende informasjonen til , `AppointmentEntity` og avtalen lagres i databasen.
 
-<a href="../../../../assets/downloads/api/createarecurringappointment.zip" download>Få kildekoden (zip)</a>
+<a href="../../../../assets/downloads/api/createarecurringappointment.zip" download>Hent kildekoden (zip)</a>
 
 <!-- Referenced links -->
 [1]: ../../../api/web-services/index.md

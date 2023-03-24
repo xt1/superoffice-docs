@@ -1,36 +1,36 @@
 ---
-title: Slik legger du til en ny kontaktinteresse
-description: Slik legger du til en ny kontaktinteresse med rader.
+title: Slik legger du til en ny personinteresse
+description: Slik legger du til en ny personinteresse med rader.
+keywords: firma, person, interesse, API, rad, ContIntRow, ContactInterestRow, ContIntGroupLinkRow, ContIntHeadingLinkRow
 uid: create_contact_interest-no
 author: {github-id}
 so.date: 05.11.2016
-keywords: company, contact, interest, API, row, ContIntRow, ContactInterestRow, ContIntGroupLinkRow, ContIntHeadingLinkRow
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Slik legger du til en ny kontaktinteresse
+# Slik legger du til en ny personinteresse
 
-Når du legger til en ny[Kontakt interesse][1], bør nye rader legges til i flere tabeller, for eksempel `ContInt` , , `ContactInterest` `ConIntGroupLink`og tabellen `ContIntHeadingLink` . Her bruker vi `SuperOffice.CRM.Rows` navnerommet.
+Når du legger til en ny [person interesse][1], legges det til nye rader i flere tabeller, for eksempel `ContInt`, `ContactInterest` `ConIntGroupLink`, og i `ContIntHeadingLink` tabellen. Her bruker vi `SuperOffice.CRM.Rows` navneområdet.
 
 > [!NOTE]Dette er ikke det samme som å sette en eksisterende interesse på.
 > 
-## Kode
+## Koden
 
-Kodesegmentet nedenfor viser oss hvordan du legger til en interesse i en eksisterende liste.
+I kodesegmentet nedenfor vises vi hvordan vi legger til interesser i en eksisterende liste.
 
-[!code-csharp[CS]](includes/add-interest.cs)
+[!code-csharp[CS](includes/add-interest.cs)]
 
 ## Gjennomgang
 
-Ovenfor oppretter vi først `ContIntRow` ved hjelp av `CreateNew` metoden og tilordner verdier til egenskapene. Deretter lagrer vi den ved hjelp av `Save` metoden som er tilgjengelig i `ContIntRow` klassen.
+Over oppretter vi først `ContIntRow` ved hjelp av `CreateNew` metoden og tilordner verdier til egenskapene. Deretter lagrer vi den ved hjelp av `Save` metoden som er tilgjengelig i `ContIntRow` klassen.
 
-Deretter oppretter vi  en `ContactInterestRow` og tilordner ID-en til den tidligere opprettede `ContIntRow` til `ContactInterestRow`'s `CinterestIdx`. Vi tilordner også `ContactId` eiendommen til kontakt-ID.
+Deretter oppretter vi en `ContactInterestRow` og tilordner IDen til den tidligere registrerte `ContIntRow` " `ContactInterestRow`s" `CinterestIdx`. Vi tilordner også egenskapen `ContactId` til personens ID.
 
 ### ContIntGroupLinkRow
 
-Deretter må vi lage en `ContIntGroupLinkRow`. Her tilordner vi gruppe-ID-en til den nåværende innloggede medarbeideren. Men hvis du ønsker å legge til flere grupper som kontaktinteressen vil være synlig for, kan følgende kodesegment være nyttig.
+Deretter må vi opprette en `ContIntGroupLinkRow`. Her tilordner vi gruppe-IDen til den påloggede medarbeideren som for tiden er pålogget. Men hvis du vil legge til flere grupper som interessen for personen skal være synlig for, kan følgende kodesegment være nyttig.
 
 ```csharp
 int[] groupIds = { 2, 3, 4, 5, 6 };
@@ -47,41 +47,41 @@ foreach (int groupId in groupIds)
 
 ### ContIntHeadingLinkRow
 
-Til slutt må vi lage en `ContIntHeadingLinkRow`. Dette er nødvendig fordi det er `ContInt` definert som et underelement, må vi lage en overskrift som den skal falle under.
+Til slutt må vi opprette en `ContIntHeadingLinkRow`. Dette er nødvendig fordi det `ContInt` er definert som en undervare, må vi opprette en overskrift som den skal falle under.
 
-Dette gjøres ved å ringe `CreateNew()`i `ContIntHeadingLinkRow` klassen og tilordne verdier til egenskapene.
+Dette gjøres ved å ringe `CreateNew()`inn `ContIntHeadingLinkRow` klassen og tildele verdier til egenskapene.
 
-## Resultat
+## Resultatet
 
-Når eksempelkoden er utført, blir følgende rader lagt til i tabellene som vist nedenfor.
+Når eksempelkoden er utført, legges følgende rader til i tabellene som vist nedenfor.
 
-**ContInt-tabell:**
+ **ContInt-tabell:** 
 
-| ContInt_id | navn | rang | verktøytips | Slettet | registrert | ...|
+| ContInt_id | navn | Rangering | Verktøytips | Slettet | Registrert | ...|
 |---|---|---|---|---|---|---|
-| 1 | Referanse cust. | 1 | Referansekunde | 0 | 0 | |
-| 2 | Prestige cust. | 2 | Prestisjekunde | 0 | 0 | |
+| 1 | Referanse-cust. | 1 | Referansekunde | 0 | 0 | |
+| 2 | De er på 100 000 000. | 2 | Arnesen | 0 | 0 | |
 | 3 | Stor kunde | 3 | Storkunde | 0 | 0 | |
 | 4 | Sams interesse | 0 | Sams interesser | 0 | 1214207393 | |
 
-**ContactInterest tabell:**
+ **Personinterest-tabell:** 
 
-| contactinterest_id | contact_id | cinterest_idx | startDate | endDate | Flagg | registrert |
+| contactinterest_id | contact_id | cinterest_idx | startDato | sluttDato | Flagg | Registrert |
 |---|---|---|---|---|---|---|
 | 6 | 1 | 4 | 0 | 31.12.2021 02:13:49 | 0 | 28.10.2021 13.14:59 |
 | 1 | 1 | 1 | 0 | 31.12.2021 02:13:49 | 0 | 28.10.2021 13.14:59 |
 | 2 | 4 | 2 | 0 | 31.12.2021 02:13:49| 0 | 28.10.2021 13.14:59 |
 | 3 | 9 | 3 | 0 | 31.12.2021 02:13:49| 0 | 28.10.2021 13.14:59 |
 
-**ConIntGroupLink-tabell:**
+ **ConIntGroupLink-tabell:** 
 
-| contintgrouplink | contint_id | group_id | registrert | registered_associate | ... |
+| contintgrouplink | contint_id | group_id | Registrert | registered_associate | ... |
 |---|---|---|---|---|---|
 | 1 | 4 | 1 | 1214207393 | 103 | |
 
-**ContIntHeadingLink-tabell:**
+ **ContIntHeadingLink-tabell:** 
 
-| contintheadinglink | contint_id | heading_id | registrert | registerred_ass | ... |
+| contintheadinglink | contint_id | heading_id | Registrert | registerred_ass | ... |
 |---|---|---|---|---|---|
 | 1 | 4 | 24 | 1214207393 | 103 | |
 

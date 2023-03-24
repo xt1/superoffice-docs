@@ -1,18 +1,18 @@
 ---
-title: Spor svar
-description: Hvordan spore svar på en invitasjon med CRMScript
+title: Spore svar
+description: Slik sporer du svar på en invitasjon med CRMScript
+keywords: CRMScript, kalender, dagbok, avtaler, oppfølging, invitasjon
 uid: crmscript-track-invitation-response-no
 author: Bergfrid Skaara Dias
 so.date: 03.21.2022
-keywords: CRMScript, calendar, diary, appointments, follow-up, invitation
 so.topic: howto
 ---
 
 # Spore svar
 
-Før du kan spore svar, må du hente hovedavtalen og alle dens etterkommere. Du kan deretter utforske invitasjonsstatusen for **** hver avtale.
+Før du kan spore svar, må du hente hovedavtalen og alle etterkommerne i den. Deretter kan du utforske invitasjonsstatusen for **** hver avtale.
 
-I dette eksemplet kontrollerer og skriver vi ut svaret for hver deltaker ved hjelp av en `String` matrise. Du kan slå opp statuskoder på [Invitasjoner-siden][1].
+I dette eksempelet merker og skriver vi ut svaret for hver deltaker ved hjelp av en `String` matrise. Du kan slå opp statuskoder på [invitasjoner side][1].
 
 ```crmscript!
 String[15] state;

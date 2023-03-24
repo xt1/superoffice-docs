@@ -1,65 +1,65 @@
 ---
-title: Legg til oppfølging (avtaler, oppgaver og telefonsamtaler)
-description: Legg til oppfølging (avtaler, oppgaver og telefonsamtaler)
+title: Legg til oppfølginger (avtaler, oppgaver og samtaler)
+description: Legg til oppfølginger (avtaler, oppgaver og samtaler)
+keywords: CRM
 uid: help-no-follow-up-create
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Legge til oppfølging (avtaler, oppgaver og telefonsamtaler)
+# Legg til oppfølginger (avtaler, oppgaver og samtaler)
 
-For å opprette oppfølging i SuperOffice CRM, klikk på Ny-knappen **** på topplinjen.
+Hvis du vil opprette oppfølginger i SuperOffice CRM, klikker du **på Ny-knappen på toppraden.** 
 
 > [!TIP]
-> Du kan også legge til oppfølginger ved å dobbeltklikke på en tom linje i **** kategorien Aktiviteter-delen. Som standard åpner dette dialogboksen Avtale **** . Du kan angi hvilken dialogboks som skal åpnes under  Innstillinger ** ( **Personlige innstillinger![ikon][img1] > ** **Innstillinger** > Funksjoner** > **** **Skriv fra Aktiviteter-delen**).
+> Du kan også legge til oppfølginger ved å dobbeltklikke på en tom linje i **detaljkortet Aktiviteter** . Da åpnes som standard **dialogboksen Avtale** . Du kan angi hvilken dialogboks som skal åpnes, under **Preferanser** (![Ikonet][img1] **Personlige innstillinger** > **Preferanser** > **Funksjoner** > **Type fra detaljkortet Aktiviteter** ).
 
-## Opprette oppfølging i aktivitetslisten
+## Opprette oppfølginger i aktivitetslisten
 
-Hvis du vil opprette en ny oppfølging direkte i aktivitetslisten, dobbeltklikker du på en tom rad under den siste aktiviteten i listen.
+Hvis du vil opprette en ny oppfølging direkte fra aktivitetslisten, dobbeltklikker du på en tom rad under siste aktivitet i listen.
 
-Hvis ingen tom rad vises nederst i aktivitetslisten, forstørrer du aktivitetslisten:
+Hvis det ikke vises noen tom rad nederst i aktivitetslisten, kan du utvide aktivitetslisten:
 
-1. Plasser musepekeren mellom inndelingsfanene og kortet ovenfor. Pekeren endres til en tohodet pil.
+1. Plasser musepekeren mellom detaljkortene og kortet over. Musepekeren endres til en dobbeltpil.
 
 2. Klikk og dra linjen oppover til du ser flere tomme rader nederst i aktivitetslisten.
 
-> [!NOTE]Hvis du angir et tidspunkt eller en varighet for en oppfølging du oppretter fra aktivitetslisten, angis den i Dagbok.
+> [!NOTE]Hvis du angir klokkeslett eller varighet på en oppfølging du oppretter fra aktivitetslisten, registreres den i Dagbok.
 > 
 ## <a id="associate" />Opprette avtale for en medarbeider
 
-Når du åpner dagboken til en medarbeider, kan du opprette avtaler for denne personen selv.
+Når du åpner dagboken til en medarbeider, kan du selv opprette avtaler for denne personen.
 
-1. Klikk på **** Vis-fanen i **** Dagbok-skjermen.
+1. Klikk på fanen **Oversikt** i **** Dagbok-bildet.
 
-2. [Finn personens dagbok][4] i visningen****.
+2. [Finn personens dagbok][4] i oversikten **.** 
 
 3. [Opprette en ny avtale][1] i denne dagboken ved hjelp av musen.
 
-4. Den **Avtale** dialogen åpnes. [Velg deltakerne som skal inkluderes][5] , hvis de ikke automatisk inkluderes.
+4. Dialogboksen **Avtale** vises.  [Velg deltakerne du vil ha med][5], hvis de ikke inkluderes automatisk.
 
     > [!NOTE]
-    > Hvis du merket av for **Deltakere fra gruppevisning** under **Innstillinger**, legges alle medlemmer av visningen automatisk til som deltakere i avtalen. Hvis du vil endre denne innstillingen, går du  til ![ikon][img1]Personlige innstillinger**  > **Innstillinger** > **funksjoner** og setter ** innstillingen Deltakere fra gruppevisning** til ** **Ja**. Klikk på **Lagre**.
+    > Hvis du merket  av **for Deltakere fra gruppeoversikt** under **Preferanser** , legges alle medlemmer av oversikten automatisk til som deltakere i avtalen. Hvis du vil endre denne preferansen, går du til ![Ikonet][img1] **Personlige innstillinger** > **Preferanser** > **Funksjoner** og setter preferansen **Deltakere fra gruppeoversikt** til **Ja** . Klikk på **Lagre** .
 
-5. [Skriv inn den nødvendige informasjonen i feltene.][6]
+5. [I feltene legger du inn ønsket informasjon.][6]
 
-6. Klikk på **** Lagre-knappen. Avtalen vil bli vist i den valgte personens dagbok.
+6. Klikk på **** Lagre-knappen. Avtalen vises i den valgte personens dagbok.
 
-## <a id="overlap" />Opprette overlappende oppfølging
+## <a id="overlap" />Opprette overlappende oppfølginger
 
-Oppfølginger kan overlappe hverandre. Når du prøver å registrere en overlappende oppfølging, har dialogboksen et utropstegn ![ikon][img2] ved siden av start- og stoppfeltene som en påminnelse (du kan fortsatt registrere oppfølgingen).
+Oppfølginger kan overlappe hverandre. Når du forsøker å registrere en overlappende oppfølging, har dialogboksen et utropstegn ![Ikonet][img2] ved siden av feltene for start og stopp som en påminnelse (du kan fortsatt registrere oppfølgingen).
 
-Et forslag til den første ledige tidsluken vises. Klikk på det foreslåtte klokkeslettet til høyre  for **Første tilgjengelige** for å velge dette tidspunktet i stedet.
+Det vises et forslag til første ledige tidsrom. Klikk på foreslått tidspunkt til høyre for **Første tilgjengelige** for å velge dette tidspunktet i stedet.
 
-Overlappende oppfølginger vises i **** Dagbok-skjermbildet, slik at du kan se en del av hver oppfølging.
+I Dagbok-bildet vises overlappende oppfølginger **** slik at du kan se deler av hver oppfølging.
 
 ## Hva vil du gjøre nå?
 
 * [Opprette avtaler][1]
 * [Opprette oppgaver][2]
-* [Gå inn i telefonsamtaler][3]
+* [Registrere samtaler][3]
 
 <!-- Referenced links -->
 [1]: create-appointment.md

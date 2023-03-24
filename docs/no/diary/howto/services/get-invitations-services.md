@@ -1,36 +1,36 @@
 ---
-title: Hvordan få en liste over invitasjoner (tjenester)
-description: Hvordan få en liste over invitasjoner ved hjelp av NetServer-tjenester
+title: Slik får du frem en liste over invitasjoner (tjenester)
+description: Slik får du frem en liste over invitasjoner ved hjelp av NetServer-tjenester
+keywords: dagbok, kalender, avtale, API, webtjenester, archiveprovider
 uid: get_invitation_services-no
 author: Bergfrid Skaara Dias
 so.date: 03.18.2022
-keywords: diary, calendar, appointment, API, web services, archiveprovider
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Hvordan få en liste over invitasjoner (tjenester)
+# Slik får du frem en liste over invitasjoner (tjenester)
 
-Koden nedenfor brukes til å hente en liste [Invitasjoner][1] over for en bestemt tilknytning til [NetServer-tjenester][2].
+Koden nedenfor brukes til å hente en liste over [Invitasjoner][1] for en bestemt medarbeider med [NetServer-tjenester][2].
 
-## Kode
+## Koden
 
-[!code-csharp[CS]](includes/get-invitations-services.cs)
+[!code-csharp[CS](includes/get-invitations-services.cs)]
 
 ## Gjennomgang
 
-I koden har vi brukt en forekomst  av og [InvitationProvider][3] noen av dens metoder for å begrense og ordne utdataene som returneres av leverandøren.
+I koden har vi brukt en forekomst av [InvitasjonSbelønning][3] og noen av metodene for å begrense og ordne utdata som tilbys av leverandøren.
 
-| Metode | Beskrivelse |
+| Metoden | Beskrivelse |
 |---|---|
-| SetOrderBy | Sorterer utdataene etter ID |
-| SetPageInfo | Begrenser antall rader som returneres til de første 100 radene |
+| Angi ordre fra | sortere utdataene etter ID |
+| SetPageInfo | begrenser antall rader som returneres til de første 100 radene |
 | SetDesiredColumns | brukes til å identifisere hvilke kolonner som skal returneres av leverandøren |
-| SetRestriction | Angir spørringsbegrensningen for leverandøren |
-| GetRows | kan brukes til å hente radene som returneres av leverandøren |
+| SetRestriction | angir spørsmålsbegrensningen for tilbyderen |
+| GetRows | kan brukes til å hente ut radene som tilbyderen har returnert |
 
-Leverandøren returnerer en samling av `ArchiveRow` typer. Ved å sløyfe gjennom hver `ArchiveRow` kan vi få detaljer om en invitasjon til medarbeideren. Resultatet av å utføre koden ovenfor er vist nedenfor.
+Leverandøren returnerer en samling av `ArchiveRow` typer. Ved å gå gjennom hver `ArchiveRow` av dem kan vi få informasjon om en invitasjon til medarbeideren. Resultatet av kjøringen av koden ovenfor vises nedenfor.
 
 ```text
 associate/contactFullName    date        endDate           appointmentId

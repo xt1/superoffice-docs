@@ -1,23 +1,23 @@
 ---
-title: Slett relasjoner
-description: Slett relasjoner
+title: Slette relasjoner
+description: Slette relasjoner
+keywords: firma
 uid: help-no-company-delete-relation
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: company
 so.topic: help
 language: no
 ---
 
 # Slette relasjoner
 
-[!include [Gå til selskapet](../../learn/includes/goto-company.md)]
+[!include[ Go til firma](../../learn/includes/goto-company.md)]
 
-1. Høyreklikk den nødvendige relasjonen i kategorien **Relasjoner** inndeling, og velg **Slett**.
+1. Høyreklikk på ønsket relasjon på **detaljkortet Relasjoner** , og velg **Slett** .
 
-1. I  dialogboksen **Slett Relasjon** klikker du Ja **** for å bekrefte at du virkelig vil slette relasjonen.
+1. I  dialogboksen **Slett Relasjon** klikker du på **Ja** for å bekrefte at du virkelig ønsker å slette relasjonen.
 
-[!include [Slette elementer](../../learn/includes/tip-deletion.md)]
+[!include [Deleting av forekomster](../../learn/includes/tip-deletion.md)]
 
 <!-- Referenced links -->
 

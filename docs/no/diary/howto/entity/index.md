@@ -1,10 +1,10 @@
 ---
 title: Dagbok - enhet
-description: Arbeide med avtaler via enheter på NetServer-datalaget.
+description: Arbeide med avtaler via enheter i NetServer-datalaget.
+keywords: dagbok, kalender, avtale, API, enhet
 uid: api_diary_entity-no
 author: Bergfrid Skaara Dias
 so.date: 11.04.2021
-keywords: diary, calendar, appointment, API, entity
 so.topic: concept
 ---
 
@@ -12,14 +12,14 @@ so.topic: concept
 
 ## Opprette avtaler
 
-* [Opprette avtale][1]
-* [Opprette avtale (i enhet)][2]
-* [Opprette avtale (i samling)][3]
-* [Opprette regelmessig avtale][4]
+* [Opprett avtale][1]
+* [Opprett avtale (i enhet)][2]
+* [Opprett avtale (i samling)][3]
+* [Opprette gjentakende avtale][4]
 
 ## Arbeide med invitasjoner
 
-* [Opprett invitasjon][5]
+* [Opprette invitasjon][5]
 * [Godta invitasjon][6]
 
 <!-- Referenced links -->

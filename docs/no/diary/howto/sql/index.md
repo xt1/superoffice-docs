@@ -1,10 +1,10 @@
 ---
 title: Dagbok - rå SQL
 description: Arbeide med avtaler i rå SQL.
+keywords: dagbok, kalender, avtale, API
 uid: api_diary_sql-no
 author: Bergfrid Skaara Dias
 so.date: 03.02.2022
-keywords: diary, calendar, appointment, API
 so.topic: howto
 ---
 
@@ -12,11 +12,11 @@ so.topic: howto
 
 ## Opprette avtaler
 
-* [Opprette avtale][1]
+* [Opprett avtale][1]
 
 ## Arbeide med invitasjoner
 
-* [Opprett invitasjon][2]
+* [Opprette invitasjon][2]
 * [Godta invitasjon][3]
 
 <!-- Referenced links -->

@@ -1,42 +1,42 @@
 ---
 title: Firmaer
 description: Firmaer
+keywords: firma
 uid: help-no-company
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: company
 so.topic: concept
 language: no
 ---
 
 # Firmaer
 
-![Firma skjerm -skjermbilde][img3]
+![Firma skjermbilde][img3]
 
 [!include [Intro](includes/company-screen-intro.md)]
 
 > [!NOTE]
-> [Personer][1] som ikke er tilknyttet et selskap, finner du i **** Person-skjermen.
+> [Personer][1] som ikke er tilknyttet et firma, finner du i **** Person-bildet.
 
-Bunnen av skjermen inneholder følgende [Standard inndelingsfaner][8]:
+Nederst i bildet finner du følgende [standard detaljkort][8]:
 
-* **Personer**
-* **Relasjoner**
-* **Prosjekter**
-* **Aktiviteter**
-* **Salg**
-* **Saker**
+* **Personer** 
+* **Relasjoner** 
+* **Prosjekter** 
+* **Aktiviteter** 
+* **Salg** 
+* **Saker** 
 
-Alt du vil finne ut om et selskap er tilgjengelig fra en enkelt skjerm.
+Alt du ønsker å vite om et firma, er tilgjengelig fra ett enkelt skjermbilde.
 
 ## Hva vil du gjøre?
 
-* [Opprett et nytt selskap][2]
-* [Redigere et selskap][3]
-* [Kopier et selskap][4]
-* [Slå sammen selskaper][5]
-* [Slette et selskap][6]
-* [Skrive ut et selskap][7]
+* [Opprette et nytt firma][2]
+* [Redigere et firma][3]
+* [Kopiere et firma][4]
+* [Slå sammen firmaer][5]
+* [Slette et firma][6]
+* [Skriv ut firma][7]
 
 <!-- Referenced links -->
 [1]: ../../contact/learn/index.md

@@ -1,39 +1,39 @@
 ---
-title: Den Firma skjermen
-description: Den Firma skjermen
+title: Bildet Firma
+description: Bildet Firma
+keywords: firma
 uid: help-no-company-screen
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: company
 so.topic: reference
 language: no
 ---
 
-# Den Firma skjermen
+# Bildet Firma
 
 [!include [Intro](../includes/company-screen-intro.md)]
 
-I skjermbildet Firma **** vises hver post i databasen som et indekskort, som inneholder all informasjon for dette firmaet.
+I bildet **Firma** vises hver oppføring i databasen som et indekskort, og inneholder all informasjon til dette firmaet.
 
-Hvis du vil flytte mellom selskaper, klikker du på forrige/neste-knappene (![ikon][img2] ![ikon][img1]) nederst til høyre på kortene.
+Hvis du vil flytte mellom firmaer, klikker du på forrige/neste-knappene (![Ikonet][img2] ![Ikonet][img1]) nederst til høyre på kortene.
 
-Du kan søke etter bestemte selskaper basert på kriterier du angir. Du kan også skrive dokumenter, generere oppfølging og opprette nye selskaper og kontakter.
+Du kan søke etter bestemte firmaer basert på kriterier du angir. Du kan også skrive dokumenter, generere oppfølginger og opprette nye firmaer og personer.
 
-## Inndelingsfaner på Firma-skjermen
+## Detaljkortene i Firma-bildet
 
-Det **Firma** skjermbildet inneholder følgende inndelingsfaner:
+Bildet **Firma** inneholder følgende detaljkort:
 
-| Inndeling-fanen | Beskrivelse |
+| Detaljkortet | Beskrivelse |
 |---|---|
-| [Personer][1] | Inneholder informasjon om ansatte i det aktive selskapet. |
-| [Relasjoner][2] | Viser eventuelle forbindelser som eksisterer mellom firmaer og/eller kontakter. |
-| [Aktiviteter][3] | Inneholder alle aktivitetene knyttet til det aktive selskapet. |
-| [Prosjekter][4] | Viser alle prosjektene for det aktive selskapet. |
-| [Salg][5] | Inneholder informasjon om eventuelle salg knyttet til selskapet. |
-| [Saker][6] |Viser SuperOffice Serviceforespørsler for det aktive selskapet.|
-| [ERP][7] |Her kan du knytte en SuperOffice bedrift til en kunde/leverandør i ERP-systemet.|
+| [Personer][1] | Her finner du informasjon om ansatte i det aktive firmaet. |
+| [Relasjoner][2] | Viser eventuelle koblinger som finnes mellom firmaer og/eller personer. |
+| [Aktiviteter][3] | Her finner du alle aktivitetene som er knyttet til det aktive firmaet. |
+| [Prosjekter][4] | Viser alle prosjektene for det aktive firmaet. |
+| [Salg][5] | Her finner du informasjon om eventuelle salg som er knyttet til firmaet. |
+| [Saker][6] |Viser SuperOffice Service-saker for det aktive firmaet.|
+| [ERP][7] |Her kan du knytte et SuperOffice firma til en kunde/leverandør i ERP-systemet.|
 
-[!include [Legg til flere seksjonsfaner](../../../learn/includes/more-tab.md)]
+[!include [Legg til flere detaljkort](../../../learn/includes/more-tab.md)]
 
 <!-- Referenced links -->
 [1]: contacts-tab.md

@@ -1,36 +1,36 @@
 ---
 title: Få firmainformasjon
-description: Slik får du bedriftsinformasjon med CRMScript.
+description: Slik henter du firmainformasjon med CRMScript.
+keywords: CRMScript, firma, organisasjon, person
 uid: crmscript-get-company-no
 author: Bergfrid Skaara Dias
 so.date: 02.21.2022
-keywords: CRMScript, company, organization, contact
 so.topic: howto
 ---
 
-# Få informasjon om bedriften
+# Hente firmainformasjon
 
-Du kan få tilgang til et selskap på tre måter. Hver vil returnere **falsk** hvis selskapet er ukjent.
+Du kan få tilgang til et firma på tre måter. Hver av dem returnerer **usann** hvis firmaet er ukjent.
 
-## Bool-belastning(heltalls-id)
+## Boollast(Heltall-id)
 
-Bringer opp selskapet med den oppgitte ID. Dette er alltid 1. trinn når du vil gjøre noe med et eksisterende selskap.
+Henter firmaet med den angitte IDen. Dette er alltid det første trinnet når du vil gjøre noe med et eksisterende firma.
 
 ```crmscript
 Company c;
 c.load(2);
 ```
 
-## Bool loadFromAgentAndKey (heltallsagent, strengnøkkel)
+## Bool loadFromAgentAndKey(Heltallsagent, Strengnøkkel)
 
-Henter opp selskapet som eies av agenten og matcher den eksterne nøkkelen.
+Henter opp firmaet som eies av agenten, og samsvarer med den eksterne nøkkelen.
 
 > [!CAUTION]
 > `loadFromAgentAndKey()` kan overskrive eksisterende verdier!
 
-## Bool findFromDomain (String domene)
+## Bool findFromDomain(Strengdomene)
 
-Bringer opp selskapet basert på sitt domene.
+Henter firmaet basert på domenet.
 
 ```crmscript
 Company c;

@@ -1,18 +1,18 @@
 ---
-title: Arbeide med todo-lister
-description: Hvordan lage og fullføre gjøremål med CRMScript
+title: Arbeide med todolister
+description: Slik oppretter og fullfører du gjøremeldinger med CRMScript
+keywords: CRMScript, kalender, dagbok, todo, oppgave, oppfølging
 uid: crmscript-create-task-no
 author: Bergfrid Skaara Dias
 so.date: 03.18.2022
-keywords: CRMScript, calendar, diary, todo, task, follow-up
 so.topic: howto
 ---
 
 # Todo-liste
 
-## Lag et gjøremål
+## Opprette et gjørebeskyttet område
 
-Følgende kodeeksempel oppretter et gjøremål (oppgave-ID = 6) som forfaller på slutten av gjeldende dag. Det gjelder tilknytning til ID 1.
+Følgende kodeeksempel vil opprette et gjøremål (oppgave-ID = 6) som forfaller på slutten av gjeldende dag. Det gjelder medarbeider med ID 1.
 
 ```crmscript
 Integer owner = 1; // associate.associate_id
@@ -34,11 +34,11 @@ newTask.SetEndDate(deadline);
 newTask = appointmentAgent.SaveAppointmentEntity(newTask);
 ```
 
-> [!NOTE]Selv om aktiviteten teknisk sett ikke har starttidspunkt, angis dette feltet med en standardverdi. For eksempel midt på dagen den nåværende dagen. Ikke anta at starttiden er tom.
+> [!NOTE]Selv om oppgaven teknisk sett ikke har starttidsfelt, settes feltet med en standardverdi. For eksempel 12.00 gjeldende dag. Ikke anta at starttidslinjen er tom.
 > 
-## Fullfør et gjøremål
+## Fullføre et gjørebeskyttet arbeid
 
-Å merke en oppgave som fullført er egentlig bare å sette **statusen** til 3.
+Å merke en oppgave som utført er i hovedsak bare for å sette statusen **** til 3.
 
 Dette eksemplet fullfører oppgaven med ID 88, med sluttid = nå og starttid = 5 minutter siden.
 
@@ -49,7 +49,7 @@ NSAppointmentAgent appointmentAgent;
 appointmentAgent.UpdateAppointment(88, start.addMin(-5), end, 3, 2, 5);
 ```
 
-## Liste forfalte gjøremål
+## Vise forfalte gjøremål
 
 ```crmscript
 DateTime now;
@@ -61,15 +61,15 @@ se.addCriteria("appointment.endDate", "OperatorLt", now.toString(), "OperatorAnd
 printLine(se.executeTextTable());
 ```
 
-Dette eksemplet viser alle oppgaver av type 6 som ikke er startet, og en tidsfrist tidligere.
+Dette utvalget viser alle oppgaver av type 6 som ikke er startet, og en tidsfrist tidligere.
 
-## Beslektede emner
+## Aktuelle emner
 
 * [NSAppointmentAgent][1]
 * [NSAppointmentEntity][2]
 * [Arbeide med CRMScript SearchEngine][3]
-* [Opprette avtale][4]
-* [Om todo lister][5]
+* [Opprett avtale][4]
+* [Om todolister][5]
 
 <!-- Referenced links -->
 [1]: <xref:CRMScript.NetServer.NSAppointmentAgent>

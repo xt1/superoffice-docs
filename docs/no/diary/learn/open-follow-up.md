@@ -1,21 +1,21 @@
 ---
-title: Åpne oppfølging
-description: Åpning av oppfølging
+title: Åpne oppfølginger
+description: Åpne oppfølginger
+keywords: CRM
 uid: help-no-follow-up-open
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
 # Åpne oppfølginger
 
-Åpne en eksisterende oppfølging ved å dobbeltklikke på den:
+Du kan åpne en eksisterende oppfølging ved å dobbeltklikke på den:
 
 <!-- markdownlint-disable MD032 -->
-[!include [Liste over aktiviteter seksjonsfaner](../../learn/includes/list-activities-section-tabs.md)]
-* På de forskjellige fanene i **Dagbok-skjermen**.
+[!include [Liste over detaljkortene Aktiviteter](../../learn/includes/list-activities-section-tabs.md)]
+* På de ulike fanene i **** Dagbok-bildet.
 <!-- markdownlint-restore -->
 
-Dette bringer opp **Avtale**, **Oppgave** eller **Samtale** dialog, avhengig av type oppfølging.
+Du får da opp  dialogboksen **Avtale** , **Oppgave** eller **Samtale** , avhengig av hva slags oppfølging det er.

@@ -1,22 +1,22 @@
 ---
-title: Rediger gjentatte oppfølginger
-description: Slik oppdaterer du en gjentatt oppfølging med CRMScript
+title: Redigere repeterende oppfølginger
+description: Slik oppdaterer du en repeterende oppfølging med CRMScript
+keywords: CRMScript, kalender, dagbok, avtaler, oppfølging, gjentalse
 uid: crmscript-update-recurrence-no
 author: Bergfrid Skaara Dias
 so.date: 03.21.2022
-keywords: CRMScript, calendar, diary, appointments, follow-up, recurrence
 so.topic: howto
 ---
 
-# Redigere gjentatte oppfølginger
+# Redigere repeterende oppfølginger
 
-Du kan endre enten en eller alle fremtidige repetisjoner av en [Gjentakende oppfølging][1].
+Du kan endre enten én eller alle fremtidige repetisjoner av en [gjentakende oppfølging][1].
 
-## Endre en repetisjon
+## Endre én repetisjon
 
-Endre bare denne forekomsten, endringen vil ikke påvirke andre tider.
+Endre bare denne forekomsten, endringen vil ikke påvirke andre tidspunkter.
 
-Utsettelse av inneværende oppfølging med 2 timer:
+Utsettelse av gjeldende oppfølging med 2 timer:
 
 ```crmscript
 Integer aId = 234;
@@ -35,7 +35,7 @@ if (r.GetIsRecurrence()) {
 
 ## Endre alle fremtidige repetisjoner
 
-Endre alle fremtidige forekomster, inkludert denne - endringen vil gjelde for denne oppfølgingen også i fremtiden.
+Endre alle fremtidige forekomster, inkludert denne , endringen vil gjelde for denne oppfølgingen også i fremtiden.
 
 ```crmscript
 Integer aId = 234;

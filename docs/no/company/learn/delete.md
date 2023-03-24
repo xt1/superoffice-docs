@@ -1,31 +1,31 @@
 ---
-title: Slette selskaper
-description: Slette selskaper
+title: Slette firmaer
+description: Slette firmaer
+keywords: firma
 uid: help-no-company-delete
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: company
 so.topic: help
 language: no
 ---
 
-# Slette et firma og tilknyttede data
+# Slette et firma og tilhørende data
 
-[!include [Gå til selskapet](../../learn/includes/goto-company.md)]
+[!include[ Go til firma](../../learn/includes/goto-company.md)]
 
-1. Klikk på Oppgave-knappen ![ikon][img1] **** og velg **Slett <firmanavn> **.
+1. Klikk på ![Ikonet][img1] **** Oppgave-knappen, og velg **Slett <firmanavn>** 10. I
 
-1. I  dialogboksen **Slett Firma** klikker du Ja **** for å bekrefte at du virkelig vil slette firmaet.
+1. I  dialogboksen **Slett Firma** klikker du på **Ja** for å bekrefte at du virkelig ønsker å slette firmaet.
 
-    [!include [Slette elementer](../../learn/includes/tip-deletion.md)]
+    [!include [Deleting av forekomster](../../learn/includes/tip-deletion.md)]
 
-[!include [Merknad om gjenoppretting](../../learn/includes/note-restore.md)]
+[!include [Note om gjenoppretting](../../learn/includes/note-restore.md)]
 
-## Beslektede emner
+## Aktuelle emner
 
-* [Gjenopprett slettede selskaper og kontakter][2]
-* [Slå sammen selskaper][4]
-* [Slette poster permanent][3]
+* [Gjenopprette slettede firmaer og personer][2]
+* [Slå sammen firmaer][4]
+* [Slette oppføringer permanent][3]
 
 <!-- Referenced links -->
 [2]: ../../learn/getting-started/restore-deleted-companies-and-contacts.md

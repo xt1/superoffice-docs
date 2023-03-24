@@ -1,16 +1,16 @@
 ---
-title: Få oppfølging i serie
-description: Hvordan få oppfølging som tilhører en serie med CRMScript
+title: Få oppfølginger i serien
+description: Slik henter du oppfølginger som tilhører en serie med CRMScript
+keywords: CRMScript, kalender, dagbok, avtaler, oppfølging, gjentalse
 uid: crmscript-get-apt-in-series-no
 author: Bergfrid Skaara Dias
 so.date: 03.21.2022
-keywords: CRMScript, calendar, diary, appointments, follow-up, recurrence
 so.topic: howto
 ---
 
-# Få oppfølging som tilhører en serie
+# Få oppfølginger som tilhører en serie
 
-## NSAppointment[] GetAppointmentRecords(Heltall motherId, heltall tilbakefallRuleId)
+## NSAppointment[] GetAppointmentRecords(Heltallsmor-ID, Tilbakefall av heltall)
 
 ```crmscript!
 Integer recurrenceId = 1;
@@ -23,7 +23,7 @@ for(Integer i = 0; i < appointmentList.length(); i++) {
 ```
 
 > [!TIP]
-> Sett `motherId` til **0** med  mindre du arbeider med [Møteinvitasjoner][1].
+> Sett `motherId` til **0** med mindre du jobber med [møteinvitasjoner][1].
 
 <!-- Referenced links -->
 [1]: book-resource.md

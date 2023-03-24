@@ -1,12 +1,12 @@
 ### YamlMime:Category
 
 title: Dagbok (Avtale)
-summary: Velkommen til dagbokområdet hvor du kan finne relevante lenker til alt som har med avtaler og oppgaver å gjøre.
+summary: Velkommen til dagbokområdet der du kan finne relevante koblinger til alle ting knyttet til avtaler og oppgaver.
 brand: devdocs
 
 metadata:
   title: Dagbok (Avtale)
-  description: Inneholder detaljer knyttet til avtaler, aktiviteter og salg.
+  description: Inneholder opplysninger om avtaler, aktiviteter og salg.
   so.product: superoffice
   so.topic: hub-page
   so.collection: collection
@@ -24,11 +24,11 @@ highlightedContent:
       itemType: overview
       url: ../video-meeting/index.md
     # Card
-    - title: Brukerhåndbok
+    - title: Brukerguide
       itemType: reference
       url: learn/index.md
     # Card
-    - title: Mal variabler
+    - title: Malvariabler
       itemType: reference
       url: ../document/templates/variables/for-appointments.md
         # Card
@@ -43,10 +43,10 @@ conceptualContent:
   summary: ""
   items:
   # Card
-    - title: Innledning
+    - title: Introduksjon
       summary: ""
       links:
-      - text: Typer oppfølging
+      - text: Typer oppfølginger
         itemType: concept
         url: overview.md
       - text: Gjentakende avtaler
@@ -57,16 +57,16 @@ conceptualContent:
         url: invitations.md
 
   # Card
-    - title: Brukerhåndbok
+    - title: Brukerguide
       summary: ""
       links:
-      - text: Registrer aktiviteter i dagboken
+      - text: Registrere aktiviteter i dagboken
         itemType: learn
         url: https://community.superoffice.com/en/learning/user-guide/diary/
-      - text: Opprett en oppfølging
+      - text: Opprette en oppfølging
         itemType: learn
         url: https://community.superoffice.com/en/learning/user-guide/diary/create-appointment/
-      - text: Inviter deltakere
+      - text: Invitere deltakere
         itemType: learn
         url: https://community.superoffice.com/en/learning/user-guide/diary/invite-contact-to-appointment/
 
@@ -74,27 +74,27 @@ conceptualContent:
     - title: Videoer
       summary: ""
       links:
-      - text: Legge til avtale i prosjektet
+      - text: Legge til avtale i prosjekt
         itemType: video
         url: https://www.youtube.com/watch?v=YQr5B5IU7XY
-      - text: Opprett og bli med på videomøte
+      - text: Opprett og bli med i videomøte
         itemType: video
         url: https://www.youtube.com/watch?v=XDg_k086TRA
-      - text: Administrer oppgavene dine og optimaliser timeplanen din
+      - text: Håndtere oppgavene dine og optimalisere tidsplanen
         itemType: video
         url: https://www.youtube.com/watch?v=w4ywpuX2SPM
 
     # Card
-    - title: Alternativer for konfigurasjon
+    - title: Konfigurasjonsalternativer
       summary: ""
       links:
-        - text: Brukerpreferanse Avtaledialog
+        - text: Brukerpreferanse AvtaleDialog
           itemType: reference
           url: ../admin/user-preferences/reference/appointment-dialog.md
-        - text: Bruker preferanse DiaryView
+        - text: Brukerpreferanse DiaryView
           itemType: reference
           url: ../admin/user-preferences/reference/diary-view.md
-        - text: Liste Oppfølging type
+        - text: Listeoppfølgingstype
           itemType: how-to-guide
           url: ../admin/lists/learn/adding-items-to-follow-up-type-list.md
 
@@ -105,13 +105,13 @@ conceptualContent:
       - text: Oversikt
         itemType: overview
         url: ../automation/index.yml
-      - text: Utløs SalesAfterSaveAppointment
+      - text: Trigger SalesAfterSaveAppointment
         itemType: reference
         url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesAfterSaveAppointment
       - text: Trigger SalesBeforeSaveAppointment
         itemType: reference
         url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesBeforeSaveAppointment
-      - text: Webhook aktivitet hendelser
+      - text: Webhook aktivitetshendelser
         itemType: reference
         url: ../automation/webhook/reference/activity-events.md
       - text: Zapier
@@ -119,7 +119,7 @@ conceptualContent:
         url: https://help.superoffice.com/Documentation/Help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
 
     # Card
-    - title: API-fremgangsmåter
+    - title: API-hvordan-tos
       summary: ""
       links:
       - text: CRMScript
@@ -137,21 +137,21 @@ conceptualContent:
       - text: Enhet
         itemType: how-to-guide
         url: howto/entity/index.md
-      - text: Web-tjenester
+      - text: Webtjenester
         itemType: how-to-guide
         url: howto/services/index.md
-      - text: Arkiv (søk)
+      - text: Arkivere (søk)
         itemType: how-to-guide
         url: howto/archive/invitation-archive.md
 
     # Card
-    - title: Alternativer for data
+    - title: Dataalternativer
       summary: ""
       links:
       - text: Egendefinerte objekter
         itemType: overview
         url: ../custom-objects/index.yml
-      - text: UdappntSmall bord
+      - text: UdappntSmall tabell
         itemType: reference
         url: ../database/tables/udappntsmall.md
       - text: UdappntLarge tabell
@@ -168,10 +168,10 @@ conceptualContent:
       - text: Invitasjonstabell
         itemType: reference
         url: ../database/tables/invitation.md
-      - text: RecurrenceRule-tabell
+      - text: Gjentagelsestabell
         itemType: reference
         url: ../database/tables/recurrencerule.md
-      - text: Prioritert tabell
+      - text: Prioritetstabell
         itemType: reference
         url: ../database/tables/priority.md
       - text: DiaryView-tabell
@@ -183,13 +183,13 @@ conceptualContent:
       - text: Prosjekt tabell
         itemType: reference
         url: ../database/tables/project.md
-      - text: ForeslåttAvtaletabell
+      - text: ForeslåttAppointment-tabell
         itemType: reference
         url: ../database/tables/suggestedappointment.md
       - text: Medarbeider tabell
         itemType: reference
         url: ../database/tables/associate.md
-      - text: Brukergruppe-tabell
+      - text: Brukergruppetabell
         itemType: reference
         url: ../database/tables/usergroup.md
 
@@ -201,38 +201,38 @@ additionalContent:
       summary: "" 
       items:
       # Card
-      - title: Veiledninger
+      - title: Opplæring
         links:
         - text: iTunes-lignende klient for aktiviteter
           url: tutorials/itunes-like-activities/index.yml
         - text: SuperOffice iCal-feed
           url: tutorials/so-ical-feed/index.yml
-        - text: Generere RSS-feed i VB.Net
+        - text: Generer RSS-feed i VB.Net
           url: tutorials/rss-feed-vb/index.yml
       # Card
       - title: Alternativer for brukergrensesnitt
         links:
         - text: Webpaneler
           url: ../ui/web-panels/index.md
-        - text: SoProtocol - opprette avtale
+        - text: SoProtocol - opprett avtale
           url: ../ui/soprotocol/create-appointment.md
-        - text: SoProtocol - åpen avtaledialog
+        - text: SoProtocol - åpen avtaledialogboks
           url: ../ui/soprotocol/open-appointment-dialog.md
       # Card
-      - title: Funksjoner som nylig er lagt til
+      - title: Nylig lagt til funksjoner
         links:
         - text: Bli med i møte med høyreklikk (9.2 R08)
           url: ../../../release-notes/9.2/standard-crm/9.2-R08-update.md
-        - text: I dag eller denne uken knappen (9,2 R05)
+        - text: I dag eller Denne uken-knappen (9.2 R05)
           url: ../../../release-notes/9.2/standard-crm/9.2-R05-update.md
         - text: Videomøte rett fra avtalen (9.2 R04)
           url: ../../../release-notes/9.2/standard-crm/9.2-R04-update.md
-        - text: Dagbok viser personnavn hvis ingen selskap er koblet (9.2 R03)
+        - text: Dagbok viser personnavn hvis ingen firma er tilknyttet (9,2 R03)
           url: ../../../release-notes/9.2/standard-crm/9.2-R03-update.md
         - text: Redigering av eksterne møteinvitasjoner (9.2 R02)
           url: ../../../release-notes/9.2/standard-crm/9.2-R02-update.md
       # Card
-      - title: Beslektet innhold
+      - title: Relatert innhold
         links:
         - text: Firma
           url: ../company/index.yml

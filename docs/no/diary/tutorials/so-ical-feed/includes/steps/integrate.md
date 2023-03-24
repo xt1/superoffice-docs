@@ -1,30 +1,30 @@
-<!-- markdownlint-disable-file MD041 -->Det ikke-XML-formatet som vises i forrige trinn, er hva Outlook, Google og Apples kalender kan bruke til å integrere eksterne kalenderhendelser.
+<!-- markdownlint-disable-file MD041 -->Det ikke-XML-formatet som ble vist i forrige trinn, er hva Outlook, Google og Apples kalender kan bruke til å integrere eksterne kalenderhendelser.
 
-### Utsikt
+### Outlook
 
-Outlook kan laste inn iCal-feeden ved hjelp av ** innstillingen for Internett-kalenderkonto.**
+Outlook kan laste inn iCal-feeden ved hjelp av innstillingen for **internettkalenderkonto** .
 
-1. Under TOOLS-menyen åpner du KONTOINNSTILLINGER. En dialogboks vises.
+1. Åpne KONTOINNSTILLINGER under VERKTØY-menyen. En dialogboks vises.
 
-2. Gå til kategorien INTERNETT-KALENDERE og legg til en NY kalender.
+2. Gå til fanen INTERNETT-KALENDERE, og legg til en ny kalender.
 
-    ![Outlook-skjermbilde][img4]
+    ![Outlook -skjermbilde][img4]
 
-    ![Outlook-skjermbilde][img5]
+    ![Outlook -skjermbilde][img5]
 
 3. Outlook laster ned avtalene når du har limt inn koblingen til `ical.aspx?associd=123&guid=1234-4567…`
 
-4. Kalenderen vises i kalendervisningen i Outlook - du trenger bare å merke av i avmerkingsboksen for kalenderen du la til.
+4. Kalenderen vises i kalendervisningen i Outlook – du trenger bare å merke av i avmerkingsboksen for kalenderen du la til.
 
-    ![Outlook-skjermbilde][img6]
+    ![Outlook -skjermbilde][img6]
 
 ### Google Kalender
 
-Så hvis du har en Google Phone, kan du nå få SuperOffice kalenderen din til å vises på telefonen. For å gjøre dette går vi via Google Kalender-nettsiden.
+Så hvis du har en Google Phone, kan du nå få SuperOffice kalender for å dukke opp på telefonen. Slik gjør du, går vi via nettstedet Google Kalender.
 
-1. Logg inn på `http://calendar.google.com/` nettsiden.
+1. Logg deg på nettstedet `http://calendar.google.com/` .
 
-2. Klikk på LEGG TIL-menyen under ANDRE KALENDERE: LEGG TIL VIA URL
+2. Klikk på LEGG TIL-menyen under ANDRE KALENDERE: LEGG TIL AV URL
 
     ![Google -skjermbilde][img7]
 
@@ -32,41 +32,41 @@ Så hvis du har en Google Phone, kan du nå få SuperOffice kalenderen din til �
 
     ![Google -skjermbilde][img8]
 
-3. Lim inn ical.aspx?associd=123&guid=1234-4567...  lenke inn her.
+3. Lim inn ical.aspx?associd=123&guid=1234-4567...  her.
 
-4. Google vil lese avtalene og legge dem på toppen av kalenderen din. Du kan endre navnet og om kalenderen deles ved å redigere innstillingene. Den resulterende kalenderen ser slik ut:
+4. Google leser avtalene og legger dem på toppen av kalenderen. Du kan endre navnet og om kalenderen deles ved å redigere innstillingene. Den resulterende kalenderen ser slik ut:
 
     ![Google -skjermbilde][img9]
 
-Disse avtalene vil nå også vises i Android-telefonkalenderen din hvis du har aktivert kalendersynkronisering på enheten din
+Disse avtalene vises nå også på Android-telefonkalenderen hvis du har aktivert kalendersynkronisering på enheten
 
 ![Google -skjermbilde][img10]
 
 ### Miniprogram på skrivebordet
 
-Men hva om du ikke vil slå på telefonen for å sjekke SuperOffice kalenderen din? Hva om du bare vil se på skrivebordet og se hvor du skal være?
+Men hva om du ikke vil slå på telefonen for å sjekke SuperOffice kalender? Hva om du bare vil se på skrivebordet og se hvor du skal være?
 
- **Windows Live Kalender Gadget** er akkurat det du trenger.
+Windows **Live Calendar Gadget** er akkurat det du trenger.
 
-1. Last ned det nyeste miniprogrammet fra `http://wlcalendargadget.codeplex.com/`
+1. Last ned den nyeste miniprogrammet fra `http://wlcalendargadget.codeplex.com/`
 
-2. Installer miniprogrammet, høyreklikk deretter skrivebordet og velg MINIPROGRAMMER.
+2. Installer miniprogrammet, og høyreklikk deretter på skrivebordet og velg MINIPROGRAMMER.
 
     ![Windows Live Kalender Gadget -skjermbilde][img11]
 
-3. Legg til miniprogrammet for Windows Live Kalender. Det vises et sted på skrivebordet.
+3. Legg til Miniprogrammet Windows Live Calendar. Den vises et sted på skrivebordet.
 
-4. Juster innstillingene i kalenderen. Du må lime inn iCal-koblingen i tekstboksen øverst i dialogboksen for innstillinger for kalendermodul.
+4. Tilpass innstillingene på kalenderen. Du må lime inn iCal-koblingen i tekstboksen øverst i dialogboksen for miniprograminnstillinger for kalender.
 
     ![Windows Live Kalender Gadget -skjermbilde][img12]
 
-5. Klikk OK og gadgeten vil laste avtalene fra URL-en og vise dem under uken eller måneden.
+5. Klikk på OK, og miniprogrammet laster inn avtalene fra URL-adressen og viser dem i henhold til uke eller måned.
 
     ![Windows Live Kalender Gadget -skjermbilde][img13]
 
     ![Windows Live Kalender Gadget -skjermbilde][img14]
 
-6. Klikk på en avtale for fullstendig beskrivelse av avtalen.
+6. Klikk på en avtale for å få full beskrivelse av avtalen.
 
 <!-- Referenced links -->
 

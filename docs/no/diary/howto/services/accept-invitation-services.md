@@ -1,34 +1,34 @@
 ---
-title: Hvordan godta en invitasjon (tjenester)
-description: Hvordan godta en invitasjon ved hjelp av NetServer-tjenester
+title: Slik godtar du en invitasjon (tjenester)
+description: Slik godtar du en invitasjon via NetServer-tjenester
+keywords: dagbok, kalender, avtale, invitasjon, API, webtjenester
 uid: accept_invitation_services-no
 author: Bergfrid Skaara Dias
 so.date: 03.18.2022
-keywords: diary, calendar, appointment, invitation, API, web services
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Hvordan godta en invitasjon (tjenester)
+# Slik godtar du en invitasjon (tjenester)
 
-Dette eksemplet viser hvordan du godtar et [invitasjon][2] gjennomgående [NetServer-tjenester][3] lag med bare noen få kodesetninger.
+Dette eksemplet viser hvordan du godtar en [Invitasjon][2] via [NetServer-tjenester][3] laget med bare noen få kodeerklæringer.
 
 Vi bruker NetServer-leverandører (plugins opprettet med en fabrikkklasse) for å hente informasjon om invitasjoner til en bestemt medarbeider.
 
-`IArchiveProvider` er det eksterne standardgrensesnittet til arkivleverandører som er eksponert for tjenestelaget og verden for øvrig. Grensesnittet samler de utvidbare og leverandøregenskapene til klasser som `ActivityArchiveProvider`, `ProjectMemberProvide`og `InvitationProvider`. Dette fungerer som et mellomstadium mellom det rene egenskapsgrensesnittet og den faktiske leverandørklassen som har spørringer.
+`IArchiveProvider` er det eksterne standardgrensesnittet til arkivleverandører som er eksponert for servicelaget og verden generelt. Grensesnittet samler de utvidbare egenskapene og leverandøregenskapene til klasser som `ActivityArchiveProvider`, `ProjectMemberProvide`og `InvitationProvider`. Dette fungerer som et mellomliggende trinn mellom det rene egenskapsgrensesnittet og den faktiske leverandørklassen som har spørsmål.
 
-Etter å ha fått en oversikt av [Annonseinvitasjoner for en medarbeider][1], planlegger vi å godta invitasjonen med `appointmentId = 150`. Dette gjøres ved hjelp av [AvtaleAgent][4] fra `SuperOffice.CRM.Services` navnerommet. Alle samtaler til agenten tilsvarer en webtjenestesamtale.
+Etter å ha fått en oversikt via [registrere invitasjoner til en medarbeider][1], planlegger vi å godta invitasjonen med `appointmentId = 150`. Dette gjøres ved hjelp av [AvtaleAgent][4] fra navneområdet `SuperOffice.CRM.Services` . Alle samtaler til agenten tilsvarer en samtale om webtjenester.
 
-## Kode
+## Koden
 
-[!code-csharp[CS]](includes/accept-invite-services.cs)
+[!code-csharp[CS](includes/accept-invite-services.cs)]
 
 ## Gjennomgang
 
-I eksemplet har vi opprettet en forekomst av  og `AppointmentAgent` kalt metoden som `Accept` passerer og `appointmentId` . `UpdateMode`
+I eksempelet har vi laget en forekomst av metoden `AppointmentAgent` og kaller den tilhørende `Accept` metoden som passerer `appointmentId` og `UpdateMode`.
 
-**Ytelse:**
+ **Utgang:** 
 
 ```text
 associate/contactFullName    date        endDate           appointmentId
@@ -38,7 +38,7 @@ StateZeroDatabase       [D:04/28/2007]    [D:04/28/2007]    [I:172]
 StateZeroDatabase       [D:06/14/2007]    [D:06/14/2007]    [I:161
 ```
 
-Årsaken til at detaljene for en invitasjon med `appointmentId` 150 ikke vises (som den gjorde da vi [oppført det][1] ), er at når invitasjonen er akseptert, blir den en vanlig avtale uten at invitasjonsstatusen er angitt, og den kan ikke lenger hentes ved å bruke [InvitationProvider][5].
+Grunnen til at detaljene for en invitasjon med `appointmentId` 150 ikke vises (slik den gjorde da vi [den vises i listen][1]), er at når invitasjonen er godtatt, blir den vanlig avtale uten invitasjonsstatussettet, og den kan ikke lenger hentes ved hjelp av [InvitasjonSbelønning][5].
 
 <!-- Referenced links -->
 [1]: get-invitations-services.md

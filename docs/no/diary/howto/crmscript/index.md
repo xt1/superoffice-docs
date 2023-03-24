@@ -1,48 +1,48 @@
 ---
-title: Kalender og todo liste
-description: Arbeid med SuperOffice dagbok og oppfølging i CRMScript.
+title: Kalender- og todoliste
+description: Arbeide med SuperOffice dagbok og oppfølginger i CRMScript.
+keywords: CRMScript, kalender, dagbok, avtale, oppfølging
 uid: crmscript_followups-no
 author: Bergfrid Skaara Dias
 so.date: 03.21.2022
-keywords: CRMScript, calendar, diary, appointment, follow-up
 so.topic: concept
 ---
 
-# Kalender- og todo-liste
+# Kalender- og todoliste
 
 > [!NOTE]
-> Det er viktig å forstå skillet mellom **aktiviteter** og **oppfølging.**
+> Det er viktig å forstå forskjellen på **aktiviteter** og **oppfølginger** .
 >
-> Når du henter data fra [avtale tabell][4] eller bruke CRMScript [NSAppointment klasse][5], vær oppmerksom på **typefeltet** .
+> Når du henter data fra [avtaletabell][4] eller bruker CRMScript [NSAppointment-klasse][5], må du ta hensyn til  feltet **for type** .
 
 ## Oppfølginger
 
-* [Opprette avtale][6]
+* [Opprett avtale][6]
 * [Få avtale][7]
 * [Oppdatere og slette avtale][8]
-* [Bestill en ressurs][9]
-* [Registrer innkommende anrop][15]
+* [Reservere en ressurs][9]
+* [Registrere innkommende samtale][15]
 * [Planlegge utgående samtale][16]
 * [Arbeide med oppgaver][17]
 
-## Gjentakelse
+## Regelmessighet
 
-* [Vise informasjon om regelmessighet for en oppfølging][10]
-* [Få oppfølging som tilhører en serie][11]
-* [Opprett gjentatte oppfølginger][12]
-* [Redigere gjentatte oppfølginger][13]
-* [Slutte å gjenta oppfølginger][14]
+* [Vise gjentakelsesinformasjon for en oppfølging][10]
+* [Få oppfølginger som tilhører en serie][11]
+* [Opprette repeterende oppfølginger][12]
+* [Redigere repeterende oppfølginger][13]
+* [Stoppe repeterende oppfølginger][14]
 
 ## Møteinvitasjoner
 
-**Verten:**
+ **Verten:** 
 
-* [Opprett invitasjon][1]
+* [Opprette invitasjon][1]
 * [Spore svar][2]
 
-**Deltakeren:**
+ **Deltakeren:** 
 
-* [Vis oppfølging du er invitert til][3]
+* [Vise oppfølginger du er invitert til][3]
 * [Godta invitasjon][3]
 
 <!-- Referenced links -->

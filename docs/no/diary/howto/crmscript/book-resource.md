@@ -1,10 +1,10 @@
 ---
-title: Hvordan bestille en ressurs
-description: Slik bestiller du en ressurs med CRMScript
+title: Slik reserverer du en ressurs
+description: Slik reserverer du en ressurs med CRMScript
+keywords: CRMScript, kalender, dagbok, avtaler, oppfølging, ressurs, sted
 uid: crmscript-book-resource-no
 author: Bergfrid Skaara Dias
 so.date: 03.18.2022
-keywords: CRMScript, calendar, diary, appointments, follow-up, resource, location
 so.topic: howto
 ---
 
@@ -13,11 +13,11 @@ so.topic: howto
 Feltet `location` er enten en egendefinert streng eller informasjon fra en bestilt ressurs.
 
 > [!TIP]
-> Husk  at en **ressurs er en medarbeider av type 1**,  og at du bør se bort fra `person_id`.
+> Husk at en **ressurs er en medarbeider av type 1** , og at du bør se bort fra `person_id`.
 
-Når du bestiller en ressurs, kobles avtalen til personens avtale ved hjelp av `mother_id` feltet. Det vil være to forskjellige avtale-ID-er: en for personen og en for ressursen!
+Når du reserverer en ressurs, knyttes avtalen til personens avtale ved hjelp av feltet `mother_id` . Det vil være to forskjellige avtale-IDer: én for personen og én for ressursen!
 
-## Liste ressurser
+## Vise ressurser
 
 ```crmscript!
 SearchEngine se;
@@ -28,7 +28,7 @@ printLine(se.executeTextTable());
 
 ## Kontrollere om en ressurs er tilgjengelig
 
-Det er god praksis å alltid sjekke tilgjengeligheten før du bestiller en ressurs for å unngå dobbeltbestilling.
+Det er god praksis å alltid sjekke tilgjengelighet før du bestiller en ressurs for å unngå dobbeltbestilling.
 
 ```crmscript!
 NSAppointmentAgent appointmentAgent;
@@ -52,16 +52,16 @@ else {
 }
 ```
 
-## Bestill en ressurs
+## Reservere en ressurs
 
-Ved å ringe `SetParticipants()`kan du bestille ressursen uten overhead av kloning og kobling av avtaler. Slik gjør du det:
+Ved å ringe `SetParticipants()`kan du reservere ressursen uten at det er tid for kloning og kobling av avtaler. Slik gjør du:
 
-1. Opprett en ny avtale for personen, **eller** hent en eksisterende, ikke-fullført avtale.
-2. Opprett en NSParticipantInfo-liste, og legg til den tilknyttede ID-en til ressursen.
+1. Opprett en ny avtale for personen **, eller** hent en eksisterende avtale som ikke er utført.
+2. Opprett en NSParticipantInfo-liste, og legg til den tilknyttede IDen til ressursen i den.
 3. Ring `SetParticipants()`.
 4. Lagre avtalen.
 
-Følgende eksempel setter opp et gjennomgangsmøte kl. 14:15-15:00 på den siste dagen i inneværende måned og reserverer møterommet med ID 37.
+Følgende eksempel setter opp et gjennomgangsmøte kl. 14.15-15.00 på den siste dagen i inneværende måned, og reserverer møterommet med ID 37.
 
 ```crmscript
 DateTime start;
@@ -89,7 +89,7 @@ newAppointment = appointmentAgent.SaveAppointmentEntity(newAppointment);
 ```
 
 > [!TIP]
-> Du kan også [Inviter personer til møtet][3]).
+> Du kan også [invitere personer til møtet][3]).
 
 <!-- Referenced links -->
 [3]: ../../invitations.md

@@ -1,22 +1,22 @@
 ---
 title: Opprett avtale
-description: Hvordan lage avtaler med CRMScript
+description: Slik oppretter du avtaler med CRMScript
+keywords: CRMScript, kalender, dagbok, avtaler, oppfølging
 uid: crmscript-create-appointment-no
 author: Bergfrid Skaara Dias
 so.date: 03.18.2022
-keywords: CRMScript, calendar, diary, appointments, follow-up
 so.topic: howto
 ---
 
-# Opprette avtale
+# Opprett avtale
 
-Du må opprette [NSAppointmentAgent][1] og lagre en ny avtale. Bruk en av disse metodene som utgangspunkt, og slå opp flere alternativer i API-referansen.
+Du trenger en [NSAppointmentAgent][1] for å opprette, fylle ut og lagre en ny avtale. Bruk en av disse metodene som utgangspunkt, og slå opp flere alternativer i API-referansen.
 
 * `CreateDefaultAppointmentEntity()`
 * `CreateDefaultAppointmentEntityByType(Integer type)`
 * `CreateDefaultAppointmentEntityByTypeAndAssociate(Integer type, Integer associateId)`
 
-Eksempel: blokker ut 2 timer fra nå for en laglunsj.
+Eksempel: Blokker 2 timer fra og med nå for en teamlunsj.
 
 ```crmscript
 DateTime start;
@@ -34,9 +34,9 @@ newAppointment.SetDescription("Team lunch");
 newAppointment = appointmentAgent.SaveAppointmentEntity(newAppointment);
 ```
 
-## Dager med røde bokstaver
+## Røde dager
 
-Har du noen gang prøvd å sette opp en avtale rundt jul og lurt på om det er en dag med røde bokstaver eller ikke? Slik kontrollerer du det:
+Har du noen gang forsøkt å sette opp en avtale rundt jul og lurt på om det er en rød dag eller ikke? Slik merker du av for:
 
 ```crmscript!
 NSAppointmentAgent appointmentAgent;
@@ -58,19 +58,19 @@ for (Integer i = 0; i < redLetterDays.length(); i++)
 
 ## Delegasjon
 
-Delegering er handlingen med å tildele en oppfølging **til noen andre**. Dette betyr at skaperen og eieren av avtalen er to forskjellige personer. Vanlige scenarier:
+Delegering handler om å tildele en oppfølging **til en annen** person. Det betyr at skaperen og eieren av avtalen er to ulike personer. Vanlige scenarioer:
 
-* En personlig assistent administrerer administrerende direktørs dagbok på deres vegne.
-* HR tar i bruk en nyansatt og setter opp introduksjonsprogrammet for den ansatte på forhånd.
-* En teamleder er ansvarlig for å ringe 20 kunder og delegerer 4 samtaler til hver av sine 5 direkte underordnede.
+* En personlig assistent administrerer konsernsjefens dagbok på deres vegne.
+* HR er om bord i en ny ansettelse og setter opp introduksjonsprogrammet for den ansatte på forhånd.
+* En teamleder belastes med å ringe 20 kunder og delegater 4 samtaler til hver av sine 5 direkterapporter.
 * En kollega er på ferie, men de må ringe en klient når de kommer tilbake.
-* En konsulent har avtalt et møte med en klient, men har blitt syk og har behov for å sende noen andre.
+* En konsulent har avtalt et møte med en kunde, men har blitt syk og har behov for å sende noen andre.
 
-**Slik delegerer du en avtale:**
+ **Slik delegerer du en avtale:** 
 
-1. Opprett eller oppdater oppfølgingen på vanlig måte.
-2. Angi `owner` tilknytnings-ID-en du delegerer til.
-3. Sett til `AssignedBy` forrige eier.
+1. Opprett eller oppdater oppfølgingen som vanlig.
+2. Sett `owner` til medarbeider-IDen du delegerer til.
+3. Sett `AssignedBy` til forrige eier.
 4. Lagre.
 
 > [!NOTE]
@@ -80,9 +80,9 @@ Delegering er handlingen med å tildele en oppfølging **til noen andre**. Dette
 
 | Status | Beskrivelse |
 |:-:|:---|
-| 11 |Avtale er tilordnet til en bruker (innledende status)|
-| 12 | Brukeren har sett, men ikke akseptert eller avslått avtalen |
-| 13 | Brukeren har avslått den tilordnede avtalen |
+| 11 |Avtale er tilordnet en bruker (innledende status)|
+| 12 | Brukeren har sett, men ikke godtatt eller avslått avtalen |
+| 13 | Brukeren har avslått den tildelte avtalen |
 
 <!-- Referenced links -->
 [1]: <xref:CRMScript.NetServer.NSAppointmentAgent>

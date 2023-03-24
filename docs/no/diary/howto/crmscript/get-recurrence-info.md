@@ -1,16 +1,16 @@
 ---
-title: Se informasjon om regelmessighet
-description: Slik får du informasjon om regelmessighet med CRMScript
+title: Vise gjentakelsesinformasjon
+description: Slik henter du regelmessig informasjon med CRMScript
+keywords: CRMScript, kalender, dagbok, avtaler, oppfølging, gjentalse
 uid: crmscript-get-recurrence-info-no
 author: Bergfrid Skaara Dias
 so.date: 03.21.2022
-keywords: CRMScript, calendar, diary, appointments, follow-up, recurrence
 so.topic: howto
 ---
 
-# Vise informasjon om regelmessighet for en oppfølging
+# Vise gjentakelsesinformasjon for en oppfølging
 
-Avhengig av nivådetaljene du trenger, kan du bruke enten eller [NSAppointment][1] [NSAppointmentEntity][2] klassen.
+Avhengig av hvilke detaljdetaljer du har behov for, kan du bruke enten [NSAppointment][1] e-postkortet eller [NSAppointmentEntity][2] klassen.
 
 ## Grunnleggende info (NSAppointment)
 

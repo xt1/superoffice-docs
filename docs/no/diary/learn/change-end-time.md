@@ -1,30 +1,30 @@
 ---
-title: Endre sluttid for oppfølging i Dagbok
-description: Endre sluttid for oppfølging i Dagbok
+title: Endre sluttidspunkt for en oppfølging i Dagbok
+description: Endre sluttidspunkt for en oppfølging i Dagbok
+keywords: CRM
 uid: help-no-follow-up-change-time
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Endre sluttid for oppfølging i Dagbok
+# Endre sluttidspunkt for en oppfølging i Dagbok
 
-[!include [Merk](includes/note-edit-followup.md)]
+[!include [Note](includes/note-edit-followup.md)]
 
-I **** Dagbok-skjermbildet kan du endre sluttidspunktet for en oppfølging uten å måtte åpne den:
+I bildet **Dagbok** kan du endre sluttidspunkt for en oppfølging uten å måtte åpne den:
 
-1. Klikk oppfølgingen i  kategorien **Dag**, ** Uke-fanen eller ****** Vis-fanen.
+1. Klikk på oppfølgingen i fanen **Dag** , **Uke** eller **Oversikt** .
 
-2. Plasser musepekeren på den nederste kanten av oppfølgingen. Pekeren endres til en dobbeltpil.
+2. Plasser musepekeren på den nedre kanten av oppfølgingen. Musepekeren endres til doble piler.
 
-3. Klikk på kantlinjen og hold nede museknappen mens du drar den blå linjen opp eller ned for å redusere eller øke tidsluken for oppfølgingen. Du kan se sluttiden for oppfølgingen øverst i det blå området.
+3. Klikk på kantlinjen og hold museknappen nede mens du drar den blå linjen opp eller ned for å redusere eller øke tidsrommet for oppfølgingen. Du kan se sluttidspunkt for oppfølgingen øverst i det blå området.
 
-4. Slipp museknappen. Tidsluken for oppfølgingen endres.
+4. Slipp museknappen. Tidsrommet for oppfølgingen endres.
 
 > [!NOTE]
-> Du kan også endre tidsluken ved å [Åpne oppfølgingen][1] endre  feltene **Start, **Slutt**, **Forfall** eller **Varighet** ** . Disse feltene er beskrevet i [Den Dialogboks for oppfølging][2].
+> Du kan også endre tidsrommet ved [åpne oppfølgingen][1] å endre  feltene **Start** , **Slutt** / **Slutt** eller **Varighet** . Disse feltene er beskrevet i [Dialogboks for oppfølginger][2].
 
 <!-- Referenced links -->
 [1]: open-follow-up.md

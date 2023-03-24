@@ -1,24 +1,24 @@
-<!-- markdownlint-disable-file MD041 -->iCal-siden gjør den samme påloggingskontrollen som resultatsiden, men den leser brukerens avtaler og sender ut iCal. Søket begrenser antall avtaler til ca. 2 måneders avtaler, vektet mot fremtidige/planlagte avtaler.
+<!-- markdownlint-disable-file MD041 -->ICal-siden gjør samme påloggingskontroll som Resultat-siden, men den leser brukerens avtaler og sender ut iCal. Søket begrenser antall avtaler til ca. 2 måneder med avtaler, vektet mot fremtidige/planlagte avtaler.
 
-[!code-csharp[CS]](../ical-write-results.cs?range=1-5)
+[!code-csharp[CS](../ical-write-results.cs?range=1-5)]
 
-For å sende ut avtalene må vi angi et par ting i overskriften:
+Hvis du vil sende ut avtalene, må vi angi et par ting i toppteksten:
 
-[!code-csharp[CS]](../ical-write-results.cs?range=7-12)
+[!code-csharp[CS](../ical-write-results.cs?range=7-12)]
 
-Selve svaret har en overskrift og deretter en liste over avtaledetaljer.
+Selve svaret har en overskrift, og deretter en liste over detaljene for avtalen.
 
 ### Topptekst for innhold
 
-[!code-csharp[CS]](../ical-write-results.cs?range=14-21)
+[!code-csharp[CS](../ical-write-results.cs?range=14-21)]
 
 ### Utdata per avtale
 
-[!code-csharp[CS]](../ical-write-results.cs?range=23-68)
+[!code-csharp[CS](../ical-write-results.cs?range=23-68)]
 
-Google er kresen på tidssone-ID-en på DTSTART/DTEND – den må være til stede.
+Google er kresen om tidssone-IDen på DTSTART/DTEND – den må være til stede.
 
-Denne siden resulterer i utdata som dette:
+Denne siden resulterer i slike utdata:
 
 ```text
 BEGIN:VCALENDAR

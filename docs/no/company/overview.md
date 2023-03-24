@@ -1,45 +1,45 @@
 ---
-title: Arbeide med selskaper
-description: Firmakortet bruker kontakttabellen og de relaterte tabellene. Det finnes flere personoppføringer for alle kontakter.
+title: Arbeide med firmaer
+description: Firmakortet bruker persontabellen og tilhørende tabeller. Det finnes flere personoppføringer for enhver person.
+keywords: firma, person, person
 uid: company-overview-no
 author: Bergfrid Skaara Dias
 so.date: 02.21.2022
 so.topic: concept
-keywords: company, person, contact
 ---
 
 # Firma
 
 ![Firmakort -skjermbilde][img2]
 
-[!include [selskap vs. kontakt](../includes/terminology-company.md)]
+[!include [komprimert vs. person](../includes/terminology-company.md)]
 
 ## Firma kontra andre enheter
 
-Firmakortet bruker [kontakt][2] tabellen og de relaterte tabellene:
+Firmakortet bruker [Kontakt][2] tabellen og tilhørende tabeller:
 
-![Firma tabelldiagram][img1]
+![diagram over Firma tabeller][img1]
 
-Det er flere `person` poster for alle `contact`. En klassisk mange-til-én-relasjon.
+Det finnes flere `person` oppføringer for eventuelle `contact`. Et klassisk forhold mellom mange og én.
 
-* En **person** kan bare tilhøre én **kontakt**.
-* En **kontakt** kan ha null eller flere **personer**.
+* En **person** kan bare tilhøre én **person** .
+* En **person** kan ha null eller flere **personer** .
 
-Det er denne relasjonen som driver de første til feltene i avtale-, salgs- og dokumentdialogboksene. Hver gang du velger et nytt selskap, må personlisten under den fylles ut på nytt.
+Det er denne relasjonen som driver de første feltene i dialogboksene avtale, salg og dokument. Hver gang du velger et nytt firma, må personlisten under det fylles ut igjen.
 
-* [kontakt][10] (person tabell)
+* [Kontakt][10] (persontabell)
 * [Dokumenter][11]
-* [Oppfølging][12] (avtale tabell)
+* [Oppfølging][12] (Avtaletabell)
 * [Prosjekter][13]
 * [Salg][14]
 
-## API-fremgangsmåter
+## API-hvordan-tos
 
 * [CRMScript][4]
-* [Web-tjenester][5]
+* [Webtjenester][5]
 * [Enheter][6]
 * [Rader][7]
-* [Objektivert SQL][8]
+* [Objektisert SQL][8]
 * [Rå SQL][9]
 
 ## Mer

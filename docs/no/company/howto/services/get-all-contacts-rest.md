@@ -1,16 +1,16 @@
 ---
-title: Velg alle selskaper
-description: Hvordan lese alle selskapene i SuperOffice med REST Web API.
+title: Velg alle firmaer
+description: Slik leser du alle firmaene i SuperOffice med REST Web API.
+keywords: person, firma, tjenester, API, søk, hvile
 uid: rest_api_search_contact-no
 author: {github-id}
-keywords: contact, company, services, API, search, rest
 so.date: 11.04.2021
 so.topic: howto
 ---
 
-# Velg alle selskaper
+# Velg alle firmaer
 
-Les alle selskapene i SuperOffice.
+Les alle firmaene i SuperOffice.
 
 ```http
 GET /api/v1/contact?$select=name,associateId,contactAssociate/fullName HTTP/1.1

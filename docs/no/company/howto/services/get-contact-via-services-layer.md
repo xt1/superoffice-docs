@@ -1,22 +1,22 @@
 ---
-title: Få en kontakt gjennom tjenestelaget
-description: Hvordan få en Person gjennom Tjenester lag.
+title: Få en person gjennom tjenestelaget
+description: Slik får du en Person gjennom Services-laget.
+keywords: person, firma, tjenester, API, api-tjenester, ContactAgent
 uid: get_contact_services_layer-no
 author: {github-id}
 so.date: 11.04.2021
-keywords: contact, company, services, API, api-services, ContactAgent
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Få en kontakt gjennom tjenestelaget
+# Få en person gjennom tjenestelaget
 
-Dette er et alternativ til å hente en `Contact` enhet [gjennom enhetslaget][1].
+Dette er et alternativ til å hente en `Contact` enhet [gjennom enheter-laget][1].
 
-Følgende eksempel viser hvordan det gjøres.
+Eksemplet nedenfor viser hvordan det gjøres.
 
-## Kode
+## Koden
 
 ```csharp
 using SuperOffice.CRM.Services;
@@ -36,7 +36,7 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 
 ## Gjennomgang
 
-Først må du opprette en `ContactAgent`. Deretter kan vi hente en `Contact` enhetsbærer ved å sende til `Contact_id` metoden `GetContact` . For øyeblikket vil alle egenskapene til denne kontakten bli sendt til minnet fra databasen. Nå kan du få tilgang til alle egenskapene til denne kontakten via denne nyopprettede transportøren `Contact` .
+Først må du opprette en `ContactAgent`. Deretter kan vi hente en `Contact` enhetsbærer ved `Contact_id` å `GetContact` sende  til metoden. For øyeblikket vil alle egenskapene til denne personen sendes til minne fra databasen. Nå kan du få tilgang til alle egenskapene til denne personen via denne nyopprettede `Contact` transportøren.
 
 <!-- Referenced links -->
 [1]: ../entity/get-contact-via-entities-layer.md

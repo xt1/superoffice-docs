@@ -1,18 +1,18 @@
 ---
-title: Opprett et nytt selskap
-description: Hvordan opprette et nytt selskap ved hjelp av REST
+title: Opprette et nytt firma
+description: Slik oppretter du et nytt firma ved hjelp av REST
+keywords: person, firma, tjenester, API, hvile, JavaScript
 uid: create_company_rest-no
 author: {github-id}
 so.date: 11.04.2021
-keywords: contact, company, services, API, rest, JavaScript
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Opprett et nytt selskap
+# Opprette et nytt firma
 
-Få et tomt selskap, endre det og legg det tilbake for å opprette et nytt selskap.
+Hent tomt firma, endre det og poster det tilbake for å opprette et nytt firma.
 
 ```javascript
 company = Get("api/v1/Contact/default")

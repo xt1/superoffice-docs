@@ -1,18 +1,18 @@
 ---
 title: Slik oppdaterer du avtaler
-description: Hvordan oppdatere, flytte og slette avtaler; Merke en avtale som fullført
+description: Slik oppdaterer, flytter og sletter du avtaler. markere en avtale som fullført
+keywords: CRMScript, kalender, dagbok, avtaler, oppfølging
 uid: crmscript-update-appointment-no
 author: Bergfrid Skaara Dias
 so.date: 03.18.2022
-keywords: CRMScript, calendar, diary, appointments, follow-up
 so.topic: howto
 ---
 
 # Oppdatere avtale
 
-## NSAppointment UpdateAppointment(Heltall p0, DateTime p1, DateTime p2, Heltall p3, Heltall p4, Heltall associateId)
+## NSAppointment UpdateAppointment(Heltall p0, DateTime p1, DateTime p2, Heltall p3, Heltall p4, Heltall-medarbeiderId)
 
-Endre beskrivelsen, for eksempel for å legge til en agenda:
+Endre for eksempel beskrivelsen for å legge til en agenda:
 
 ```crmscript
 NSAppointmentAgent appointmentAgent;
@@ -24,7 +24,7 @@ appointmentAgent.SaveAppointmentEntity(appointment);
 
 ## Flytte avtale
 
-Utsett en eksisterende avtale med 1 uke (omberamme):
+Utsette en eksisterende avtale innen 1 uke (tidsplanlegg på nytt):
 
 ```crmscript
 NSAppointmentAgent appointmentAgent;
@@ -40,11 +40,11 @@ a.SetEndDate(end.addDay(7));
 a = appointmentAgent.SaveAppointmentEntity(a);
 ```
 
-## Merk som fullført
+## Merke som fullført
 
-*Fullført* betyr at statusen er **3**.
+*Utført* betyr at statusen er **3** .
 
-### Void SetCompleted(Heltall fullført)
+### Void SetCompleted(Heltall utført)
 
 ```crmscript
 NSAppointmentAgent appointmentAgent;
@@ -56,9 +56,9 @@ appointmentAgent.SaveAppointmentEntity(a);
 
 ### Heltall GetCompleted()
 
-Du kan ikke redigere fullførte oppfølginger før du har angret statusen Fullført!
+Du kan ikke redigere utførte oppfølginger før du har deaktivert Utført-statusen.
 
-Brukes `GetCompleted()` til å kontrollere statusen. Bytt den til **0** for å gjøre endringene dine, og bytt den deretter tilbake hvis det er aktuelt.
+Bruk `GetCompleted()` for å kontrollere statusen. Bytt den til **0** for å gjøre endringene, og bytt den deretter tilbake hvis det er aktuelt.
 
 ```crmscript
 NSAppointmentAgent appointmentAgent;
@@ -71,9 +71,9 @@ if (e.GetCompleted() == 3) {
 }
 ```
 
-## Slett avtale
+## Slette avtale
 
-### Ugyldig DeleteAppointmentEntity(heltallsavtaleEntityId)
+### Void DeleteAppointmentEntity(HeltallsavtaleEntityId)
 
 ```crmscript
 NSAppointmentAgent appointmentAgent;

@@ -1,33 +1,33 @@
 ---
-title: Slik viser du alle valgte interesser for en kontakt
-description: Slik viser du alle valgte interesser for en kontakt ved hjelp av enheter
+title: Slik viser du alle valgte interesser for en person
+description: Slik viser du alle valgte interesser for en person ved hjelp av enheter
+keywords: person, firma, interesse, enhet, API, PersonInterestHelper, SelectHeadingItems, SelectRootItems
 uid: list_contact_interests_entity-no
 author: {github-id}
 so.date: 05.11.2016
-keywords: contact, company, interest, entity, API, ContactInterestHelper, SelectHeadingItems, SelectRootItems
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Slik viser du alle valgte interesser for en kontakt
+# Slik viser du alle valgte interesser for en person
 
-Du kan liste opp alle valgte [Interesser][1] for en bestemt kontakt ved hjelp av `ContactInterestHelper` klassen.
+Du kan vise alle som er valgt [Interesser][1] for en bestemt person, ved hjelp av `ContactInterestHelper` klassen.
 
 Du kan oppnå det samme med `PersonInterestHelper` klassen.
 
-Hjelpeklassene gir funksjonaliteten som kombinerer MDO-listene og hva de skal velge (de kombinerer enhetsundersamlinger med MDO-lister).
+Hjelpeklassene gir deg funksjonaliteten som kombinerer MDO-listene og hva du skal velge (de kombinerer enhetsundersamlinger med MDO-lister).
 
-## Kode
+## Koden
 
-[!code-csharp[CS]](includes/list-interests-entity.cs)
+[!code-csharp[CS](includes/list-interests-entity.cs)]
 
 ## Gjennomgang
 
-I koden ovenfor, når vi har opprettet en forekomst av `Contact` enheten ved å bruke `Contact` klassen, bruker vi kontaktene `InterestHelper` til å hente de valgte interessene. Som vist ovenfor kan vi hente interessen på 2 måter:
+I koden ovenfor, når vi har opprettet en forekomst av `Contact` enheten ved hjelp av `Contact` klassen, bruker vi personens `InterestHelper` til å hente de valgte interessene. Som vist ovenfor kan vi hente interessen på to måter:
 
-* Bruke eiendommen `SelectHeadingItems` 
-* Bruke eiendommen `SelectRootItems` 
+* ved hjelp av egenskapen `SelectHeadingItems` 
+* ved hjelp av egenskapen `SelectRootItems` 
 
 <!-- Referenced links -->
 [1]: ../../interests.md

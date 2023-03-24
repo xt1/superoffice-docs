@@ -1,8 +1,8 @@
-<!-- markdownlint-disable-file MD041 -->Når dataene er hentet, kan vi filtrere dataene i henhold til søketeksten spesifisert av brukeren.
+<!-- markdownlint-disable-file MD041 -->Når dataene er hentet, kan vi filtrere dataene i henhold til søketeksten som er angitt av brukeren.
 
-[!code-csharp[CS]](../itunes-searchtext.cs)
+[!code-csharp[CS](../itunes-searchtext.cs)]
 
-Samlingen `DataGridViewRow` av datarutenettvisningen gjentas for hver aktivitetsdatarad, og Beskrivelse-kolonnen kontrolleres for å se om beskrivelsen inneholder søketeksten. Hvis aktivitetsbeskrivelsen ikke inneholder den angitte teksten, usynliggjøres raden. Denne metoden påkalles i `TextChanged` tilfelle søketekstboksen som vist nedenfor.
+Innsamlingen `DataGridViewRow` av datarutenettvisningen gjentas for hver aktivitetsdatarad, og det er merket av i kolonnen Beskrivelse for å se om beskrivelsen inneholder søketeksten. Hvis aktivitetsbeskrivelsen ikke inneholder den angitte teksten, blir raden ikke synlig. Denne metoden aktiveres ved `TextChanged` søk i tekstboksen som vist nedenfor.
 
 ```csharp
 using (SoSession newSession = SoSession.Authenticate("p", "p"))

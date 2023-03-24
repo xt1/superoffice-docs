@@ -1,69 +1,69 @@
 ---
-title: Dialogboksen Ny gruppevisning
-description: Dialogboksen Ny gruppevisning
+title: Dialogboksen Ny gruppeoversikt
+description: Dialogboksen Ny gruppeoversikt
+keywords: CRM
 uid: help-no-diary-screen-view-dialog
 author: SuperOffice RnD
 so.date: 07.04.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Dialogboksen Ny gruppevisning
+# Dialogboksen Ny gruppeoversikt
 
-I  dialogboksen **Ny gruppevisning** kan du vise brukere og ressurser du vil se dagbøker for, og lagre visningene i **Vis-listen** med et navn du velger.
+I  dialogboksen **Ny gruppeoversikt** kan du vise brukere og ressurser med dagbøker du vil se, og lagre oversiktene i  listeboksen **Vis** med et navn du selv velger.
 
 ## Felt i denne dialogboksen
 
 ### Navn
 
-Navnet på visningen du redigerer. Du kan endre navnet på visningen.
+Navnet på oversikten du redigerer. Du kan endre visningens navn.
 
 ### Beskrivelse
 
-Her kan du legge inn en beskrivelse av visningen.
+Her kan du legge inn en beskrivelse av oversikten.
 
 ### Velg fra
 
-* Velg **Medarbeidere** du vil legge til brukere fra organisasjonen i visningen.
-* Velg **Prosjekt** for å legge til prosjektdeltakere fra organisasjonen i visningen.
-* Velg **Ressurs** for å legge til ressurser som konferanserom og projektorer fra organisasjonen i visningen.
+* Velg **Medarbeidere** for å legge til brukere fra organisasjonen i oversikten.
+* Velg **Prosjekt** for å legge til prosjektdeltakere fra organisasjonen i oversikten.
+* Velg **Ressurs** for å legge til ressurser, for eksempel konferanserom og projektorer fra organisasjonen, til oversikten.
 
 ### Listeboks
 
-Når du velger et alternativ for **Velg fra**, vises en liste nedenfor. Innholdet i denne listen varierer avhengig av hva du valgte ovenfor:
+Når du velger et alternativ for **Velg fra** , vises en listeboks nedenfor. Innholdet i denne listeboksen varierer avhengig av hva du valgte ovenfor:
 
-* Hvis du valgte **Medarbeidere**, vises en liste over brukergrupper i organisasjonen. Du kan også velge **Alle** for å vise alle brukerne i organisasjonen.
+* Hvis du valgte **Medarbeidere** , vises en liste over brukergrupper i organisasjonen. Du kan også velge **Alle** for å vise alle brukerne i organisasjonen.
 
-* Hvis du valgte **Prosjekt**, vises historikklisten over prosjekter. Her kan du også bruke [FastSearcher][6] eller [Historikk-listen][5].
+* Hvis du valgte **Prosjekt** , vises historikklisten over prosjekter. Her kan du også bruke [Hurtigsøk][6] eller [Historikklisten][5].
 
-* Hvis du valgte **Ressurs**, vises en liste over ressurser i organisasjonen. Denne listen er definert i SuperOffice Innstillinger og vedlikehold. Velg **Alle** for å se alle ressursene i organisasjonen.
+* Hvis du valgte **Ressurs** , vises en liste over ressurser i organisasjonen. Denne listen defineres i SuperOffice Innstillinger og vedlikehold. Velg **Alle** for å se alle ressursene i organisasjonen.
 
 ### Venstre rute
 
-Her vil du se en liste over tilgjengelige brukere og / eller ressurser som kan legges til gruppevisningen. Velg brukerne/ressursene du trenger, og klikk høyrepilen ( ![ikon][img2] ) for å legge dem til i ruten til høyre.
+Her ser du en liste over tilgjengelige brukere og/eller ressurser som kan legges til i gruppeoversikten. Merk ønskede brukere/ressurser, og klikk på pil høyre ( ![Ikonet][img2] ) for å legge dem til i ruten til høyre.
 
 > [!NOTE]Du kan også velge brukere og ressurser enkeltvis ved å dobbeltklikke på dem.
 > 
-Klikk Velg ** alle ** ( ![ikon][img4] ) for å velge alle brukerne/ressursene i listen ovenfor. Klikk på **Fjern merking** av alle  ( ![ikon][img5] ) for å fjerne merkingen av alle brukerne og ressursene.
+Klikk **på Velg alle** ( ![Ikonet][img4] ) for å velge alle brukerne/ressursene i listen ovenfor. Klikk **på Fjern merking for alle** ( ![Ikonet][img5] ) for å fjerne merkingen for alle brukere og ressurser.
 
 ### Høyre rute
 
-Her vises alle brukerne og ressursene du har lagt til i gruppevisningen. Hvis du vil fjerne en bruker eller en ressurs fra denne listen, merker du den og klikker venstrepilen ( ![ikon][img3] ). Brukerne og ressursene du har valgt, vises i gruppevisningen i samme rekkefølge som i ruten til høyre. Hvis du vil endre denne rekkefølgen, velger du en bruker eller ressurs og klikker ![ikon][img6] pil opp ( ) eller  pil ned ( ) ![ikon][img7] for å flytte den opp eller ned.
+Her vises alle brukerne og ressursene du har lagt til i gruppeoversikten. Hvis du vil fjerne en bruker eller en ressurs fra denne listen, merker du den og klikker på pil venstre ( ![Ikonet][img3] ). Brukerne og ressursene du har valgt, vises i gruppeoversikten i samme rekkefølge som i ruten til høyre. Hvis du vil endre denne rekkefølgen, kan du velge en bruker eller ressurs og klikke på pil opp ( ![Ikonet][img6] ) eller pil ned ( ![Ikonet][img7] ) for å flytte den opp eller ned.
 
 ### Lagre
 
-Lagrer gjeldende gruppevisning og lukker dialogboksen.
+Lagrer gjeldende gruppeoversikt, og lukker dialogboksen.
 
-### Annullere
+### Avbryte
 
 Lukker dialogboksen uten å lagre endringer.
 
 ## Hva vil du gjøre nå?
 
-* [Opprette gruppevisninger][1]
-* [Vise gruppevisninger for en brukergruppe][2]
-* [Opprette avtaler for medarbeidere][4]
+* [Opprette gruppeoversikter][1]
+* [Vise gruppeoversikter for en brukergruppe][2]
+* [Opprette avtaler for andre medarbeidere][4]
 
 <!-- Referenced links -->
 [1]: ../create-view.md

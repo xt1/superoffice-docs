@@ -1,36 +1,36 @@
 ---
-title: Endre Fullført-statusen for en aktivitet
-description: Endre statusen Fullført for en aktivitet
+title: Endre Utført-status for en aktivitet
+description: Endre Utført-status for en aktivitet
+keywords: CRM
 uid: help-no-activity-completed
 author: SuperOffice RnD
 so.date: 06.29.2022
-keywords: CRM
 so.topic: help
 language: no
 ---
 
-# Endre statusen Fullført for en aktivitet
+# Endre Utført-status for en aktivitet
 
-Når du vurderer at en aktivitet er fullført, kan du merke den som fullført.
+Når du mener at en aktivitet er fullført, kan du merke den som utført.
 
-**Fullført** er et vekslealternativ, som du aktiverer og deaktiverer ved hjelp av samme menyvalg eller hurtigtast. En hake angir at aktiviteten er **Fullført**.
+ **Utført** er en vekslefunksjon, som du aktiverer og deaktiverer ved hjelp av samme menyvalg eller hurtigtast. En hake angir at aktiviteten er **Utført** .
 
-**Trinn:**
+ **Trinn:** 
 
-1. Åpne aktiviteten og fjern merket for **** Fullført-ikonet øverst til høyre i dialogboksen.
+1. Åpne aktiviteten, og fjern merket for **Utført** øverst til høyre i dialogboksen.
 
-    ![Endre fullført status for en aktivitet -skjermbilde][img3]
+    ![Endre Utført-status for et aktivitets -skjermbilde][img3]
 
-    For detaljer, se [Åpne oppfølginger][1] [Åpne dokumenter][2]og .
+    Du kan lese mer om dette under [Åpne oppfølginger][1] og [Åpne dokumenter][2].
 
-1. Hold musepekeren over boksen  i kolonnen **Fullført** (![ikon][img2]) i **** kategorien Aktiviteter-delen. Klikk deretter i avmerkingsboksen ( ![ikon][img1] ).
+1. Hold musepekeren over boksen i **** Utført-kolonnen (![Ikonet][img2]) på **detaljkortet Aktiviteter** . Klikk deretter på avmerkingsboksen ( ![Ikonet][img1] ).
 
-1. Høyreklikk på aktiviteten, og velg **Fullført**.
+1. Høyreklikk på aktiviteten, og velg **Utført** .
 
-    ![ Endre fullført status for en aktivitet -skjermbilde][img4]
+    ![ Endre Utført-status for et aktivitets -skjermbilde][img4]
 
 > [!NOTE]
-> Hvis du vil redigere en fullført aktivitet, må du først fjerne merket for **** Fullført-statusen.
+> Hvis du vil redigere en utført aktivitet, må du først fjerne merkingen for **** Utført-statusen.
 
 <!-- Referenced links -->
 [1]: open-follow-up.md

@@ -1,20 +1,20 @@
 ---
-title: Få en kontakt via enhetslag
-description: Hvordan få en Person gjennom Enheter-laget.
+title: Få en person gjennom et lag med enheter
+description: Hvordan få en Person gjennom Entities layer.
+keywords: person, firma, enhet, API, GetFromIdxContactId
 uid: get_contact_entity_layer-no
 author: {github-id}
 so.date: 05.11.2016
-keywords: contact, company, entity, API, GetFromIdxContactId
 so.topic: howto
 # so.envir:
 # so.client:
 ---
 
-# Få en kontakt via enhetslag
+# Få en person gjennom et lag med enheter
 
-Å få en kontakt gjennom **enhetslaget** er ganske greit. Du må importere `SuperOffice.CRM.Entities` navneområdet.
+Det er ganske enkelt å få en person gjennom **et lag med enheter** . Du må importere `SuperOffice.CRM.Entities` navneområdet.
 
-Følgende eksempel viser hvordan det gjøres.
+Eksemplet nedenfor viser hvordan det gjøres.
 
 ```csharp
 using SuperOffice;
@@ -29,9 +29,9 @@ using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 }
 ```
 
-Når du henter `Contact` en  enhet gjennom en Idx-klasse, må du sende ID-en til enheten. Da blir alle egenskapene hentet fra databasen og holdt i minnet. Dette gir deg tilgang til eiendommene.
+Når du henter en `Contact` enhet via en Idx-klasse, må du bestå enhetens ID. Da blir alle egenskapene hentet fra databasen og oppbevart i minnet. På denne måten får du tilgang til egenskapene.
 
-Du kan alternativt [Bruk tjenestelaget][1].
+Du kan eventuelt [bruke tjenestelaget][1].
 
 <!-- Referenced links -->
 [1]: ../services/get-contact-via-services-layer.md
