@@ -22,7 +22,7 @@ set LANGCODE=%LANG%
 if "%LANGCODE%" == "no" set LANGCODE=nb
 if "%LANGCODE%" == "se" set LANGCODE=sv
 
-if not exist glossary-en-%LANGCODE%.tsv ..\training\GenGlossary\GenGlossary.exe glossary.tsv ..\training\gloss-md.tsv
+if not exist glossary-en-%LANGCODE%.tsv ..\training\GenGlossary\GenGlossary.exe glossary.tsv ..\training\glossary-master.tsv
 
 if exist "docs\en" rmdir docs\en /s /q
 if exist "docs\%LANG%" rmdir docs\%LANG% /s /q

@@ -285,6 +285,15 @@ string Unfuck(string line)
 
     line = Regex.Replace(line, @"\s?\*\*(.*?)\*\*\s?", m => $" **{m.Groups[1].Value.Trim()}** ");
 
+    // from: **** word
+    //   to: **word**
+    line = Regex.Replace(line, @"\*\*\*\* +([^ .,]+)", m => $" **{m.Groups[1].Value.Trim()}** ");
+
+    // from: velg **Ring *navn** *.
+    //   to: velg **Ring *navn***.
+    line = Regex.Replace(line, @" \*([^*]+)\*\* \*([^*])", m => $" *{m.Groups[1].Value.Trim()}***{m.Groups[2].Value}");
+
+
     // Fix uppercased image links
     // from: "Here is a sentence that should contain an image link that looks like this [Img][33], so [Img33][33] does this work [Img3][4], [Img33][4]? Does this work on normal [Something][3] too`?";
     //   to: "Here is a sentence that should contain an image link that looks like this [img][33], so [img33][33] does this work [img3][4], [img33][4]? Does this work on normal [Something][3] too`?";

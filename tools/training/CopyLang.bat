@@ -4,7 +4,7 @@ if "%1" == "" exit /b
 if "%1" neq "en" if not exist artifacts\en\text echo Need to install 'en' language first
 if "%1" neq "en" if not exist artifacts\en\text exit /b
 
-if not exist glossary-en-nb.tmx GenGlossary\GenGlossary.exe glossary.tmx gloss-md.tsv allresources.align
+if not exist glossary-en-nb.tmx GenGlossary\GenGlossary.exe glossary.tmx glossary-master.tsv allresources.align
 
 echo "Copying language %1"
 set ARTIF=artifacts\%1
