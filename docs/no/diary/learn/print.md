@@ -13,7 +13,7 @@ language: no
 
 ## Skriv ut dag, uke, måned eller oversikt
 
-1. Velg ønsket fane i **** Dagbok-bildet ( **Dag** , **Uke** , **Måned** eller **Oversikt).** 
+1. Velg ønsket fane i  **Dagbok-bildet**  ( **Dag** , **Uke** , **Måned** eller **Oversikt).** 
 2. Høyreklikk på en avtale, og velg **Skriv ut** .
 3. I vinduet som viser innholdet som skal skrives ut, klikker du **Skriv ut** .
 

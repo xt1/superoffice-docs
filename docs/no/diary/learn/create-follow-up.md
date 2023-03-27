@@ -32,7 +32,7 @@ Hvis det ikke vises noen tom rad nederst i aktivitetslisten, kan du utvide aktiv
 
 Når du åpner dagboken til en medarbeider, kan du selv opprette avtaler for denne personen.
 
-1. Klikk på fanen **Oversikt** i **** Dagbok-bildet.
+1. Klikk på fanen **Oversikt** i  **Dagbok-bildet** .
 
 2. [Finn personens dagbok][4] i oversikten **.** 
 
@@ -45,7 +45,7 @@ Når du åpner dagboken til en medarbeider, kan du selv opprette avtaler for den
 
 5. [I feltene legger du inn ønsket informasjon.][6]
 
-6. Klikk på **** Lagre-knappen. Avtalen vises i den valgte personens dagbok.
+6. Klikk på  **Lagre-knappen** . Avtalen vises i den valgte personens dagbok.
 
 ## <a id="overlap" />Opprette overlappende oppfølginger
 
@@ -53,7 +53,7 @@ Oppfølginger kan overlappe hverandre. Når du forsøker å registrere en overla
 
 Det vises et forslag til første ledige tidsrom. Klikk på foreslått tidspunkt til høyre for **Første tilgjengelige** for å velge dette tidspunktet i stedet.
 
-I Dagbok-bildet vises overlappende oppfølginger **** slik at du kan se deler av hver oppfølging.
+I Dagbok-bildet vises overlappende oppfølginger  **slik**  at du kan se deler av hver oppfølging.
 
 ## Hva vil du gjøre nå?
 

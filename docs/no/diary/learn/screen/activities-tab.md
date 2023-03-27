@@ -15,16 +15,16 @@ language: no
 
 Detaljkortet **Aktiviteter** gir deg en oversikt over aktiviteter og fungerer som en gjøremålsliste eller oppgaveliste. Den inneholder blant annet avtaler og oppgaver som du ikke har utført ennå, og du kan bruke den til midlertidig å lagre oppfølginger som du ennå ikke har angitt et bestemt klokkeslett eller en bestemt dato for.
 
-Aktivitetslisten endres ikke når du skifter mellom de ulike fanene i den øverste delen av **** Dagbok-bildet.
+Aktivitetslisten endres ikke når du skifter mellom de ulike fanene i den øverste delen av  **Dagbok-bildet** .
 
 ## Kolonner
 
 I kolonnene i aktivitetslisten finner du følgende informasjon:
 
-* ![Ikonet][img3] : Den første kolonnen i aktivitetslisten angir Utført **** [status for en aktivitet][1]. En hake i avmerkingsboksen (![Ikonet][img2]) betyr at aktiviteten er utført, mens en tom boks betyr at den ikke er utført.
+* ![Ikonet][img3] : Den første kolonnen i aktivitetslisten angir Utført  **[status**  for en aktivitet][1]. En hake i avmerkingsboksen (![Ikonet][img2]) betyr at aktiviteten er utført, mens en tom boks betyr at den ikke er utført.
 
     > [!TIP]
-    > Hvis du vil endre **** Utført-status for en aktivitet, klikker du bare i boksen.
+    > Hvis du vil endre  **Utført-status**  for en aktivitet, klikker du bare i boksen.
 
 * Den andre kolonnen inneholder ikoner som angir type aktivitet, for eksempel en telefon for samtale. Disse ikonene gjenspeiler teksten i  kolonnen **Type** .
 

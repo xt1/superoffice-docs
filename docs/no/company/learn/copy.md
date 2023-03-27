@@ -21,7 +21,7 @@ Det kan være lurt å kopiere et eksisterende firma til et nytt firma. Eksempel:
 
 [!include[ Go til firma](../../learn/includes/goto-company.md)]
 
-1. Velg **Administrer firmaer** fra ![Ikonet][img1] **** Oppgave-knappen, og klikk på **Kopier firma** .
+1. Velg **Administrer firmaer** fra ![Ikonet][img1]  **Oppgave-knappen** , og klikk på **Kopier firma** .
     Dialogboksen **Kopier firma** åpnes. Kildefirmaet er angitt under **Fra** .
 
 1. Skriv inn navnet på det nye firmaet og eventuelt en avdeling under **Til** .

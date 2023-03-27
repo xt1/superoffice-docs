@@ -10,7 +10,7 @@ so.topic: howto
 
 # Spore svar
 
-Før du kan spore svar, må du hente hovedavtalen og alle etterkommerne i den. Deretter kan du utforske invitasjonsstatusen for **** hver avtale.
+Før du kan spore svar, må du hente hovedavtalen og alle etterkommerne i den. Deretter kan du utforske invitasjonsstatusen for  **hver**  avtale.
 
 I dette eksempelet merker og skriver vi ut svaret for hver deltaker ved hjelp av en `String` matrise. Du kan slå opp statuskoder på [invitasjoner side][1].
 

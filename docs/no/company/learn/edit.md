@@ -18,4 +18,4 @@ language: no
 1. Når du har gjort ønskede endringer, klikker du på **Lagre** for å lukke og lagre endringene. Klikk **på Avbryt** for å forkaste endringene.
 
 > [!TIP]
-> Hvis **** Lagre-knappen er deaktivert, betyr det at ett eller flere obligatoriske felt ikke er fylt ut.
+> Hvis  **Lagre-knappen**  er deaktivert, betyr det at ett eller flere obligatoriske felt ikke er fylt ut.

@@ -19,7 +19,7 @@ Du kan slå sammen duplikater av databaseposter for firmaer. Personer og aktivit
 
 [!include[ Go til firma](../../learn/includes/goto-company.md)]
 
-1. Velg **Administrer firmaer** fra ![Ikonet][img3] **** Oppgave-knappen, og klikk på **Slå sammen firmaer** .
+1. Velg **Administrer firmaer** fra ![Ikonet][img3]  **Oppgave-knappen** , og klikk på **Slå sammen firmaer** .
     Dialogboksen **Slå sammen firmaer** åpnes. Kildefirmaet er angitt under **Fra** .
 
 1. Under **Til firma** velger du firmaet du vil oppdatere med informasjon fra kildefirmaet. Begynn å skrive i feltet til [søke etter et firma][1].

@@ -15,15 +15,15 @@ Du kan legge til et utvalg av brukere og ressurser i organisasjonen i en oversik
 
 ## Gi navn til og lagre denne oversikten
 
-1. Klikk på fanen **Oversikt** i **** Dagbok-bildet.
+1. Klikk på fanen **Oversikt** i  **Dagbok-bildet** .
 
-1. Klikk på **** Oppgave-knappen (![Ikonet][img1]) nederst til høyre, og velg **Ny gruppeoversikt** .
+1. Klikk på  **Oppgave-knappen**  (![Ikonet][img1]) nederst til høyre, og velg **Ny gruppeoversikt** .
 
     > [!TIP]
     > Hvis du vil redigere en eksisterende oversikt, klikker du på **Rediger** og kopierer en eksisterende oversikt ved å klikke **på Kopier** .
 
     <details><summary>Hvorfor er Rediger-knappen grå? </summary>
-    Du kan bare endre gruppeoversikter som er opprettet av deg. I en forhåndsdefinert gruppeoversikt **** er Rediger-knappen grå for å indikere at du ikke kan endre den her. Disse gruppeoversiktene inneholder alle brukere som er tilordnet de bestemte gruppene. Dette defineres i SuperOffice Innstillinger og vedlikehold.
+    Du kan bare endre gruppeoversikter som er opprettet av deg. I en forhåndsdefinert gruppeoversikt  **er**  Rediger-knappen grå for å indikere at du ikke kan endre den her. Disse gruppeoversiktene inneholder alle brukere som er tilordnet de bestemte gruppene. Dette defineres i SuperOffice Innstillinger og vedlikehold.
 
     Hvis du vil redigere og lagre en forhåndsdefinert gruppeoversikt, velger du **alternativet Kopier** og lagrer oversikten med et nytt navn.
     </details>

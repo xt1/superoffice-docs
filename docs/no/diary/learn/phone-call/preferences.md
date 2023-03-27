@@ -13,9 +13,9 @@ language: no
 
 Du kan ringe ut fra SuperOffice CRM på en av følgende måter:
 
-* Klikk på et telefonnummer i **** Firma-bildet
+* Klikk på et telefonnummer i  **Firma-bildet** 
 * Klikk ![Ikonet][img1] i en dialogboks.
-* Høyreklikk på en person på et detaljkort, og velg **Ring *navn** *.
+* Høyreklikk på en person på et detaljkort, og velg **Ring *navn***.
 * [Ringe til personer][1].
 
 Telefonpreferanser håndteres ulikt i Windows- og Web-klientene. Du kan lære mer om telefonpreferanser for Windows og Web nedenfor.
@@ -38,7 +38,7 @@ Hvis IP-telefon, Skype eller FaceTime er installert, kan du ringe fra SuperOffic
 
  **IP-telefon** : tel:%p (standardverdi)
  **Skype** : callto:%p
- **FaceTime** : ansiktstid:%p
+ **FaceTime** : facetime:%p
 
 [Malvariabler][2] kan også brukes i telefonparameterne.
 

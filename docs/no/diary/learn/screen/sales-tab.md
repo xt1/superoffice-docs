@@ -20,7 +20,7 @@ Følgende data vises:
 * Datoen for neste aktivitet som er registrert for salget (den eldste oppfølgingen som ennå ikke er utført)
 
     > [!TIP]
-    > Hvis du vil vite hva neste oppfølging er, dobbeltklikker du på salget for å åpne **** Salg-bildet. Oppfølgingen kan vises på **detaljkortet Aktiviteter** i salget.
+    > Hvis du vil vite hva neste oppfølging er, dobbeltklikker du på salget for å åpne  **Salg-bildet** . Oppfølgingen kan vises på **detaljkortet Aktiviteter** i salget.
 
 * Gjeldende fase av salget
 

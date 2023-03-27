@@ -20,7 +20,7 @@ Nederst til venstre i kalenderen finnes det et felt hvor du kan velge en [Tidsso
 
 ## Faner i Dagbok-bildet
 
-Dagboken består av fire forskjellige faner du enkelt kan velge ved å klikke på dem øverst i **** Dagbok-bildet.
+Dagboken består av fire forskjellige faner du enkelt kan velge ved å klikke på dem øverst i  **Dagbok-bildet** .
 
 * [Fanen Dag][2]
 * [Fanen Uke][3]
@@ -31,7 +31,7 @@ Klikk på ordet **Dagbok** i Navigator og velg en tidsperiode fra listen som vis
 
 Du kan [opprette, redigere, flytte og slette oppfølginger][13] gå direkte til disse fanene. Klikk og dra en oppfølging for å planlegge den på nytt.
 
-Oppfølginger med klokkeslett vises som bokser i de ulike oversiktene i **** Dagbok-bildet, med informasjon om firmaet og typen oppfølging. Følgende ikoner vises også:
+Oppfølginger med klokkeslett vises som bokser i de ulike oversiktene i  **Dagbok-bildet** , med informasjon om firmaet og typen oppfølging. Følgende ikoner vises også:
 
 | Ikonet | Beskrivelse | Les mer |
 |:-:|---|---|

@@ -36,7 +36,7 @@ Når du oppretter en oppfølging som omfatter andre personer, kan du legge dem t
     Hvis noen av personene du valgte, ikke har en gyldig e-postadresse registrert i SuperOffice CRM, ![Ikonet][img1] endres ikonet til inaktivt ( ![Ikonet][img3] ) i fanen **Deltakere** .
 
     > [!NOTE]
-    > Hvis du valgte brukere eller ressurser ved en feiltakelse, fjerner du dem ved å merke dem i listen til høyre og klikke på **** Slett-knappen.
+    > Hvis du valgte brukere eller ressurser ved en feiltakelse, fjerner du dem ved å merke dem i listen til høyre og klikke på  **Slett-knappen** .
 
 8. Når du har valgt deltakere og ressurser, klikker du på **Lagre** for å lagre utvalgene dine eller **Avbryt** for å gå ut av dialogboksen uten å lagre.
 
@@ -54,7 +54,7 @@ Bruke SuperOffice Innboks: Hvis du ikke har registrert nødvendig informasjon i 
 
 Eksterne deltakere blir varslet via e-post (hvis du valgte dette alternativet i dialogboksen invitasjon). Invitasjons-e-postmeldinger som sendes til eksterne personer, inneholder en iCal-fil (.ics) med invitasjonsdataene. Når de svarer på invitasjonen din, [Status][1] oppdateres den automatisk i SuperOffice.
 
-Hvis du vil godta eller avslå en invitasjon på vegne av noen, merker du navnet i listen og klikker på Bytt **** status-knappen for å sette inn en grønn hake som viser at invitasjonen ble godtatt, eller klikk to ganger for å sette inn et rødt kryss for en avslått invitasjon.
+Hvis du vil godta eller avslå en invitasjon på vegne av noen, merker du navnet i listen og klikker på Bytt  **status-knappen**  for å sette inn en grønn hake som viser at invitasjonen ble godtatt, eller klikk to ganger for å sette inn et rødt kryss for en avslått invitasjon.
 
 <!-- Referenced links -->
 [1]: index.md#status

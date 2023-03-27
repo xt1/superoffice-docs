@@ -27,7 +27,7 @@ Det kan hende at du ønsker å opprette en rekke avtaler som forekommer med jevn
     > [!NOTE]
     > Du kan bare endre startdatoen for oppfølgingen her. Hvis du vil endre klokkeslettet, lukker du dialogboksen **Repeterende oppfølginger** først  , og deretter endrer du klokkeslettet i **dialogboksen Avtale** , **Oppgave** eller **Samtale** .
 
-5. Under **** Hyppighet angir du om oppfølgingen skal gjentas daglig, ukentlig, månedlig, årlig eller med et brukerdefinert intervall. Deretter velger du ytterligere detaljer for hyppighet i feltet midt i dialogboksen. Hvilke alternativer som er tilgjengelige her, avhenger av hva du velger under **Hyppighet** :
+5. Under  **Hyppighet**  angir du om oppfølgingen skal gjentas daglig, ukentlig, månedlig, årlig eller med et brukerdefinert intervall. Deretter velger du ytterligere detaljer for hyppighet i feltet midt i dialogboksen. Hvilke alternativer som er tilgjengelige her, avhenger av hva du velger under **Hyppighet** :
     * Velger du **Daglig** , kan du angi at oppfølgingen skal gjentas hver arbeidsdag, hver ukedag eller med et egendefinert intervall, for eksempel annenhver dag.
 
     * Velger du **Ukentlig** , kan du angi at oppfølgingen skal gjentas med et brukerdefinert ukentlig intervall, for eksempel hver tredje uke, og på hvilken ukedag den skal foregå på.
@@ -48,7 +48,7 @@ Det kan hende at du ønsker å opprette en rekke avtaler som forekommer med jevn
 
     * Legge til en dato: Klikk på **Legg** til-knappen under listen. Da vises den samme kalenderen som når du velger **Tilpasset** . Merk ønsket dato, og klikk på pilknappen ( ![Ikonet][img2] ) til høyre for kalenderen for å legge til datoen på listen. Bruk pilknappene ( ![Ikonet][img5] ![Ikonet][img6] ) på hver side av månedsnavnet i kalenderen for å vise andre måneder.
 
-    * Slett en dato: Velg datoen du vil slette, og klikk på **** Slett-knappen under listen. Datoen blir da fjernet fra listen over datoer.
+    * Slett en dato: Velg datoen du vil slette, og klikk på  **Slett-knappen**  under listen. Datoen blir da fjernet fra listen over datoer.
 
 8. Når du har angitt datoer for oppfølgingen, klikker du **på OK** for å lagre datoene og lukke dialogboksen, eller på **Avbryt** for å lukke dialogboksen uten å lagre datoene.
 

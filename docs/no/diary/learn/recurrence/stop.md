@@ -26,7 +26,7 @@ language: no
 Når du stopper den repeterende oppfølgingen, slettes alle forekomster av oppfølgingen *etter* den du redigerte. Hvis oppfølgingen er den første i en serie repeterende oppfølginger, slettes det repeterende mønsteret, og det blir en "vanlig" oppfølging.
 
 > [!NOTE]
-> Du kan også stoppe en repeterende oppfølging ved å merke den i dagboken og slette den. Når du sletter en repeterende oppfølging, **** vises dialogboksen Slett med to alternativer: Velg **Slett bare denne forekomsten** for å slette oppfølgingen bare for denne tidsrommet, eller velg **Slett alle fremtidige forekomster, inkludert denne** for å slette denne og alle fremtidige.
+> Du kan også stoppe en repeterende oppfølging ved å merke den i dagboken og slette den. Når du sletter en repeterende oppfølging,  **vises**  dialogboksen Slett med to alternativer: Velg **Slett bare denne forekomsten** for å slette oppfølgingen bare for denne tidsrommet, eller velg **Slett alle fremtidige forekomster, inkludert denne** for å slette denne og alle fremtidige.
 
 ## Hva vil du gjøre nå?
 

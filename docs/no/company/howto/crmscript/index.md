@@ -18,7 +18,7 @@ Her [Firma CRMScript-klasse][1] vises følgende elementer:
 * SuperOffice Brukergrensesnitt: firma
 * Databasetabell: [Kontakt][4]
 
-Tabellen **for** firmadatabasen er ikke relatert til Firma **** CRMScript-klassen. Tabellen bør bare ha én rad, som inneholder informasjon om lisenser og eieren av SuperOffice databasen.
+Tabellen **for** firmadatabasen er ikke relatert til Firma  **CRMScript-klassen** . Tabellen bør bare ha én rad, som inneholder informasjon om lisenser og eieren av SuperOffice databasen.
 
 [!include[ Ikke endre firmatabell](../../../includes/warn-company-table.md)]
 

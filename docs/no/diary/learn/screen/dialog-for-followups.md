@@ -89,7 +89,7 @@ Merk av her når . [oppfølgingen er utført][11]
 
 ![Ikonet][img1]
 
-Klikk på denne knappen for å få tilgang til relevante oppgaver som kan utføres i den aktive oppføringen. Eksempler: Slett, Skriv ut, Send som e-post, Overfør til og Avbryt møte. I SuperOffice Innstillinger og vedlikehold kan du også definere egne oppgaver og legge dem til under **** Oppgave-knappen.
+Klikk på denne knappen for å få tilgang til relevante oppgaver som kan utføres i den aktive oppføringen. Eksempler: Slett, Skriv ut, Send som e-post, Overfør til og Avbryt møte. I SuperOffice Innstillinger og vedlikehold kan du også definere egne oppgaver og legge dem til under  **Oppgave-knappen** .
 
 ### Registrert/Sist endret
 

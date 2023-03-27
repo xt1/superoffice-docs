@@ -15,7 +15,7 @@ Detaljkortet **Saker** viser SuperOffice Service-saker for det aktive firmaet.
 
 ![Saker delen i firma -skjermbilde][img1]
 
-Du kan dobbeltklikke på en sak for å åpne den i et eget vindu. Klikk på **** Rediger-knappen for å jobbe videre med saken i SuperOffice Service.
+Du kan dobbeltklikke på en sak for å åpne den i et eget vindu. Klikk på  **Rediger-knappen**  for å jobbe videre med saken i SuperOffice Service.
 
 <!-- Referenced links -->
 

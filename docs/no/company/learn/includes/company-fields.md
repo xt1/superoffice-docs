@@ -3,7 +3,7 @@
 
 2. Hvilke adressefelt som er tilgjengelige, avhenger av hvilket land som er valgt. Standardinnstillingen er landet som organisasjonen tilhører.
 
-    Etter at du har valgt landet, settes det riktige adresseformatet for de gjenværende adressefeltene automatisk inn i **** Firma-fanen.
+    Etter at du har valgt landet, settes det riktige adresseformatet for de gjenværende adressefeltene automatisk inn i  **Firma-fanen** .
 
 3. I feltet **Postnummer** skriver du inn firmaets postnummer. Hvis du skriver inn et postnummer som er definert i SuperOffice-databasen, fylles stedsnavnet ut automatisk hvis det er tomt. Du kan også skrive inn stedsnavnet i  feltet **Sted,** og det foreslås en postnummer i postnummerfeltet.
 

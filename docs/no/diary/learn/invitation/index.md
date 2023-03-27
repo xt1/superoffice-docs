@@ -11,7 +11,7 @@ language: no
 
 # Invitere andre medarbeidere til en oppfølging
 
-Hvis du vil sette av tid til et møte med én eller flere medarbeidere, bruker **** du fanen Oversikt i **** Dagbok-bildet. Her kan du åpne andre medarbeideres dagbøker for å se når kollegene dine er tilgjengelige for et møte. I tillegg kan du velge å vise ressurser som møterom, for å se når de er ledige og registrere en felles reservasjon for alle innenfra din egen dagbok.
+Hvis du vil sette av tid til et møte med én eller flere medarbeidere, bruker  **du**  fanen Oversikt i  **Dagbok-bildet** . Her kan du åpne andre medarbeideres dagbøker for å se når kollegene dine er tilgjengelige for et møte. I tillegg kan du velge å vise ressurser som møterom, for å se når de er ledige og registrere en felles reservasjon for alle innenfra din egen dagbok.
 
 Oppfølginger med medarbeidere opprettes ved å knytte dem til oppfølgingen som deltakere.
 

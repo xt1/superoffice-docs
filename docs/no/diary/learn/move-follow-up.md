@@ -20,12 +20,12 @@ Du har utvilsomt behov for å flytte oppfølginger fra ett tidspunkt til et anne
 
 ## Flytte til et annet klokkeslett eller en annen dag
 
-1. Velg ønsket fane i **** Dagbok-bildet ( **Dag** , **Uke** , **Måned** eller **Oversikt).** 
+1. Velg ønsket fane i  **Dagbok-bildet**  ( **Dag** , **Uke** , **Måned** eller **Oversikt).** 
 
 2. Dra og slipp ønsket oppfølging til et annet tidspunkt.
 
 > [!TIP]
-> Du kan kontrollere klokkeslett og varighet for en oppfølging ved å holde musepekeren over den Dagbok **** bildet. Her vises en infoboks med informasjon om oppfølgingen.
+> Du kan kontrollere klokkeslett og varighet for en oppfølging ved å holde musepekeren over den Dagbok  **bildet** . Her vises en infoboks med informasjon om oppfølgingen.
 
 ## Flytte fra én uke eller måned til en annen
 
@@ -37,7 +37,7 @@ Du har utvilsomt behov for å flytte oppfølginger fra ett tidspunkt til et anne
 
 Du kan flytte en oppfølging fra aktivitetslisten til Dagbok. Dette kan være nyttig hvis du flyttet en oppfølging fra Dagbok til aktivitetslisten og vil ha den tilbake i Dagbok for eksempel på en annen dato.
 
-1. Velg ønsket fane i **** Dagbok-bildet ( **Dag** , **Uke** , **Måned** eller **Oversikt).** 
+1. Velg ønsket fane i  **Dagbok-bildet**  ( **Dag** , **Uke** , **Måned** eller **Oversikt).** 
 
 2. Hent oppfølgingen i aktivitetslisten ved å klikke ned på den med museknappen.
 

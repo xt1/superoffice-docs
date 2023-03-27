@@ -38,7 +38,7 @@ newTask = appointmentAgent.SaveAppointmentEntity(newTask);
 > 
 ## Fullføre et gjørebeskyttet arbeid
 
-Å merke en oppgave som utført er i hovedsak bare for å sette statusen **** til 3.
+Å merke en oppgave som utført er i hovedsak bare for å sette statusen  **til**  3.
 
 Dette eksemplet fullfører oppgaven med ID 88, med sluttid = nå og starttid = 5 minutter siden.
 

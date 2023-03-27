@@ -25,7 +25,7 @@ Du kan navigere i dagboken på ulike måter.
 
 ## Bytt oversikter
 
-Dagboken består av [fire forskjellige faner][1]: **Dag** , **Uke** , **Måned** og **Oversikt** . Bytte mellom disse oversiktene er enkelt å klikke på fanene øverst i **** Dagbok-bildet. Gjeldende dag, uke eller måned vises øverst på siden, avhengig av hvilken fane du velger.
+Dagboken består av [fire forskjellige faner][1]: **Dag** , **Uke** , **Måned** og **Oversikt** . Bytte mellom disse oversiktene er enkelt å klikke på fanene øverst i  **Dagbok-bildet** . Gjeldende dag, uke eller måned vises øverst på siden, avhengig av hvilken fane du velger.
 
 > [!TIP]
 > Klikk **på Dagbok** i navigatoren, og klikk på en måned, ukenummer eller en dag i kalenderen for å gå direkte til en av fanene ovenfor.

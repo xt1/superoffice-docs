@@ -11,7 +11,7 @@ language: no
 
 # Fanen Aktiviteter
 
-Detaljkortet **Aktiviteter** i **** Firma-bildet inneholder alle aktivitetene som er knyttet til det aktive firmaet.
+Detaljkortet **Aktiviteter** i  **Firma-bildet**  inneholder alle aktivitetene som er knyttet til det aktive firmaet.
 
 [!include [Intro til aktiviteter](../../../learn/includes/intro-activities.md)]
 

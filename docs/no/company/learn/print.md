@@ -13,6 +13,6 @@ language: no
 
 [!include[ Go til firma](../../learn/includes/goto-company.md)]
 
-1. Klikk på **** Oppgave-knappen, og velg **Skriv ut** .
+1. Klikk på  **Oppgave-knappen** , og velg **Skriv ut** .
 
 1. I vinduet som viser innholdet som skal skrives ut, klikker du **Skriv ut** .

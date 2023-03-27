@@ -11,7 +11,7 @@ language: no
 
 # Fanen Oversikt
 
- **Fanen Oversikt** i **** Dagbok-bildet viser din egen dagbok med bruker-IDen din øverst på siden.
+ **Fanen Oversikt** i  **Dagbok-bildet**  viser din egen dagbok med bruker-IDen din øverst på siden.
 
 ![Dagbok-bildet, fanen Oversikt - skjermbilde][img1]
 
@@ -19,7 +19,7 @@ language: no
 
 ## Oppgave-knappen
 
-Hvis du velger fanen **Oversikt** i **** Dagbok-bildet, ![Ikonet][img2] **vises Oppgave-knappen.** 
+Hvis du velger fanen **Oversikt** i  **Dagbok-bildet** , ![Ikonet][img2] **vises Oppgave-knappen.** 
 
  **Alternativer:** 
 

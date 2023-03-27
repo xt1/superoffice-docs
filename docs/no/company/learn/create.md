@@ -59,7 +59,7 @@ I bildet **Firma** kan du legge inn informasjon om firmaer på flere nivåer, re
 
     ![Firma interesser fanen -skjermbilde][img2]
 
-4. Når du har lagt inn ønskede opplysninger i alle tre fanene i **** Firma-bildet, klikker du på **Lagre** . Da opprettes det et firmakort for det nye firmaet.
+4. Når du har lagt inn ønskede opplysninger i alle tre fanene i  **Firma-bildet** , klikker du på **Lagre** . Da opprettes det et firmakort for det nye firmaet.
 
 > [!TIP]
 > Interesser kan være nyttige hvis du skal definere utvalg. Hvis du for eksempel definerte *referansekunde* som interesse, kan du opprette et utvalg som inneholder alle referansekundene dine. Da er det enkelt å lage markedsføringskampanjer mot denne kundegruppen.

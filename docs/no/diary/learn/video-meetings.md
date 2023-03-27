@@ -37,7 +37,7 @@ Du kan bli med på et videomøte i SuperOffice på flere måter:
 
 * Klikk **på Bli med på møte** i **dialogboksen Oppfølging** (avtale)
 * Klikk på **Bli med på møte** i sidepanelet
-* Klikk på et nettleservarsel (bare tilgjengelig hvis alarmalternativet **** er aktivert)
+* Klikk på et nettleservarsel (bare tilgjengelig hvis alarmalternativet  **er**  aktivert)
 * Høyreklikk på et videomøte i dagboken, og velg **Bli med i møte** 
 
 <!-- Referenced links -->

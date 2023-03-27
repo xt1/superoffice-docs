@@ -16,7 +16,7 @@ language: no
 [!include [Intro](includes/company-screen-intro.md)]
 
 > [!NOTE]
-> [Personer][1] som ikke er tilknyttet et firma, finner du i **** Person-bildet.
+> [Personer][1] som ikke er tilknyttet et firma, finner du i  **Person-bildet** .
 
 Nederst i bildet finner du følgende [standard detaljkort][8]:
 

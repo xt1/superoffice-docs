@@ -27,7 +27,7 @@ I dette eksempelet er følgende `associate_id`nyttige å vite:
 | 41 | 1 | 0  | 0 | Ressurselement 1      |
 | -  | - | 42 | 13| Frantz Feinschmecker |
 
-De neste delene beskriver hva som skjer når **** LAGRE-knappen klikkes på.
+De neste delene beskriver hva som skjer når  **LAGRE-knappen**  klikkes på.
 
 ## Opprett invitasjonsavtale for Ingrid Istad
 

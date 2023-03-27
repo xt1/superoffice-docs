@@ -18,7 +18,7 @@ Du kan opprette en avtale på mange måter. I alle tilfeller angir du [detaljer 
 Gjør ett av følgende:
 
 * Velg **Ny** > **Avtale** på [toppraden][3].
-* Klikk på **** Oppgave-knappen (![Ikonet][img1])) i personkortet, og velg **Sak et møte** .
+* Klikk på  **Oppgave-knappen**  (![Ikonet][img1])) i personkortet, og velg **Sak et møte** .
 * Klikk på **Legg** til-knappen på **detaljkortet Aktiviteter** .
 
 ## Opprett avtale fra Dagbok-bildet

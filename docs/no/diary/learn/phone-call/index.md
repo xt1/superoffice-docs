@@ -24,7 +24,7 @@ Samtaler kan vises på følgende steder i SuperOffice CRM:
 
 <!-- markdownlint-disable MD032 -->
 [!include [Liste over detaljkortene Aktiviteter](../../../learn/includes/list-activities-section-tabs.md)]
-* På fanene **Dag** / **Uke** / **Måned** / **Oversikt** i **** Dagbok-bildet.
+* På fanene **Dag** / **Uke** / **Måned** / **Oversikt** i  **Dagbok-bildet** .
 * I disse sidepanelvisningene: **Dag** , **Måned** , **Neste dag** og **Uke** .
 <!-- markdownlint-restore -->
 

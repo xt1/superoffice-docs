@@ -19,7 +19,7 @@ Dagboken består av en kalender og en todoliste og brukes på samme måte som en
 * **kalender** : Viser oppføringer som er tildelt et bestemt klokkeslett eller en bestemt dato
 * **todo-liste** : Viser ting du ennå ikke har utført, for det meste samtaler og oppgaver uten tid eller dato
 
-I brukergrensesnittet er begge nært knyttet til **** Dagbok-bildet.
+I brukergrensesnittet er begge nært knyttet til  **Dagbok-bildet** .
 
 ## Tre typer oppfølginger
 

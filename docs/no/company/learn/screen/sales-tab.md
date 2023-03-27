@@ -19,11 +19,11 @@ Detaljkortet **Salg** viser [salg knyttet til firmaet][2].
 
 [!include [Conf. kolonner](../../../learn/includes/tip-configure-columns.md)]
 
-Dobbeltklikk på et salg i listen for å åpne Salg-bildet **** med informasjon om salget.
+Dobbeltklikk på et salg i listen for å åpne Salg-bildet  **med**  informasjon om salget.
 
 Klikk **på Legg til** for å opprette et nytt salg.
 
-Klikk på **** Filter-knappen ![Ikonet][img2] til [filtrere listen][4] etter dato, brukere eller grupper.
+Klikk på  **Filter-knappen**  ![Ikonet][img2] til [filtrere listen][4] etter dato, brukere eller grupper.
 
 Hvis du merker av for **Ta med interessenter** nederst i detaljkortet, vises også salg der firmaet er involvert som et [Interessenter][3] .
 

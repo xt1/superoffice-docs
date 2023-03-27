@@ -17,7 +17,7 @@ Detaljkortet **Prosjekter** viser alle prosjektene for det aktive firmaet. For a
 
 Klikk på **Legg til** i [opprette et nytt prosjekt][2]
 
-Dobbeltklikk på et prosjekt i listen for å åpne Prosjekt-bildet **** med informasjon om det aktive prosjektet.
+Dobbeltklikk på et prosjekt i listen for å åpne Prosjekt-bildet  **med**  informasjon om det aktive prosjektet.
 
 [!include [Contents av fanen Prosjekter](../../../learn/includes/projects-tab.md)]
 

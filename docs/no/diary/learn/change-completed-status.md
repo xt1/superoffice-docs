@@ -23,14 +23,14 @@ Når du mener at en aktivitet er fullført, kan du merke den som utført.
 
     Du kan lese mer om dette under [Åpne oppfølginger][1] og [Åpne dokumenter][2].
 
-1. Hold musepekeren over boksen i **** Utført-kolonnen (![Ikonet][img2]) på **detaljkortet Aktiviteter** . Klikk deretter på avmerkingsboksen ( ![Ikonet][img1] ).
+1. Hold musepekeren over boksen i  **Utført-kolonnen**  (![Ikonet][img2]) på **detaljkortet Aktiviteter** . Klikk deretter på avmerkingsboksen ( ![Ikonet][img1] ).
 
 1. Høyreklikk på aktiviteten, og velg **Utført** .
 
     ![ Endre Utført-status for et aktivitets -skjermbilde][img4]
 
 > [!NOTE]
-> Hvis du vil redigere en utført aktivitet, må du først fjerne merkingen for **** Utført-statusen.
+> Hvis du vil redigere en utført aktivitet, må du først fjerne merkingen for  **Utført-statusen** .
 
 <!-- Referenced links -->
 [1]: open-follow-up.md

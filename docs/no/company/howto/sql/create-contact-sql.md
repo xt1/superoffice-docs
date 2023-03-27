@@ -19,7 +19,7 @@ Legge til en person i databasen - dette er omtrent hva som skjer:
 5. Lagre personoppføringen med den angitte person-IDen.
 6. Legge til oppføringer i reiseransaksjonslogg for den nye personen og adresseoppføringene.
 
-Virkeligheten er litt mer detaljert. Nedenfor ser du en utskrift av databaseoppdateringene som inntreffer når **OK** klikkes på **** Firma-kortet.
+Virkeligheten er litt mer detaljert. Nedenfor ser du en utskrift av databaseoppdateringene som inntreffer når **OK** klikkes på  **Firma-kortet** .
 
 > [!NOTE]Sekvens-ID-plukking utelates for klarhet.
 > >

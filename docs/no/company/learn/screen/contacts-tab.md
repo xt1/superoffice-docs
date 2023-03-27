@@ -13,7 +13,7 @@ language: no
 
 ![Personer delen på firma -skjermbilde][img1]
 
- **Personer** er et av detaljkortene nederst i **** Firma-bildet. Her finner du informasjon om [ansatte i det aktive firmaet][1]. Dobbeltklikk på et navn i listen for å åpne personen i Person-bildet **** .
+ **Personer** er et av detaljkortene nederst i  **Firma-bildet** . Her finner du informasjon om [ansatte i det aktive firmaet][1]. Dobbeltklikk på et navn i listen for å åpne personen i Person-bildet **** .
 
 ## <a id="columns" />Kolonnene på detaljkortet Personer
 
@@ -48,7 +48,7 @@ Viser personens e-postadresse. Klikk på e-postadressen til [sende en melding ti
 
 Hvis du merker av for dette alternativet, vil også personer som har sluttet, vises på listen over personer.
 
-De vil da vises i en annen farge. De vises også på denne måten på **detaljkortet Prosjektdeltakere** i **Prosjekt-bildet** og på medlemslisten i **** Utvalg-bildet.
+De vil da vises i en annen farge. De vises også på denne måten på **detaljkortet Prosjektdeltakere** i **Prosjekt-bildet** og på medlemslisten i  **Utvalg-bildet** .
 
 ## Hva vil du gjøre nå?
 

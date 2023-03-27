@@ -15,7 +15,7 @@ Dagboken i SuperOffice CRM brukes omtrent som en filofax og har separate sider f
 
 Dagboken er et nyttig verktøy når du vil planlegge og utføre ulike typer oppgaver. Fra dagboken kan du vise, redigere og slette [Aktiviteter][16].
 
-Du får også en [liste over salg][13] å jobbe med, ved hjelp av **detaljkortet Salg** i **** Dagbok-bildet.
+Du får også en [liste over salg][13] å jobbe med, ved hjelp av **detaljkortet Salg** i  **Dagbok-bildet** .
 
 ## Jobbe med oppfølginger
 
@@ -25,7 +25,7 @@ I SuperOffice CRM er oppfølging en samlebetegnelse for aktivitetene [Avtale][1]
 > Det er viktig å forstå forskjellen på aktiviteter og oppfølginger (avtaler, oppgaver og samtaler).
 Når du oppretter oppfølginger fra Dagbok-bildet **** , defineres de som standard som avtaler. Du kan imidlertid endre oppfølgingstypen til oppgave eller samtale i feltet for type i [ **Avtale** dialogboksen][22].
 
-Oppfølginger er nært knyttet til **** Dagbok-bildet, og enkelte funksjoner gjelder spesielt for Dagbok.
+Oppfølginger er nært knyttet til  **Dagbok-bildet** , og enkelte funksjoner gjelder spesielt for Dagbok.
 
 > [!TIP]
 > I SuperOffice Innstillinger og vedlikehold kan du definere at alle oppfølginger av en bestemt type skal vises i **bildet Dagbok** i SuperOffice CRM med samme bakgrunnsfarge.
